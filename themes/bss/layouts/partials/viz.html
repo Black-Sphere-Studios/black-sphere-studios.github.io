@@ -141,7 +141,7 @@ function Grid(w,h,tinywgl, type, shader, renderfn)
 function init() {
   var tinywgl = new TinyWGL(document.getElementById("glCanvas"), 1000.0, 60, function(c) {
     var w = document.documentElement.clientWidth || document.body.clientWidth;
-    c.width = ((w < 400) ? 400 : w);
+    c.width = ((w < 300) ? 300 : w);
     c.height = Math.floor(Math.min(520.0, c.width*(520.0/1130.0)));
     document.getElementById("overlay").style.height = ~~c.height + "px";
   });

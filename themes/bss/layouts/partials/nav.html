@@ -1,7 +1,9 @@
 <header>
   <nav class="noselect">
+    <span>
     <img class="logo" src="{{ $.Site.BaseURL }}/img/logo.svg" alt="" />
     <p>Black Sphere Studios</p>
+    </span>
     <ul>
         {{ range .Site.Menus }}
         {{ range . }}{{ if .HasChildren }}<li><div class="underline"><div></div></div>
@@ -11,7 +13,7 @@
               <li><a href="{{ .URL }}">{{ .Name }}</a></li>
               {{ end }}
             </ul>
-          </li>{{ else }}<li><div class="underline"><div></div></div><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}{{ end }}
+          </li>{{ else }}<li><div class="underline"><div></div></div><a href="{{ .URL }}" data-full="{{ .Name }}" data-short="{{ .Identifier }}"></a></li>{{ end }}{{ end }}
         {{ end }}
     </ul>
     <aside>
