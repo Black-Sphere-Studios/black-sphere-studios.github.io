@@ -527,7 +527,7 @@ footer span a:hover, footer span a:active {
 }
 .news article {
   display:block;
-  margin: 0 auto;
+  margin: 0 auto 1.5em auto;
   padding:0;
 }
   header nav ul {
@@ -548,6 +548,10 @@ footer span a:hover, footer span a:active {
   section .overlay .logo {
     font-size: 6px;
   }
+  
+.news article div {
+  bottom: 0;
+}
   
 }
 @media (max-width: 420px) {
