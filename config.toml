@@ -5,20 +5,20 @@ languageCode = "en-us"
 theme = "bss"
 title = "Black Sphere Studios"
 [[menu.main]]
-identifier = "about"
-name = "CONTACT"
-url = "/contact/"
-weight = 4
+identifier = "technology"
+name = "TECHNOLOGY"
+url = "/categories/technology/"
+weight = 2
 [[menu.main]]
 identifier = "company"
 name = "COMPANY"
 url = "/company/"
 weight = 3
 [[menu.main]]
-identifier = "technology"
-name = "TECHNOLOGY"
-url = "/categories/technology/"
-weight = 2
+identifier = "about"
+name = "CONTACT"
+url = "/contact/"
+weight = 4
 [[menu.main]]
 identifier = "news"
 name = "NEWS"
