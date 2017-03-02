@@ -1,6 +1,6 @@
 <header>
   <nav class="noselect">
-    <img class="logo" src="{{ $.Site.BaseURL }}img/logo.svg" alt="" />
+    <img class="logo" src="{{ $.Site.BaseURL }}/img/logo.svg" alt="" />
     <p>Black Sphere Studios</p>
     <ul>
         {{ range .Site.Menus }}
@@ -23,23 +23,3 @@
     </aside>
   </nav>
 </header>
-
-  <!--<nav>
-    <div class="title"><span>The</span><div>PONION</div></div>
-      <ul>
-        {{ range .Site.Menus }}
-        <li>
-        <ul>
-          {{ range . }}{{ if .HasChildren }}<li>
-            <a href="#">{{ .Name }}</a>
-            <ul>
-              {{ range .Children }}
-              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-              {{ end }}
-            </ul>
-          </li>{{ else }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}{{ end }}
-        </ul>
-        </li>
-        {{ end }}
-      </ul>
-  </nav>-->
