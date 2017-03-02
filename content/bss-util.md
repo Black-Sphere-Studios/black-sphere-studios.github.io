@@ -1,16 +1,14 @@
 +++
 author = "Erik McClure"
 categories = ["bss-util", "Technology"]
-date = "2017-02-27T00:00:00+00:00"
+date = "2017-02-27T00:00:00Z"
 description = "The Black Sphere Studios Utility Library is a collection of miscellaneous utility code used to simplify common tasks in C/C++ programs."
-draft = false
 image = "/img/bss-util.png"
 tags = []
 title = "Black Sphere Studios Utility Library"
 type = "default"
 
 +++
-
 The Black Sphere Studios Utility Library is a collection of miscellaneous utility code used to simplify common tasks in C/C++ programs. The project and it's source code are available [on github](https://github.com/Black-Sphere-Studios/bss-util). Some of the many utilies provided are:
 
 * Type safe variant object for algebriac types.
