@@ -8,27 +8,27 @@ title = "Black Sphere Studios"
 identifier = "contact"
 name = "CONTACT"
 url = "/contact/"
-weight = 5
+weight = 4
 [[menu.main]]
 identifier = "technology"
 name = "TECHNOLOGY"
 url = "/categories/technology/"
-weight = 3
+weight = 2
 [[menu.main]]
 identifier = "company"
 name = "COMPANY"
 url = "/company/"
-weight = 4
+weight = 3
 [[menu.main]]
 identifier = "news"
 name = "NEWS"
 url = "/categories/news/"
-weight = 2
+weight = 1
 [[menu.main]]
 identifier = "home"
 name = "HOME"
 url = "/"
-weight = 1
+weight = 0
 [taxonomies]
 category = "categories"
 tag = "tags"
