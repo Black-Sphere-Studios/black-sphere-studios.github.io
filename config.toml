@@ -5,10 +5,10 @@ languageCode = "en-us"
 theme = "bss"
 title = "Black Sphere Studios"
 [[menu.main]]
-identifier = "about"
+identifier = "contact"
 name = "CONTACT"
 url = "/contact/"
-weight = 0
+weight = 5
 [[menu.main]]
 identifier = "technology"
 name = "TECHNOLOGY"
