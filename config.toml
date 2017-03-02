@@ -5,30 +5,30 @@ languageCode = "en-us"
 theme = "bss"
 title = "Black Sphere Studios"
 [[menu.main]]
-identifier = "TECH"
-name = "TECHNOLOGY"
-url = "/categories/technology/"
-weight = 3
-[[menu.main]]
-identifier = "HOME"
-name = "HOME"
-url = "/"
-weight = 1
-[[menu.main]]
-identifier = "NEWS"
-name = "NEWS"
-url = "/categories/news/"
-weight = 2
+identifier = "CONTACT"
+name = "CONTACT"
+url = "/contact/"
+weight = 5
 [[menu.main]]
 identifier = "COMPANY"
 name = "COMPANY"
 url = "/company/"
 weight = 4
 [[menu.main]]
-identifier = "CONTACT"
-name = "CONTACT"
-url = "/contact/"
-weight = 5
+identifier = "NEWS"
+name = "NEWS"
+url = "/categories/news/"
+weight = 2
+[[menu.main]]
+identifier = "HOME"
+name = "HOME"
+url = "/"
+weight = 1
+[[menu.main]]
+identifier = "TECH"
+name = "TECHNOLOGY"
+url = "/categories/technology/"
+weight = 3
 [taxonomies]
 category = "categories"
 tag = "tags"
