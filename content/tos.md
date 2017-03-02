@@ -1,9 +1,8 @@
 +++
 categories = []
 datasource = "authors"
-date = "2016-09-12T00:00:00+00:00"
+date = "2016-09-12T00:00:00Z"
 description = "Terms of Service for the Black Sphere Studios website"
-draft = false
 tags = []
 title = "Terms of Service"
 type = "page"
