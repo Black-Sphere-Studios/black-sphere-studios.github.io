@@ -5,6 +5,11 @@ languageCode = "en-us"
 theme = "bss"
 title = "Black Sphere Studios"
 [[menu.main]]
+identifier = "technology"
+name = "TECHNOLOGY"
+url = "/categories/technology/"
+weight = 3
+[[menu.main]]
 identifier = "home"
 name = "HOME"
 url = "/"
@@ -20,15 +25,10 @@ name = "COMPANY"
 url = "/company/"
 weight = 4
 [[menu.main]]
-identifier = "technology"
-name = "TECHNOLOGY"
-url = "/categories/technology/"
-weight = 3
-[[menu.main]]
 identifier = "contact"
 name = "CONTACT"
 url = "/contact/"
-weight = 0
+weight = 5
 [taxonomies]
 category = "categories"
 tag = "tags"
