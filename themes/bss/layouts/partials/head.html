@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    {{ .Hugo.Generator }}
+  <meta name="description" content="Black Sphere Studios - Build Better.">
+  <meta name="keywords" content="games, software development, code, feathergui, C++">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  {{ if eq .URL "/" }}
+  <title>{{ .Title }}</title>
+  <meta property='og:title' content="{{ .Title }}">
+  <meta property="og:type" content="website">
+  {{ else }}
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+  <meta property='og:title' content="{{ .Title }} - {{ .Site.Title }}">
+  <meta property="og:type" content="article">
+  {{ end }}
+  <meta property="og:url" content="{{ .Permalink }}" />
+  {{ with .Params.image }}<meta property="og:image" content="{{ $.Site.BaseURL }}/img/{{ . }}">{{ end }}
+  {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+  <meta property="og:site_name" content="Black Sphere Studios" />
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@bspherestudios">
+  <meta name="twitter:title" content="Black Sphere Studios">
+  <meta name="twitter:description" content="Black Sphere Studios - Build Better.">
+  
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="apple-touch-icon" href="./favicon.ico" />
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}/main.css">
+  <link rel="canonical" href="https://blackspherestudios.com"/>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="alternate" type="application/rss+xml" title="Black Sphere Studios RSS feed" href="{{ .Site.BaseURL }}/index.xml">
+  <meta name="last-updated" content="2017-02-27 23:09:25 +0000">
+</head>
+<body onload="init()">

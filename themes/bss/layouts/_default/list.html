@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+{{ partial "nav.html" . }}
+<main class="page">
+  <section class="maxwidth">
+      {{ range $index, $element := (.Paginate .Data.Pages).Pages }}
+      <article>
+        {{ if .Params.image }}<a href="{{ if .Params.external }}{{ .Params.external }}{{ else }}{{ .Permalink }}{{ end }}"><img alt="{{ .Title }}" height="200" src="{{ $.Site.BaseURL }}/{{ .Params.image }}"/></a>{{ end }}
+        <h6><a href="{{ if .Params.external }}{{ .Params.external }}{{ else }}{{ .Permalink }}{{ end }}">{{ .Title }}</a></h6>
+        <p>{{ .Summary }}</p>
+        <aside>{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "January 2, 2006" }}{{ end }}</aside>
+        <div><a href="{{ if .Params.external }}{{ .Params.external }}{{ else }}{{ .Permalink }}{{ end }}">More ›</a></div>
+      </article>
+      {{ end }}
+      {{ partial "pagination.html" . }}
+  </section>
+</main>
+{{ partial "foot.html" . }}

@@ -1,0 +1,16 @@
+{{ partial "head.html" . }}
+{{ partial "nav.html" . }}
+<main class="page">
+  <div class="title maxwidth"><h4>{{ .Title }}</h4></div>
+  <section class="maxwidth">
+    <div>{{ .Content }}</div>
+    {{ range $key, $value := index .Site.Data (.Params.datasource) }}
+    <section>
+    {{ if $value.image }}<img alt="{{ $value.name }}" src="{{ $.Site.BaseURL }}/{{ $value.image }}"/>{{ end }}
+    <h2 id="{{ $value.name | urlize }}">{{ $value.name }}</h2>
+    <p>{{ $value.description | html | markdownify }}</p>
+    </section>
+    {{ end }}
+  </section>
+</main>
+{{ partial "foot.html" . }}

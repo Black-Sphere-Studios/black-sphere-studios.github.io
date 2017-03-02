@@ -1,0 +1,12 @@
+{{ partial "head.html" . }}
+{{ partial "nav.html" . }}
+{{ partial "viz.html" . }}
+<main>
+<section class="news maxwidth">
+      {{ range $index, $element := (.Paginate .Site.Taxonomies.tags.news.Pages).Pages }}
+      {{ .Render "li" }}
+      {{ end }}
+      {{ partial "pagination.html" . }}
+</section>
+</main>
+{{ partial "foot.html" . }}

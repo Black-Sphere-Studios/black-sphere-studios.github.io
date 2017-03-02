@@ -1,0 +1,42 @@
+
+<aside class="sidebar">
+
+  <div class="articles">
+    <h2>Recent Articles</h2>
+    <hr/>
+      {{ if ($.Scratch.Get "exclude") }}
+      {{ $strvar := apply (seq 0 (sub (len ($.Scratch.Get "exclude")) 1)) "string" "." }}
+      {{ $titles := apply $strvar "index" ($.Scratch.Get "exclude") "." }}
+      {{ range first 10 (where (where .Site.Pages "Type" "!=" "page") "Title" "not in" $titles) }}
+      <div class="article">
+      {{ if .Params.image }}<img alt="{{ .Title }}" src="{{ $.Site.BaseURL }}/{{ .Params.image }}"/>{{ end }}
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <summary>{{ .Summary }}</summary>
+      </div>
+      {{ end }}
+      {{ else }}
+      {{ range first 10 .Site.Pages }}
+      <div class="article">
+      {{ if .Params.image }}<img alt="{{ .Title }}" src="{{ $.Site.BaseURL }}/{{ .Params.image }}"/>{{ end }}
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <summary>{{ .Summary }}</summary>
+      </div>
+      {{ end }}
+      {{ end }}
+  </div>
+
+  {{ range $key, $value := .Site.Taxonomies }}
+  <div class="taxonomies">
+    <div>
+      <h3>{{ $key | pluralize | humanize }}</h3>
+    </div>
+    <div>
+      {{ range first 10 $value.ByCount }}
+      <a href="{{ $.Site.BaseURL}}/{{ $key }}/{{ .Name | urlize }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+</aside>
+
