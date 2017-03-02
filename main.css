@@ -1,0 +1,543 @@
+/* HTML Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	line-height: 1;
+  min-width: 383px;
+  padding: 0;
+  margin: 0;
+  width:100%;
+  background: #333334;
+  color: #fff;
+}
+
+.icon-img {
+  opacity: 0.7;
+  width: 24px;
+  height: 24px;
+  padding-right: 1em;
+  transition: opacity 0.15s;
+}
+.icon-img:hover {
+  opacity: 1;
+}
+
+a:link {
+  color: #16d;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+a:hover {
+  color: #39f;
+}
+a:visited {
+  color: #039;
+}
+a:active {
+  color: #09f;
+}
+
+header {
+  background: #333334;
+}
+
+.noselect {
+  -webkit-user-select: none;    
+  -moz-user-select: none;
+  -ms-user-select: none; 
+  user-select: none;
+  cursor:default;
+}
+header nav {
+  padding: 0.5rem;
+}
+
+header nav aside {
+  position:absolute;
+  right:1em;
+  top:1.3em;
+  display:inline;
+}
+header nav .logo {
+  position:absolute;
+  left: 0.75em;
+  width: 48px;
+}
+
+header nav p {
+	display: inline-block;
+  letter-spacing: 1px;
+	font: 700 small-caps 1.9rem "Open Sans", Helvetica, Arial, sans-serif;
+  padding-left: 3em;
+  line-height:150%;
+}
+
+header nav ul {
+  position: relative;
+	display: inline-block;
+	text-align: center;
+  padding-left: 3em;
+  Top: -5px;
+  line-height:230%;
+}
+
+header nav ul li {
+  position: relative;
+	font: 0.8rem "Open Sans", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+	display: inline-block;
+}
+header nav ul li .underline {
+  position:relative;
+  pointer-events: none;
+  background: none !important;
+  margin: 0 1em;
+}
+
+header nav ul li .underline div {
+  position:absolute;
+  height: 1em;
+  width:0%;
+  left:50%;
+  top: 0.4em;
+  border-bottom: 1px solid #ccc;
+  transition: width 0.3s, left 0.3s;
+}
+
+header nav ul li:hover .underline div {
+  width: 100%;
+  left:0%;
+}
+
+header nav ul li a:link, header nav ul li a:visited {
+  color: #cdcccc;
+  text-decoration: none;
+  padding: 1.1rem 1rem;
+}
+
+header nav ul li a:hover {
+  color: #fff;
+}
+
+#glCanvas {
+  position:absolute;
+}
+
+section .overlay {
+  width:100%;
+  height:520px;
+  position:relative;
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: 0.125em;
+  word-spacing: 0.5em;
+	font: 400 small-caps 5em "Open Sans", Helvetica, Arial, sans-serif;
+  /*min-width: 60.7rem;*/
+}
+
+section .overlay .logo {
+  position:relative;
+  display: inline-block;
+  Top: 9.3em;
+  transform: scale(1.4);
+  opacity: 0;
+  transition: transform 8s cubic-bezier(0,0,0.2,1), opacity 3s linear;
+  padding-bottom: 1.3em;
+}
+
+section .active .logo {
+  transform: scale(1);
+  opacity: 1;
+}
+
+section .overlay .logo div {
+  position: relative;
+  height: 1px;
+  Left: 50%;
+  width:0%;
+  background: #ccc;
+  margin-bottom: 1.4em;
+  transition: all 6s cubic-bezier(0,0,0.4,1);
+}
+section .active .logo div {
+  Left: 0%;
+  width: 100%;
+}
+section .active .logo .tagline {
+  height: 3.75em;
+}
+section .overlay .logo .bg {
+  position:absolute;
+  width:25em;
+  left:15em;
+  top:-6em;
+  opacity: 0.2;
+  transform: rotate(30deg);
+  transition: transform 6s cubic-bezier(0,0,0.1,1);
+}
+section .active .logo .bg {
+  transform: rotate(0deg);
+}
+
+main {
+  background: #cccccd;
+  padding-bottom: 2em;
+}
+.projects {
+  text-align: center;
+  background: #333334;
+  height: 5px;
+}
+
+/*
+.projects nav {
+  text-align: center;
+}
+.projects nav ul {
+  padding: 0 0 1em 0;
+	display: inline-block;
+}
+.projects nav ul li {
+  position: relative;
+	display: inline-block;
+	text-align: center;
+  width: 220px;
+  margin: 1em 0 0 0.75em;
+  border: 1px solid #999;
+  border-radius: 6px;
+  vertical-align: top;
+  padding-bottom: 0.5em;
+}
+
+.projects nav ul li .button {
+  border: 2px solid #eee;
+	display: inline-block;
+  border-radius: 9px;
+	font: 0.8rem "Open Sans", Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+  padding: 0.2em 0.7em;
+  transition: color 0.1s, background 0.1s;
+}
+.projects nav ul li .button:hover {
+  background: #eee;
+  color: #333;
+}
+.projects nav ul li a:link {
+  text-decoration: none;
+}
+
+.projects nav ul li p {
+	font: 0.9rem "Open Sans", Helvetica, Arial, sans-serif;
+  color: #e0e0e0;
+  text-align: left;
+  padding: 0 2em 0.5em 2em;
+}*/
+
+.projects div {
+	display: inline-block;
+  width:70px;
+  height:100%;
+  border-right: 1px solid #999;
+  vertical-align:top;
+  background: transparent;
+  transition: background 0.3s;
+}
+.projects div:first-child {
+  border-left: 1px solid #999;
+}
+.projects .current {
+  background: #777;
+}
+h2 {
+  position: relative;
+  letter-spacing: 4px;
+	font: small-caps 1.4rem "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h2 i {
+  position: relative;
+  font-style: normal;
+  color: #999;
+  top: 1px;
+}
+.maxwidth {
+  max-width: 1070px;
+}
+.news {
+  margin: 0 auto;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  background: #fff;
+  padding: 1em 1em 2em 1em;
+  box-shadow: 0 0 10px #999;
+}
+.news article {
+	display: inline-block;
+  position: relative;
+  width: 320px;
+  overflow: hidden;
+  vertical-align: top;
+  padding: 0 0 2em 1.5em;
+}
+
+.news article p {
+  color:#333;
+  font: 0.9rem "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+  padding: 0.25em 1em;
+}
+
+.news article div {
+  position: absolute;
+  bottom: 2.25em;
+  right: 0.5em;
+  font: 0.9rem "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+}
+.news article aside {
+  display: block;
+  font: 0.8rem "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+  color: #777;
+  margin: 0.5em 0 0 0.5em;
+}
+h3 {
+	font: 700 1.1rem "Open Sans", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 0.5em;
+}
+.page .title {
+  display: block;
+  margin: 0 auto 1.5em auto;
+  background: #000 url('img/bg.png') no-repeat right top;
+  box-shadow: 0 0 15px #444;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+h4 {
+  font: 700 small-caps 2.2rem "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+  letter-spacing: 8px;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 2px 2px 2px #000;
+  padding: 1rem 1rem 1rem 2.5rem;
+  box-shadow: inset 0 0 45px 15px #000;
+}
+.page {
+  font: 0.8em "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+  padding-top: 1em;
+}
+.page section {
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0 0 2em 0;
+  box-shadow: 0 0 10px #999;
+  border-radius: 2px;
+}
+
+.page section div {
+  padding: 0 1.5em;
+}
+
+.page section div p {
+  color: #060505;
+  padding-bottom: 0.5em;
+}
+.page section code {
+  font: 1em "Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+  color: #333;
+}
+.page section ul {
+  font: 1em "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+  list-style: circle;
+  margin: 1em 0 1.5em 2em;
+}
+.page section li {
+  color: #000;
+}
+
+.page section article {
+  position:relative;
+  min-height:200px;
+  padding-left:340px;
+  margin: 2em 2em 0 2em;
+}
+.page section article p {
+  padding: 1em 0 2.5em 0;
+  color: #000;
+}
+.page section article img {
+  position:absolute;
+  left: 0;
+}
+.page article div {
+  position: absolute;
+  bottom: 0.5em;
+  right: 0.5em;
+  font: 0.9rem "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+}
+.page article aside {
+  position: absolute;
+  bottom: 0.5em;
+  font: 0.8rem "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+  color: #777;
+  margin: 0.5em 0 0 0.5em;
+}
+
+.page section h3 {
+  color:#111;
+  font: 2rem "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+  letter-spacing: 1px;
+  margin: 0.5em 0 0 2em;
+  text-align: left;
+}
+.page section time {
+  color: #666;
+  text-align: right;
+  display: block;
+  margin: 0 2em 1em 0;
+}
+  
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h5 {
+  color: #666;
+  font: 700 1.5rem "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+  letter-spacing: 1px;
+  margin: 1em 0 0.5em 0;
+}
+
+h6 {
+	font: 700 1.5rem "Open Sans", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  margin-top: 0.5em;
+}
+
+footer {
+  box-shadow: inset 0 24px 20px -24px #000;
+  font: 1.2rem "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+  color: #ddd;
+  text-align: center;
+  padding: 1em 0;
+}
+footer span {
+	display: inline-block;
+  color: #999;
+  padding: 0 1em;
+  font-size: 0.8rem;
+  vertical-align: middle;
+}
+footer span a:link, footer span a:visited {
+  color: #999;
+}
+footer span a:hover, footer span a:active {
+  color: #ccc;
+}
+
+@media (max-width: 1130px) {
+  header nav aside {
+    display:none;
+  }
+  section .overlay .logo {
+    font-size: 70%;
+  }
+}
+@media (max-width: 930px) {
+  header nav p {
+    padding-left: 2em;
+  }
+  header nav ul {
+    margin-top: 0.5em;
+    padding-left: 0.5em;
+  }
+  header nav ul li a:link {
+    padding:0.5em;
+  }
+  header nav ul li .underline {
+    margin: 0 0.5em;
+  }
+}
+@media (max-width: 750px) {
+.news article {
+  display:block;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.page section article img {
+  position:relative;
+}
+
+.page section article {
+  padding-left:0;
+}
+  section .overlay .logo {
+    font-size: 40%;
+  }
+  
+}
+@media (max-width: 420px) {
+  header nav ul {
+    padding-left: 0;
+  }
+  header nav p {
+    padding-left: 1.5em;
+  }
+  header nav ul li a:link {
+    padding:0.43em;
+  }
+  header nav .logo {
+    top: 0.8em;
+    left: 0.5em;
+    width: 38px;
+  }
+  section .overlay .logo {
+    font-size: 35%;
+  }
+}

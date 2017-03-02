@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Black Sphere Studios on Black Sphere Studios</title>
+    <link>https://black-sphere-studios.github.io/index.xml</link>
+    <description>Recent content in Black Sphere Studios on Black Sphere Studios</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Black Sphere Studios LLC</copyright>
+    <lastBuildDate>Mon, 27 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Black Sphere Studios Utility Library</title>
+      <link>https://black-sphere-studios.github.io/bss-util/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/bss-util/</guid>
+      <description>&lt;p&gt;The Black Sphere Studios Utility Library is a collection of miscellaneous utility code used to simplify common tasks in C/C++ programs. The project and it&amp;rsquo;s source code are available &lt;a href=&#34;https://github.com/Black-Sphere-Studios/bss-util&#34;&gt;on github&lt;/a&gt;. Some of the many utilies provided are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Type safe variant object for algebriac types.&lt;/li&gt;
+&lt;li&gt;Allocators with a state&lt;/li&gt;
+&lt;li&gt;Logging&lt;/li&gt;
+&lt;li&gt;Reference counting&lt;/li&gt;
+&lt;li&gt;Generalized linked list manipulation&lt;/li&gt;
+&lt;li&gt;Array-based linked list&lt;/li&gt;
+&lt;li&gt;Threaded red-black tree implementation&lt;/li&gt;
+&lt;li&gt;AVL tree implementation&lt;/li&gt;
+&lt;li&gt;DLL-friendly simplified dynamic array implementation&lt;/li&gt;
+&lt;li&gt;Array-based stack implementation&lt;/li&gt;
+&lt;li&gt;Array-based queue implementation&lt;/li&gt;
+&lt;li&gt;cStr, an extension of the standard std::string object that supports UTF8 conversions and other operations.&lt;/li&gt;
+&lt;li&gt;A single-producer, single-consumer lockless queue&lt;/li&gt;
+&lt;li&gt;A multi-producer, multi-consumer microlock queue&lt;/li&gt;
+&lt;li&gt;Templatized implementations of cmpxchg,xchg,xadd, and other lockless primitives.&lt;/li&gt;
+&lt;li&gt;A template-based hash implementation based on khash&lt;/li&gt;
+&lt;li&gt;Command line parsing&lt;/li&gt;
+&lt;li&gt;Block, ring, and greedy allocation schemes&lt;/li&gt;
+&lt;li&gt;Fixed-size bit-based flag manipulation&lt;/li&gt;
+&lt;li&gt;High precision timer&lt;/li&gt;
+&lt;li&gt;Binary heap implementation&lt;/li&gt;
+&lt;li&gt;Priority queue based on binary heap&lt;/li&gt;
+&lt;li&gt;Priority heap based on Priority Queue that tracks entries to allow implementing Dijkstra&amp;rsquo;s Algorithm&lt;/li&gt;
+&lt;li&gt;#defines to help deal with stupid windows.h conflicts and VC++ deprecated functions&lt;/li&gt;
+&lt;li&gt;Sorted array using a bisection algorithm&lt;/li&gt;
+&lt;li&gt;Map based on sorted array&lt;/li&gt;
+&lt;li&gt;Frighteningly efficient delegate implementation&lt;/li&gt;
+&lt;li&gt;Automatic differentiation with dual numbers&lt;/li&gt;
+&lt;li&gt;Fixed-point arithmetic.&lt;/li&gt;
+&lt;li&gt;Template-based SSE2 objects for automatic SSE optimizations.&lt;/li&gt;
+&lt;li&gt;Alias table for random number generation&lt;/li&gt;
+&lt;li&gt;Generic animation system&lt;/li&gt;
+&lt;li&gt;Circular array implementation&lt;/li&gt;
+&lt;li&gt;Disjoint Set Data Structure that implements Kruskal&amp;rsquo;s minimum spanning tree algorithm.&lt;/li&gt;
+&lt;li&gt;Cross-platform extension to std::thread that allows signaling threads.&lt;/li&gt;
+&lt;li&gt;Stream splitting object using standard buffer implementation.&lt;/li&gt;
+&lt;li&gt;Integral rational data structure for precise fractions.&lt;/li&gt;
+&lt;li&gt;String table for localization.&lt;/li&gt;
+&lt;li&gt;High performance profiler with multiple output options.&lt;/li&gt;
+&lt;li&gt;Multi-consumer multi-producer lockless block allocator.&lt;/li&gt;
+&lt;li&gt;Generalized KD-tree implementation for querying how many rectangles are inside a given rectangle.&lt;/li&gt;
+&lt;li&gt;Implementation of Robert Bridson&amp;rsquo;s Fast Poisson Disk Sampling algorithm.&lt;/li&gt;
+&lt;li&gt;An in-place compressed Trie data structure implementation.&lt;/li&gt;
+&lt;li&gt;Arbitrary scheduler class for delaying actions.&lt;/li&gt;
+&lt;li&gt;Thread pool implementation&lt;/li&gt;
+&lt;li&gt;Implementation of a graph representation that implements the push-relabel algorithm, along with reductions from circulation and lower-bound circulation graph problems.&lt;/li&gt;
+&lt;li&gt;Implements efficient breadth-first traversal of a tree or graph&lt;/li&gt;
+&lt;li&gt;Includes an ID hash system that can be rebased at any time, including a reversal extension.&lt;/li&gt;
+&lt;li&gt;Implements mathematically correct integer and float modulo&lt;/li&gt;
+&lt;li&gt;Includes an n-dimensional vector and matrix math library, with optimized 4x4, 3x3 and 2x2 operations.&lt;/li&gt;
+&lt;li&gt;Implementes the xorshift random number generation algorithm as a standards-compliant engine.&lt;/li&gt;
+&lt;li&gt;AA tree implementation&lt;/li&gt;
+&lt;li&gt;Universal object serializer&lt;/li&gt;
+&lt;li&gt;XML parser and serializer&lt;/li&gt;
+&lt;li&gt;JSON parser and serializer&lt;/li&gt;
+&lt;li&gt;UBJSON parser and serializer&lt;/li&gt;
+&lt;li&gt;INI parser and serializer&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Utility Library v0.4.7 Released</title>
+      <link>https://black-sphere-studios.github.io/bss-util-v0.4.7/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/bss-util-v0.4.7/</guid>
+      <description>&lt;p&gt;v0.4.7 of the Black Sphere Studios library has been released, now with a reader-writer lock and other threading improvements. More information is available on the Github release page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Company</title>
+      <link>https://black-sphere-studios.github.io/company/</link>
+      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/company/</guid>
+      <description>
+
+&lt;h5 id=&#34;build-better&#34;&gt;Build Better&lt;/h5&gt;
+
+&lt;p&gt;Black Sphere Studios is built on the belief that, by building better tools, we can build better companies and a better tomorrow. We believe in working smarter, not harder. We build better, not faster. We are in the business of fixing things and building a better future for everyone.&lt;/p&gt;
+
+&lt;p&gt;True progress can only be made by honest efforts, and to that end, we seek to rightfully earn the trust of our customers through consistent quality, excellent customer service, and no excuses. When we sell you a product, we are selling a promise. A promise that we will never destroy it, run it into the ground, or sell it off and let it be shut down. Professional software shouldn&amp;rsquo;t fall over if you look at it funny. Customers are willing to pay for reliability, quality and an ad-free experience.&lt;/p&gt;
+
+&lt;p&gt;The world is a scary place, where a bunch of lightbulbs can bring the internet to its knees because companies don&amp;rsquo;t care about security. Where your secrets are openly sold for profit with no regards to privacy. Where huge corporations get away with gouging customers because no one will stand in their way.&lt;/p&gt;
+
+&lt;p&gt;But we will. We stand defiant against them, and no matter what happens, we will never stop fighting for what really matters.&lt;/p&gt;
+
+&lt;h5 id=&#34;a-future-for-all-of-us&#34;&gt;A Future For All Of Us&lt;/h5&gt;
+
+&lt;p&gt;We are dedicated to building a positive, respectful, inclusive community. We support free speech, not hate speech, and strive to maintain an inviting atmosphere everywhere we can. We stand with the poor and forgotten, the broken and beaten, the oppressed and the depressed. Our goal is to bring humanity&amp;rsquo;s future to &lt;strong&gt;everyone&lt;/strong&gt;, not just the lucky few. We do not expect life to be fair - we fight to &lt;em&gt;make&lt;/em&gt; it fair.&lt;/p&gt;
+
+&lt;p&gt;Join us on this incredible journey, and together, we can do more than create a better company. We can build a better world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://black-sphere-studios.github.io/contact/</link>
+      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/contact/</guid>
+      <description>
+
+&lt;h5 id=&#34;company&#34;&gt;Company&lt;/h5&gt;
+
+&lt;p&gt;E-mail: &lt;code&gt;contact [at] blackspherestudios [dot] com&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Discord: &lt;a href=&#34;https://discord.gg/nFczp8J&#34;&gt;Black Sphere Studios&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Twitter: &lt;a href=&#34;https://twitter.com/bspherestudios&#34;&gt;bspherestudios&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Facebook: &lt;a href=&#34;https://www.facebook.com/BlackSphereStudios/&#34;&gt;BlackSphereStudios&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Google Plus: &lt;a href=&#34;https://plus.google.com/b/105195804750291237123/+Blackspherestudios&#34;&gt;+Blackspherestudios&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Youtube: &lt;a href=&#34;https://www.youtube.com/channel/UCxpXJr6GZFghCSN-AVon3bw&#34;&gt;Black Sphere Studios&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/company-beta/2421082/&#34;&gt;Black Sphere Studios&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github: &lt;a href=&#34;https://github.com/Black-Sphere-Studios&#34;&gt;Black-Sphere-Studios&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;career&#34;&gt;Career&lt;/h5&gt;
+
+&lt;p&gt;Please direct all inquiries to our e-mail.&lt;/p&gt;
+
+&lt;h5 id=&#34;press&#34;&gt;Press&lt;/h5&gt;
+
+&lt;p&gt;Press and media inquiries should be sent to &lt;code&gt;press [at] blackspherestudios [dot] com&lt;/code&gt;, or via twitter.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://black-sphere-studios.github.io/privacy/</link>
+      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/privacy/</guid>
+      <description>
+
+&lt;h5 id=&#34;our-policy&#34;&gt;Our Policy&lt;/h5&gt;
+
+&lt;p&gt;Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information. The following outlines our privacy policy.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.&lt;/li&gt;
+&lt;li&gt;We will collect and use of personal information solely with the objective of fulfilling those purposes specified by us and for other compatible purposes, unless we obtain the consent of the individual concerned or as required by law.&lt;/li&gt;
+&lt;li&gt;We will only retain personal information as long as necessary for the fulfillment of those purposes.&lt;/li&gt;
+&lt;li&gt;We will collect personal information by lawful and fair means and, where appropriate, with the knowledge or consent of the individual concerned.&lt;/li&gt;
+&lt;li&gt;Personal data should be relevant to the purposes for which it is to be used, and, to the extent necessary for those purposes, should be accurate, complete, and up-to-date.&lt;/li&gt;
+&lt;li&gt;We will protect personal information by reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use or modification.&lt;/li&gt;
+&lt;li&gt;We will make readily available to customers information about our policies and practices relating to the management of personal information.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms of Service</title>
+      <link>https://black-sphere-studios.github.io/tos/</link>
+      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/tos/</guid>
+      <description>
+
+&lt;h5 id=&#34;terms&#34;&gt;Terms&lt;/h5&gt;
+
+&lt;p&gt;The following terms and conditions (&amp;ldquo;Terms&amp;rdquo;) apply to your use of the websites of Black Sphere Studios LLC, including any content, functionality, products, and services offered on or through such websites (collectively, the &amp;ldquo;Website&amp;rdquo;), whether as a guest or a registered user. Please read these Terms carefully before you start to use the Website. By using the Website, you accept and agree to be bound and abide by these Terms of Service. If you do not want to agree to these Terms of Service, you must not use the Website. In addition to these Terms, software or services that are included in or otherwise made available to you through the Website may be subject to separate agreement between you and Black Sphere Studios, such as end user license agreements. If these Terms are inconsistent with any such agreements, those agreements will control.&lt;/p&gt;
+
+&lt;h5 id=&#34;privacy-notice&#34;&gt;Privacy Notice&lt;/h5&gt;
+
+&lt;p&gt;Please review our Privacy Notice found at &lt;a href=&#34;https://black-sphere-studios.github.io/privacy/&#34;&gt;https://black-sphere-studios.github.io/privacy/&lt;/a&gt;, which also governs your use of the Website, to understand our practices.&lt;/p&gt;
+
+&lt;h5 id=&#34;use-license&#34;&gt;Use License&lt;/h5&gt;
+
+&lt;p&gt;The Website, including all content, features, and functionality thereof, are owned by Black Sphere Studios, its licensors, or other providers of such material and are protected by United States and international copyright, trademark, patent, and other intellectual property or proprietary rights laws.
+You are permitted to use the Website for your personal, non-commercial use only or legitimate business purposes related to your role as a current or prospective customer of Black Sphere Studios. Except as provided below, you must not copy, modify, create derivative works of, publicly display, publicly perform, republish, or transmit any of the material obtained through the Website, or delete, or alter any copyright, trademark, or other proprietary rights notices from copies of materials from the Website. However, if you are otherwise in compliance with these Terms, you are permitted to use, elsewhere and on other websites, an unaltered copy of portions of the content that is publicly available on the Website for the limited, non-commercial purpose of discussing such content.&lt;/p&gt;
+
+&lt;p&gt;You must not reproduce, sell, or exploit for any commercial purposes any part of the Website, access to the Website or use of the Website or any services or materials available through the Website. For clarity, the foregoing permissions are limited to the Website, and no rights are granted with respect to any servers, computers, or databases associated with the Website.&lt;/p&gt;
+
+&lt;h6 id=&#34;changes-to-the-terms-of-service&#34;&gt;Changes to the Terms of Service&lt;/h6&gt;
+
+&lt;p&gt;Black Sphere Studios may revise these terms of use for its web site at any time without notice. By using this web site you are agreeing to be bound by the then current version of these Terms and Conditions of Use.&lt;/p&gt;
+
+&lt;h5 id=&#34;linking&#34;&gt;Linking&lt;/h5&gt;
+
+&lt;p&gt;Black Sphere Studios has not reviewed all of the sites linked to its Internet web site and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Black Sphere Studios of the site. Use of any such linked web site is at the user&amp;rsquo;s own risk.&lt;/p&gt;
+
+&lt;h5 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h5&gt;
+
+&lt;p&gt;The materials on the Website are provided on an &amp;ldquo;as is&amp;rdquo; and &amp;ldquo;as available&amp;rdquo; basis. Black Sphere Studios makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. You expressly agree that your use of the Website is at your sole risk. Further, Black Sphere Studios does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Internet web site or otherwise relating to such materials or on any sites linked to this site.&lt;/p&gt;
+
+&lt;h5 id=&#34;limitation-of-liability&#34;&gt;Limitation of Liability&lt;/h5&gt;
+
+&lt;p&gt;To the full extent permissible by law, Black Sphere Studios will not be liable for any loss of profits or any indirect, incidental, punitive, special or consequential damages arising out of or in connection with this Agreement, even if Black Sphere Studios or a Black Sphere Studios authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.&lt;/p&gt;
+
+&lt;h5 id=&#34;indemnification&#34;&gt;Indemnification&lt;/h5&gt;
+
+&lt;p&gt;You agree to defend, indemnify, and hold harmless Black Sphere Studios, its affiliates, and licensors, and their respective officers, directors, employees, contractors, agents, licensors, and suppliers from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys’ fees) resulting from your User Contributions or violation of these Terms.&lt;/p&gt;
+
+&lt;h5 id=&#34;governing-law-and-jurisdiction&#34;&gt;Governing Law and Jurisdiction&lt;/h5&gt;
+
+&lt;p&gt;Any claim relating to Black Sphere Studios&amp;rsquo;s web site shall be governed by the laws of the State of Washington without regard to its conflict of law provisions.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

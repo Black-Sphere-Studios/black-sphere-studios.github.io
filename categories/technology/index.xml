@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Black Sphere Studios</title>
+    <link>https://black-sphere-studios.github.io/categories/technology/index.xml</link>
+    <description>Recent content in Technology on Black Sphere Studios</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Black Sphere Studios LLC</copyright>
+    <atom:link href="/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Black Sphere Studios Utility Library</title>
+      <link>https://black-sphere-studios.github.io/bss-util/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/bss-util/</guid>
+      <description>&lt;p&gt;The Black Sphere Studios Utility Library is a collection of miscellaneous utility code used to simplify common tasks in C/C++ programs. The project and it&amp;rsquo;s source code are available &lt;a href=&#34;https://github.com/Black-Sphere-Studios/bss-util&#34;&gt;on github&lt;/a&gt;. Some of the many utilies provided are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Type safe variant object for algebriac types.&lt;/li&gt;
+&lt;li&gt;Allocators with a state&lt;/li&gt;
+&lt;li&gt;Logging&lt;/li&gt;
+&lt;li&gt;Reference counting&lt;/li&gt;
+&lt;li&gt;Generalized linked list manipulation&lt;/li&gt;
+&lt;li&gt;Array-based linked list&lt;/li&gt;
+&lt;li&gt;Threaded red-black tree implementation&lt;/li&gt;
+&lt;li&gt;AVL tree implementation&lt;/li&gt;
+&lt;li&gt;DLL-friendly simplified dynamic array implementation&lt;/li&gt;
+&lt;li&gt;Array-based stack implementation&lt;/li&gt;
+&lt;li&gt;Array-based queue implementation&lt;/li&gt;
+&lt;li&gt;cStr, an extension of the standard std::string object that supports UTF8 conversions and other operations.&lt;/li&gt;
+&lt;li&gt;A single-producer, single-consumer lockless queue&lt;/li&gt;
+&lt;li&gt;A multi-producer, multi-consumer microlock queue&lt;/li&gt;
+&lt;li&gt;Templatized implementations of cmpxchg,xchg,xadd, and other lockless primitives.&lt;/li&gt;
+&lt;li&gt;A template-based hash implementation based on khash&lt;/li&gt;
+&lt;li&gt;Command line parsing&lt;/li&gt;
+&lt;li&gt;Block, ring, and greedy allocation schemes&lt;/li&gt;
+&lt;li&gt;Fixed-size bit-based flag manipulation&lt;/li&gt;
+&lt;li&gt;High precision timer&lt;/li&gt;
+&lt;li&gt;Binary heap implementation&lt;/li&gt;
+&lt;li&gt;Priority queue based on binary heap&lt;/li&gt;
+&lt;li&gt;Priority heap based on Priority Queue that tracks entries to allow implementing Dijkstra&amp;rsquo;s Algorithm&lt;/li&gt;
+&lt;li&gt;#defines to help deal with stupid windows.h conflicts and VC++ deprecated functions&lt;/li&gt;
+&lt;li&gt;Sorted array using a bisection algorithm&lt;/li&gt;
+&lt;li&gt;Map based on sorted array&lt;/li&gt;
+&lt;li&gt;Frighteningly efficient delegate implementation&lt;/li&gt;
+&lt;li&gt;Automatic differentiation with dual numbers&lt;/li&gt;
+&lt;li&gt;Fixed-point arithmetic.&lt;/li&gt;
+&lt;li&gt;Template-based SSE2 objects for automatic SSE optimizations.&lt;/li&gt;
+&lt;li&gt;Alias table for random number generation&lt;/li&gt;
+&lt;li&gt;Generic animation system&lt;/li&gt;
+&lt;li&gt;Circular array implementation&lt;/li&gt;
+&lt;li&gt;Disjoint Set Data Structure that implements Kruskal&amp;rsquo;s minimum spanning tree algorithm.&lt;/li&gt;
+&lt;li&gt;Cross-platform extension to std::thread that allows signaling threads.&lt;/li&gt;
+&lt;li&gt;Stream splitting object using standard buffer implementation.&lt;/li&gt;
+&lt;li&gt;Integral rational data structure for precise fractions.&lt;/li&gt;
+&lt;li&gt;String table for localization.&lt;/li&gt;
+&lt;li&gt;High performance profiler with multiple output options.&lt;/li&gt;
+&lt;li&gt;Multi-consumer multi-producer lockless block allocator.&lt;/li&gt;
+&lt;li&gt;Generalized KD-tree implementation for querying how many rectangles are inside a given rectangle.&lt;/li&gt;
+&lt;li&gt;Implementation of Robert Bridson&amp;rsquo;s Fast Poisson Disk Sampling algorithm.&lt;/li&gt;
+&lt;li&gt;An in-place compressed Trie data structure implementation.&lt;/li&gt;
+&lt;li&gt;Arbitrary scheduler class for delaying actions.&lt;/li&gt;
+&lt;li&gt;Thread pool implementation&lt;/li&gt;
+&lt;li&gt;Implementation of a graph representation that implements the push-relabel algorithm, along with reductions from circulation and lower-bound circulation graph problems.&lt;/li&gt;
+&lt;li&gt;Implements efficient breadth-first traversal of a tree or graph&lt;/li&gt;
+&lt;li&gt;Includes an ID hash system that can be rebased at any time, including a reversal extension.&lt;/li&gt;
+&lt;li&gt;Implements mathematically correct integer and float modulo&lt;/li&gt;
+&lt;li&gt;Includes an n-dimensional vector and matrix math library, with optimized 4x4, 3x3 and 2x2 operations.&lt;/li&gt;
+&lt;li&gt;Implementes the xorshift random number generation algorithm as a standards-compliant engine.&lt;/li&gt;
+&lt;li&gt;AA tree implementation&lt;/li&gt;
+&lt;li&gt;Universal object serializer&lt;/li&gt;
+&lt;li&gt;XML parser and serializer&lt;/li&gt;
+&lt;li&gt;JSON parser and serializer&lt;/li&gt;
+&lt;li&gt;UBJSON parser and serializer&lt;/li&gt;
+&lt;li&gt;INI parser and serializer&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
