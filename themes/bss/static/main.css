@@ -113,6 +113,10 @@ header nav p {
   line-height:150%;
 }
 
+header nav p a:visited, header nav p a:active, header nav p a:hover, header nav p a:link {
+  color:#fff;
+}
+
 header nav ul {
   position: relative;
 	display: inline-block;
