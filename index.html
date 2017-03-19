@@ -36,7 +36,7 @@
   <nav class="noselect">
     <span>
     <img class="logo" src="https://black-sphere-studios.github.io/img/logo.svg" alt="" />
-    <p>Black Sphere Studios</p>
+    <p><a href="https://black-sphere-studios.github.io">Black Sphere Studios</a></p>
     </span>
     <ul>
         
@@ -133,14 +133,14 @@ void main(void) {
   void main(void) {
     vec3 pos = Position;
     pos.y+=addy(pos);
-    //vec3 pos2 = vec3(pos.x+1.0,pos.y,pos.z);
-    //pos2.y+=addy(pos2);
-    //vec3 pos3 = vec3(pos.x,pos.y,pos.z-1.0);
-    //pos3.y+=addy(pos3);
     
-    //vec3 normal = cross(pos2-pos,pos3-pos);
-    //normal = normalize(vec3(normal.x,0,normal.z));
-    //float spec = dot(normal,normalize(vec3(1,1,0.1)));
+    
+    
+    
+    
+    
+    
+    
     vec3 color = mix(vec3(0.19,0.06,0.41),vec3(0.46,0.45,1),pos.y*(0.5)+1.0);
     gl_Position = PMat * ModelMat * vec4(pos, 1.0);
     pos = vec3(gl_Position.x,0,gl_Position.z);
