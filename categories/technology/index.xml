@@ -10,6 +10,20 @@
     <atom:link href="/categories/technology/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>FeatherGUI Abstraction Layer</title>
+      <link>https://black-sphere-studios.github.io/feathergui/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/</guid>
+      <description>&lt;p&gt;FeatherGUI is the next step in the evolution of modern UI design. It combines the lightweight flexibility of Nuklear with the native tooling support of Qt and the ease of use of HTML. FeatherGUI is not just another widget toolkit, it serves as an abstraction layer for the entire user interface, a layer &lt;em&gt;above&lt;/em&gt; other UI libraries. By seperating the underlying UI logic from the layout and behavior, FeatherGUI delivers the first &lt;strong&gt;truly language agnostic UI standard&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Like Nuklear, you can write your own backend for FeatherGUI, making it easy to integrate into your game engine. However, like Qt, a backend for FeatherGUI can be implemented using &lt;strong&gt;native operating system controls&lt;/strong&gt;, and can piggy-back on the operating system&amp;rsquo;s own message pump. This is all controlled by a &lt;strong&gt;standard binary layout format&lt;/strong&gt;, which can be serialized and parsed to the file format of your choice - an XML schema is already included.&lt;/p&gt;
+
+&lt;p&gt;All this, combined with FeatherGUI&amp;rsquo;s native C interface means that you no longer have to wait for your favorite language or operating system to be supported. FeatherGUI is completely platform-independent and language-agnostic, allowing you to implement a binding for your favorite language, or a backend for whatever platform you desire.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Black Sphere Studios Utility Library</title>
       <link>https://black-sphere-studios.github.io/bss-util/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>

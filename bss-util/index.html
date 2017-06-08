@@ -9,13 +9,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
   
-  <title>Black Sphere Studios Utility Library - Black Sphere Studios</title>
-  <meta property='og:title' content="Black Sphere Studios Utility Library - Black Sphere Studios">
+  <title>Bss-utils - Black Sphere Studios</title>
+  <meta property='og:title' content="Bss-utils - Black Sphere Studios">
   <meta property="og:type" content="article">
   
   <meta property="og:url" content="https://black-sphere-studios.github.io/bss-util/" />
-  <meta property="og:image" content="https://black-sphere-studios.github.io/img//img/bss-util.png">
-  <meta name="description" content="The Black Sphere Studios Utility Library is a collection of miscellaneous utility code used to simplify common tasks in C/C&#43;&#43; programs.">
+  
+  
   <meta property="og:site_name" content="Black Sphere Studios" />
   
   <meta name="twitter:card" content="summary">
@@ -26,12 +26,15 @@
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
   <link rel="apple-touch-icon" href="./favicon.ico" />
 	<link rel="stylesheet" href="https://black-sphere-studios.github.io/main.css">
+	<link rel="stylesheet" href="https://black-sphere-studios.github.io/bss.css"> 
+  <link href="https://black-sphere-studios.github.io/prism.css" rel="stylesheet" />
   <link rel="canonical" href="https://blackspherestudios.com"/>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="alternate" type="application/rss+xml" title="Black Sphere Studios RSS feed" href="https://black-sphere-studios.github.io/index.xml">
   <meta name="last-updated" content="2017-02-27 23:09:25 +0000">
 </head>
-<body onload="init()">
+<body onload="init()" class="">
+
 <header>
   <nav class="noselect">
     <span>
@@ -39,8 +42,6 @@
     <p><a href="https://black-sphere-studios.github.io">Black Sphere Studios</a></p>
     </span>
     <ul>
-        
-        <li><div class="underline"><div></div></div><a href="/" data-full="HOME" data-short="HOME"></a></li><li><div class="underline"><div></div></div><a href="/categories/news/" data-full="NEWS" data-short="NEWS"></a></li><li><div class="underline"><div></div></div><a href="/categories/technology/" data-full="TECHNOLOGY" data-short="TECH"></a></li><li><div class="underline"><div></div></div><a href="/company/" data-full="COMPANY" data-short="COMPANY"></a></li><li><div class="underline"><div></div></div><a href="/contact/" data-full="CONTACT" data-short="CONTACT"></a></li>
         
     </ul>
     <aside>
@@ -52,106 +53,28 @@
     </aside>
   </nav>
 </header>
-
 <main class="page">
   <section class="maxwidth">
-    <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="https://black-sphere-studios.github.io"/>
-    <meta itemprop="dateModified" content="2017-02-27T00:00:00&#43;00:00">
-    <meta itemprop="headline" content="Black Sphere Studios Utility Library">
-    <meta itemprop="description" content="The Black Sphere Studios Utility Library is a collection of miscellaneous utility code used to simplify common tasks in C/C&#43;&#43; programs. The project and it&rsquo;s source code are available on github. Some of the many utilies provided are:
- Type safe variant object for algebriac types. Allocators with a state Logging Reference counting Generalized linked list manipulation Array-based linked list Threaded red-black tree implementation AVL tree implementation DLL-friendly simplified dynamic array implementation Array-based stack implementation Array-based queue implementation cStr, an extension of the standard std::string object that supports UTF8 conversions and other operations.">
-    <meta itemprop="url" content="https://black-sphere-studios.github.io/bss-util/">
-    <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-      <meta itemprop="width" content="800">
-      <meta itemprop="height" content="800">
-    </div>
-    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-      <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-        <meta itemprop="url" content="https://black-sphere-studios.github.io/img/logo.svg">
-        <meta itemprop="width" content="100">
-        <meta itemprop="height" content="100">
-      </div>
-      <meta itemprop="name" content="Black Sphere Studios">
-    </div>
-    <div itemprop="author" itemscope itemtype="https://schema.org/Person">
-      <meta itemprop="name" content="">
-    </div>
-
-      <center><img alt="Black Sphere Studios Utility Library" src="https://black-sphere-studios.github.io//img/bss-util.png"/></center>
-      <h3>Black Sphere Studios Utility Library</h3>
-      <time itemprop="datePublished" pubdate="pubdate" datetime="2017-02-27T00:00:00&#43;00:00">Mon, Feb 27, 2017</time>
-    <div class="body">
-      <p>The Black Sphere Studios Utility Library is a collection of miscellaneous utility code used to simplify common tasks in C/C++ programs. The project and it&rsquo;s source code are available <a href="https://github.com/Black-Sphere-Studios/bss-util">on github</a>. Some of the many utilies provided are:</p>
-
-<ul>
-<li>Type safe variant object for algebriac types.</li>
-<li>Allocators with a state</li>
-<li>Logging</li>
-<li>Reference counting</li>
-<li>Generalized linked list manipulation</li>
-<li>Array-based linked list</li>
-<li>Threaded red-black tree implementation</li>
-<li>AVL tree implementation</li>
-<li>DLL-friendly simplified dynamic array implementation</li>
-<li>Array-based stack implementation</li>
-<li>Array-based queue implementation</li>
-<li>cStr, an extension of the standard std::string object that supports UTF8 conversions and other operations.</li>
-<li>A single-producer, single-consumer lockless queue</li>
-<li>A multi-producer, multi-consumer microlock queue</li>
-<li>Templatized implementations of cmpxchg,xchg,xadd, and other lockless primitives.</li>
-<li>A template-based hash implementation based on khash</li>
-<li>Command line parsing</li>
-<li>Block, ring, and greedy allocation schemes</li>
-<li>Fixed-size bit-based flag manipulation</li>
-<li>High precision timer</li>
-<li>Binary heap implementation</li>
-<li>Priority queue based on binary heap</li>
-<li>Priority heap based on Priority Queue that tracks entries to allow implementing Dijkstra&rsquo;s Algorithm</li>
-<li>#defines to help deal with stupid windows.h conflicts and VC++ deprecated functions</li>
-<li>Sorted array using a bisection algorithm</li>
-<li>Map based on sorted array</li>
-<li>Frighteningly efficient delegate implementation</li>
-<li>Automatic differentiation with dual numbers</li>
-<li>Fixed-point arithmetic.</li>
-<li>Template-based SSE2 objects for automatic SSE optimizations.</li>
-<li>Alias table for random number generation</li>
-<li>Generic animation system</li>
-<li>Circular array implementation</li>
-<li>Disjoint Set Data Structure that implements Kruskal&rsquo;s minimum spanning tree algorithm.</li>
-<li>Cross-platform extension to std::thread that allows signaling threads.</li>
-<li>Stream splitting object using standard buffer implementation.</li>
-<li>Integral rational data structure for precise fractions.</li>
-<li>String table for localization.</li>
-<li>High performance profiler with multiple output options.</li>
-<li>Multi-consumer multi-producer lockless block allocator.</li>
-<li>Generalized KD-tree implementation for querying how many rectangles are inside a given rectangle.</li>
-<li>Implementation of Robert Bridson&rsquo;s Fast Poisson Disk Sampling algorithm.</li>
-<li>An in-place compressed Trie data structure implementation.</li>
-<li>Arbitrary scheduler class for delaying actions.</li>
-<li>Thread pool implementation</li>
-<li>Implementation of a graph representation that implements the push-relabel algorithm, along with reductions from circulation and lower-bound circulation graph problems.</li>
-<li>Implements efficient breadth-first traversal of a tree or graph</li>
-<li>Includes an ID hash system that can be rebased at any time, including a reversal extension.</li>
-<li>Implements mathematically correct integer and float modulo</li>
-<li>Includes an n-dimensional vector and matrix math library, with optimized 4x4, 3x3 and 2x2 operations.</li>
-<li>Implementes the xorshift random number generation algorithm as a standards-compliant engine.</li>
-<li>AA tree implementation</li>
-<li>Universal object serializer</li>
-<li>XML parser and serializer</li>
-<li>JSON parser and serializer</li>
-<li>UBJSON parser and serializer</li>
-<li>INI parser and serializer</li>
-</ul>
-
-    </div>
-
-    <div class="discuss">
       
-
+      <article>
+        <a href="https://github.com/Black-Sphere-Studios/bss-util/releases/tag/v0.5.0"><img alt="Utility Library v0.5.0 Released" height="200" src="https://black-sphere-studios.github.io//img/bss-util.png"/></a>
+        <h6><a href="https://github.com/Black-Sphere-Studios/bss-util/releases/tag/v0.5.0">Utility Library v0.5.0 Released</a></h6>
+        <p>v0.5.0 of the Black Sphere Studios library has been released, overhauling the namespace and the class naming scheme, with significant code cleanup. More information is available on the Github release page.</p>
+        <aside>June 4, 2017</aside>
+        <div><a href="https://github.com/Black-Sphere-Studios/bss-util/releases/tag/v0.5.0">More ›</a></div>
+      </article>
+      
+      <article>
+        <a href="https://github.com/Black-Sphere-Studios/bss-util/releases/tag/v0.4.7"><img alt="Utility Library v0.4.7 Released" height="200" src="https://black-sphere-studios.github.io//img/bss-util.png"/></a>
+        <h6><a href="https://github.com/Black-Sphere-Studios/bss-util/releases/tag/v0.4.7">Utility Library v0.4.7 Released</a></h6>
+        <p>v0.4.7 of the Black Sphere Studios library has been released, now with a reader-writer lock and other threading improvements. More information is available on the Github release page.</p>
+        <aside>June 4, 2017</aside>
+        <div><a href="https://github.com/Black-Sphere-Studios/bss-util/releases/tag/v0.4.7">More ›</a></div>
+      </article>
       
       
-      
-    </aside>
+
+
   </section>
 </main>
 

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feathergui on Black Sphere Studios</title>
+    <link>https://black-sphere-studios.github.io/categories/feathergui/index.xml</link>
+    <description>Recent content in Feathergui on Black Sphere Studios</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Black Sphere Studios LLC</copyright>
+    <atom:link href="/categories/feathergui/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>FeatherGUI v0.1 Released</title>
+      <link>https://black-sphere-studios.github.io/feathergui/feathergui-0.1/</link>
+      <pubDate>Sun, 04 Jun 2017 01:06:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/feathergui-0.1/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/releases/tag/v0.1.0&#34;&gt;&lt;strong&gt;FeatherGUI v0.1.0 developer preview&lt;/strong&gt;&lt;/a&gt; has been released, and is now available for testing! As the first public release of FeatherGUI, this is an &lt;strong&gt;alpha&lt;/strong&gt; release, which is not considered stable and should not be used in production. Known bugs are &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/issues&#34;&gt;tracked on Github&lt;/a&gt;, but please report any new bugs by &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/issues/new&#34;&gt;filling a Github Issue&lt;/a&gt;. Join the &lt;a href=&#34;https://discord.gg/nFczp8J&#34;&gt;official discord server&lt;/a&gt; to discuss issues with the developer and talk to other users of FeatherGUI!&lt;/p&gt;
+
+&lt;p&gt;The SDK contains precompiled binaries, debug symbols, media files, and the &lt;a href=&#34;https://github.com/Black-Sphere-Studios/bss-util/releases/tag/v0.5.0&#34;&gt;bss-util v0.5.0&lt;/a&gt; include files that aren&amp;rsquo;t included in the source tree to make compilation easier. Note, however, that compiling fgDirect2D and fgDotNet requires a compatible version of the Windows SDK installed and configured on your machine. If Visual Studio complains it can&amp;rsquo;t find the SDK, you can try to change the target SDK version to the one you have - any version will do, so long as it supports Direct2D v1.1.&lt;/p&gt;
+
+&lt;p&gt;A layout editor is included in this SDK. While it is functional, there are a number of &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/issues/33&#34;&gt;bugs and missing features&lt;/a&gt; due to this being an early alpha release.&lt;/p&gt;
+
+&lt;p&gt;A POSIX pre-compiled SDK is also provided, but there are currently no POSIX-compatible backends, so while both FeatherGUI and fgExample-c compile in POSIX environments, they are useless without a backend to support them (the example will segfault without a backend).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/get/&#34;&gt;&lt;strong&gt;FeatherGUI Download Page&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FeatherGUI Abstraction Layer</title>
+      <link>https://black-sphere-studios.github.io/feathergui/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/</guid>
+      <description>&lt;p&gt;FeatherGUI is the next step in the evolution of modern UI design. It combines the lightweight flexibility of Nuklear with the native tooling support of Qt and the ease of use of HTML. FeatherGUI is not just another widget toolkit, it serves as an abstraction layer for the entire user interface, a layer &lt;em&gt;above&lt;/em&gt; other UI libraries. By seperating the underlying UI logic from the layout and behavior, FeatherGUI delivers the first &lt;strong&gt;truly language agnostic UI standard&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Like Nuklear, you can write your own backend for FeatherGUI, making it easy to integrate into your game engine. However, like Qt, a backend for FeatherGUI can be implemented using &lt;strong&gt;native operating system controls&lt;/strong&gt;, and can piggy-back on the operating system&amp;rsquo;s own message pump. This is all controlled by a &lt;strong&gt;standard binary layout format&lt;/strong&gt;, which can be serialized and parsed to the file format of your choice - an XML schema is already included.&lt;/p&gt;
+
+&lt;p&gt;All this, combined with FeatherGUI&amp;rsquo;s native C interface means that you no longer have to wait for your favorite language or operating system to be supported. FeatherGUI is completely platform-independent and language-agnostic, allowing you to implement a binding for your favorite language, or a backend for whatever platform you desire.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Backend</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Backend/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Backend/</guid>
+      <description>
+
+&lt;h3 id=&#34;backend&#34;&gt;Backend&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Box</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Box/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Box/</guid>
+      <description>
+
+&lt;h3 id=&#34;box&#34;&gt;Box&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Button</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Button/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Button/</guid>
+      <description>
+
+&lt;h3 id=&#34;button&#34;&gt;Button&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Checkbox</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Checkbox/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Checkbox/</guid>
+      <description>
+
+&lt;h3 id=&#34;checkbox&#34;&gt;Checkbox&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Combobox</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Combobox/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Combobox/</guid>
+      <description>
+
+&lt;h3 id=&#34;combobox&#34;&gt;Combobox&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Control</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Control/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Control/</guid>
+      <description>
+
+&lt;h3 id=&#34;control&#34;&gt;Control&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Curve</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Curve/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Curve/</guid>
+      <description>
+
+&lt;h3 id=&#34;curve&#34;&gt;Curve&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Debug</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Debug/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Debug/</guid>
+      <description>
+
+&lt;h3 id=&#34;debug&#34;&gt;Debug&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dropdown</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Dropdown/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Dropdown/</guid>
+      <description>
+
+&lt;h3 id=&#34;dropdown&#34;&gt;Dropdown&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Element</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Element/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Element/</guid>
+      <description>
+
+&lt;h3 id=&#34;element&#34;&gt;Element&lt;/h3&gt;
+
+&lt;p&gt;The Element serves as the base structure for all FeatherGUI controls. It is also where the C++ API defines all of it&amp;rsquo;s functions, so in C++, other controls overload the &lt;code&gt;-&amp;gt;&lt;/code&gt; operator to automatically convert to the base &lt;code&gt;fgElement*&lt;/code&gt; pointer for easy access to the API functions. This compensates for the fact that the C++ API cannot use proper inheritance without breaking the C API interop. &lt;code&gt;fgElement&lt;/code&gt; provides the default implementation for a message, if there is any, otherwise it will reject the message by returning &lt;code&gt;0&lt;/code&gt;. Some default implementations are empty and do nothing, but will instead return &lt;code&gt;FG_ACCEPT&lt;/code&gt;, which evaluates to 1, which always accepts the message.&lt;/p&gt;
+
+&lt;h2 id=&#34;accepted-messages&#34;&gt;Accepted Messages&lt;/h2&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_CONSTRUCT()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;fgElement&lt;/code&gt; performs all necessary setup before this message is called, so this does nothing, but always returns &lt;code&gt;FG_ACCEPT&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_MOVE[FGMOVE](fgElement* child, size_t)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This message is sent in response to any potential resize or move event that could change the effective area of this element or its children. A child will propagate this event up to its immediate parent, but no farther (unless that parent chooses to propagate it farther). An element will always, however, propagate a move element &lt;i&gt;down&lt;/i&gt;, unless it is determined that it would have no effect on the layout.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETAREA[FGUNIT](const CRect* area)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sets the area of this element to the given area, applying the given &lt;code&gt;FGUNIT&lt;/code&gt; flags sent in the subtype. This message triggers &lt;code&gt;FG_MOVE&lt;/code&gt; only if the area actually changes. This message calls &lt;code&gt;fgDirtyElement&lt;/code&gt; and &lt;code&gt;fgElement_MouseMoveCheck&lt;/code&gt; &lt;strong&gt;twice&lt;/strong&gt;, once before and one after the area is actually set. If the subtype is -1, an &lt;code&gt;FG_MOVE&lt;/code&gt; is not actually sent to this element, but instead directly propagated to it&amp;rsquo;s children.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETTRANSFORM[FGUNIT](const fgTransform* transform)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sets the entire transform of this element to the given transform, applying the given &lt;code&gt;FGUNIT&lt;/code&gt; flags sent in the subtype. First, &lt;code&gt;FG_AREA&lt;/code&gt; is called with the area, and then the rotation and center are set afterwards. This message triggers &lt;code&gt;FG_MOVE&lt;/code&gt; only if the transform actually changes. This message calls &lt;code&gt;fgDirtyElement&lt;/code&gt; and &lt;code&gt;fgElement_MouseMoveCheck&lt;/code&gt; &lt;strong&gt;twice&lt;/strong&gt;, once before and one after the area is actually set. If the subtype is -1, an &lt;code&gt;FG_MOVE&lt;/code&gt; is not actually sent to this element, but instead directly propagated to it&amp;rsquo;s children.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETFLAG(fgFlag flag, bool state)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This message simply transforms a call to add or remove a flag into an &lt;code&gt;FG_SETFLAGS&lt;/code&gt; message, by ORing or ANDing the flag with the current flag value.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETFLAGS(fgFlag flags)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Replaces the current flags with the given flags. This can trigger a number of events, depending on the flags changed. &lt;code&gt;BACKGROUND/EXPAND&lt;/code&gt; will trigger a &lt;code&gt;LAYOUTCHANGE&lt;/code&gt;, whereas &lt;code&gt;IGNORE/NOCLIP&lt;/code&gt; will swap which sublist the child is being tracked on. &lt;code&gt;HIDDEN/NOCLIP&lt;/code&gt; will call &lt;code&gt;fgDirtyElement()&lt;/code&gt; on itself.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETMARGIN[FGUNIT](const AbsRect* margin)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sets the margin of this element to the given margin, applying the given &lt;code&gt;FGUNIT&lt;/code&gt; flags sent in the subtype. This message triggers &lt;code&gt;FG_MOVE&lt;/code&gt; only if the margin actually changes. This message calls &lt;code&gt;fgDirtyElement&lt;/code&gt; and &lt;code&gt;fgElement_MouseMoveCheck&lt;/code&gt; &lt;strong&gt;twice&lt;/strong&gt;, once before and one after the area is actually set. If the subtype is -1, an &lt;code&gt;FG_MOVE&lt;/code&gt; is not actually sent to this element, but instead directly propagated to it&amp;rsquo;s children.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETPADDING[FGUNIT](const AbsRect* padding)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sets the padding of this element to the given padding, applying the given &lt;code&gt;FGUNIT&lt;/code&gt; flags sent in the subtype. This message triggers &lt;code&gt;FG_MOVE&lt;/code&gt; only if the padding actually changes. This message calls &lt;code&gt;fgDirtyElement&lt;/code&gt; and &lt;code&gt;fgElement_MouseMoveCheck&lt;/code&gt; &lt;strong&gt;twice&lt;/strong&gt;, once before and one after the area is actually set. If the subtype is -1, an &lt;code&gt;FG_MOVE&lt;/code&gt; is not actually sent to this element, but instead directly propagated to it&amp;rsquo;s children.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETPARENT[FGSETPARENT](fgElement* parent, fgElement* next)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sets the parent of this element to the given parent, inserting this element before the &lt;code&gt;next&lt;/code&gt; element in the parent&amp;rsquo;s list of children. If next is &lt;code&gt;NULL&lt;/code&gt;, it is inserted &lt;em&gt;after&lt;/em&gt; the last element.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_REORDERCHILD(fgElement* child, fgElement* next)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Reorders the child element without changing its&amp;rsquo; parent, inserting it before the &lt;code&gt;next&lt;/code&gt; element in the parent&amp;rsquo;s list of children. If next is &lt;code&gt;NULL&lt;/code&gt;, it is inserted &lt;em&gt;after&lt;/em&gt; the last element.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_ADDITEM[FGITEM](fgElement*/const char*/void* item)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If the subtype is nonzero, this message is rejected. Otherwise, it is passed through to &lt;code&gt;FG_ADDCHILD&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_ADDCHILD(fgElement* child, fgElement* next)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sets the child&amp;rsquo;s parent to this element and inserts it before &lt;code&gt;next&lt;/code&gt;. If next is &lt;code&gt;NULL&lt;/code&gt;, inserts it after the last element.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_REMOVECHILD(fgElement* child)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Removes a child from this element. If the child isn&amp;rsquo;t a member of this element, a debug assertion will fail.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_LAYOUTCHANGE(fgElement* target, fgElement* old)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Simply calls &lt;code&gt;FG_LAYOUTFUNCTION&lt;/code&gt; with the appropriate arguments and processes the resulting area if either &lt;code&gt;EXPANDX&lt;/code&gt; or &lt;code&gt;EXPANDY&lt;/code&gt; flags are present.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_LAYOUTFUNCTION[bool](const FG_Msg* msg, const CRect* area)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Calls the default layout function. This should be overriden if you want to use a &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Layout-System/#Custom&#34;&gt;custom layout function&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;fgElement* FG_LAYOUTLOAD(fgLayout* target)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Loads the provided layout, applying any styles set on the layout root to this element, and then adding all elements inside the layout root to this element, recursively. The function returns a pointer the &lt;em&gt;last&lt;/em&gt; element added from the layout, or &lt;code&gt;NULL&lt;/code&gt; if the layout either could not be loaded or had no children.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;size_t FG_CLONE(fgElement* e)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This function always returns the total size, in bytes, needed to clone this control, but if &lt;code&gt;e&lt;/code&gt; is not &lt;code&gt;NULL&lt;/code&gt;, then it will be assumed to point to a valid memory location that is at least as large as the return value of this function, and copy the contents of this element over to it, which includes calling &lt;code&gt;FG_CLONE&lt;/code&gt; on all of it&amp;rsquo;s children.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;const char* FG_GETCLASSNAME()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This message always returns a string containing the class name, which in this case is &amp;ldquo;Element&amp;rdquo;. It should be overriden by all controls and set to return a string containing the class name of that control.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;fgSkin* FG_GETSKIN(fgElement* child)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If child is &lt;code&gt;NULL&lt;/code&gt;, this simply returns whatever the Element&amp;rsquo;s currently assigned skin is (or &lt;code&gt;NULL&lt;/code&gt; if it doesn&amp;rsquo;t have one). Otherwise, it performs a skin lookup for the child by going through it&amp;rsquo;s skin (if it has one) and trying to find a match first for the child&amp;rsquo;s name, and then for the child&amp;rsquo;s class name. If all of these fail (or it has no skin), the element calls &lt;code&gt;FG_GETSKIN&lt;/code&gt; on it&amp;rsquo;s parent, passing the child parameter through. This continues until it reaches the root element or succeeds. If no skin can be found, returns &lt;code&gt;NULL&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETSKIN(fgSkin* skin)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Manually sets the skin to the provided skin. If the provided skin is &lt;code&gt;NULL&lt;/code&gt;, then the element will ask it&amp;rsquo;s parent to find an appropriate skin. If the resulting skin actually changes, it will reset the skin for all of it&amp;rsquo;s children (which will overwrite any manually assigned skins).&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETSTYLE[FGSETSTYLE](fgStyle*/FG_UINT/const char* style, size_t mask)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The argument for this message depends on the subtype.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If &lt;code&gt;FGSETSTYLE_POINTER&lt;/code&gt; is specified, the style overriden with whatever the argument is.&lt;/li&gt;
+&lt;li&gt;If &lt;code&gt;FGSETSTYLE_NAME&lt;/code&gt; is specified, the index and mask is looked up via the style hash, and an appropriate style is selected from the skin.&lt;/li&gt;
+&lt;li&gt;If &lt;code&gt;FGSETSTYLE_INDEX&lt;/code&gt; is specified, the behavior depends on the argument. If the argument is -1, the element&amp;rsquo;s style is &lt;strong&gt;not changed&lt;/strong&gt;. Instead, the style is inherited from the element&amp;rsquo;s parent. Otherwise, the element&amp;rsquo;s style is set to the given index and mask given in the second argument, and an appropriate style pointer is looked up in the skin.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If the style is not &lt;code&gt;NULL&lt;/code&gt;, it&amp;rsquo;s messages are applied to the element.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;FG_UINT FG_GETSTYLE()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If the element has no style (it&amp;rsquo;s style is set to -1), retrieves the style from it&amp;rsquo;s parent. Otherwise, returns the element&amp;rsquo;s style integer.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_GOTFOCUS()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Elements cannot get focus, so the default handler simply sends this message to its parent.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_DRAW(const AbsRect* area, const fgDrawAuxData* aux)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Calls the standard draw function, passing through the arguments.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_INJECT(const FG_Msg* msg, const AbsRect* area)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Calls the standard injection function, passing through the arguments.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETNAME(const char* name)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sets the name, or deletes it if name is &lt;code&gt;NULL&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;const char* FG_GETNAME()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Gets the current element name, or &lt;code&gt;NULL&lt;/code&gt; if it doesn&amp;rsquo;t have one.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;AbsVec* FG_GETDPI()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Calls &lt;code&gt;FG_GETDPI&lt;/code&gt; on the parent, since an element doesn&amp;rsquo;t store DPI. Normally, only &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Root/&#34;&gt;Root&lt;/a&gt; and &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Monitor/&#34;&gt;Monitor&lt;/a&gt; elements store explicit DPI values.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETDPI(FABS x, FABS y)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;While this doesn&amp;rsquo;t actually set anything (since an element doesn&amp;rsquo;t store DPI), it propogates the message to its children, which allow controls to respond to a DPI change.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;float FG_GETLINEHEIGHT()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Call &lt;code&gt;FG_GETLINEHEIGHT&lt;/code&gt; on the parent, since an element doesn&amp;rsquo;t store lineheight. Only the &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Root/&#34;&gt;Root&lt;/a&gt;, &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Text/&#34;&gt;Text&lt;/a&gt;, and &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Textbox/&#34;&gt;Textbox&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_TOUCHBEGIN(FABS x, FABS y)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Translates a &lt;code&gt;FG_TOUCHBEGIN&lt;/code&gt; message into an &lt;code&gt;FG_MOUSEDOWN&lt;/code&gt; event (pretending the left mouse button was pressed), and passes this message back into the element for reprocessing.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_TOUCHEND(FABS x, FABS y)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Translates a &lt;code&gt;FG_TOUCHEND&lt;/code&gt; message into an &lt;code&gt;FG_MOUSEUP&lt;/code&gt; event, and passes this message back into the element for reprocessing.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_TOUCHMOVE(FABS x, FABS y)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Translates a &lt;code&gt;FG_TOUCHMOVE&lt;/code&gt; message into an &lt;code&gt;FG_MOUSEMOVE&lt;/code&gt; event, and passes this message back into the element for reprocessing.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETDIM[FGDIM and/or FGUNIT](FABS x, FABS y)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Depending on the value of the subtype, either sets the minimum or maximum dimensions of the element, applying the FGUNIT flags if they&amp;rsquo;re included in the subtype.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;AbsVec* FG_GETDIM[FGDIM]()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Depending on the value of the subtype, eitehr gets the minimum or maximum dimensions of the element. If the subtype is invalid, returns &lt;code&gt;NULL&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;void* FG_GETUSERDATA(const char* key)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;if &lt;code&gt;key&lt;/code&gt; is &lt;code&gt;NULL&lt;/code&gt;, gets the raw userdata from the element. Otherwise, it looks up the key in the userhash, and if it exists, returns the corresponding value. Otherwise, returns &lt;code&gt;NULL&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETUSERDATA(void* value, const char* key = nullptr)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If &lt;code&gt;key&lt;/code&gt; is &lt;code&gt;NULL&lt;/code&gt;, sets the raw userdata. Otherwise, it creates a userhash if necessary, and inserts the key/value pair.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_MOUSEDBLCLICK()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Translates a double-click event into an &lt;code&gt;FG_MOUSEDOWN&lt;/code&gt; message and sends it back into the element for reprocessing.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETSCALING(FABS x, FABS y)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sets the element&amp;rsquo;s scaling factor to &lt;code&gt;{x,y}&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;AbsVec* FG_GETSCALING()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Gets the element&amp;rsquo;s scaling factor (defaults to &lt;code&gt;{1,1}&lt;/code&gt;).&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_CLEAR()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Removes all &lt;strong&gt;foreground&lt;/strong&gt; elements that do not have the &lt;code&gt;INTERNAL&lt;/code&gt; flag set.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_NEUTRAL()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sets the &amp;ldquo;neutral&amp;rdquo; style.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_HOVER()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sets the &amp;ldquo;hover&amp;rdquo; style.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_ACTIVE()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sets the &amp;ldquo;active&amp;rdquo; style.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;fgElement* FG_DEBUGMESSAGE()&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Returns a pointer to this element. This is useful for debugging the injection function, or when you want to find out what element would have recieved an injected message.&lt;/p&gt;
+
+&lt;h2 id=&#34;member-functions&#34;&gt;Member Functions&lt;/h2&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;FG_EXTERN void fgElement_InternalSetup(
+  fgElement* BSS_RESTRICT self,
+  fgElement* BSS_RESTRICT parent,
+  fgElement* BSS_RESTRICT next,
+  const char* name,
+  fgFlag flags,
+  const fgTransform* transform,
+  fgMsgType units,
+  void (*destroy)(void*),
+  size_t(*message)(void*, const FG_Msg*));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is an internal function used by controls to perform the initial &lt;code&gt;fgElement&lt;/code&gt; setup. This function is what should be called by a control&amp;rsquo;s &lt;code&gt;_Init&lt;/code&gt; function, &lt;strong&gt;not&lt;/strong&gt; &lt;code&gt;fgElement_Init&lt;/code&gt;, because this also sets the &lt;code&gt;destroy&lt;/code&gt; and &lt;code&gt;message&lt;/code&gt; functions to their appropriate values &lt;em&gt;before&lt;/em&gt; calling the constructor, which is crucial for proper behavior.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;FG_EXTERN void fgElement_Init(
+  fgElement* BSS_RESTRICT self,
+  fgElement* BSS_RESTRICT parent,
+  fgElement* BSS_RESTRICT next,
+  const char* name,
+  fgFlag flags,
+  const fgTransform* transform,
+  fgMsgType units);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This performs initial setup for an &lt;code&gt;Element&lt;/code&gt; control. It should only be used when initializing an actual &lt;code&gt;Element&lt;/code&gt;, it should never be called inside the &lt;code&gt;_Init&lt;/code&gt; function of another control or in any sort of constructor - use &lt;code&gt;fgElement_InternalSetup&lt;/code&gt; for that. This sets the name, flags, and transform, then sends itself the &lt;code&gt;FG_CONSTRUCT&lt;/code&gt; message, and &lt;em&gt;then&lt;/em&gt; sends itself the &lt;code&gt;FG_SETPARENT&lt;/code&gt; message using the &lt;code&gt;parent&lt;/code&gt; and &lt;code&gt;next&lt;/code&gt; arguments. This is necessary to ensure that a fully constructed object is sent to &lt;code&gt;FG_SETPARENT&lt;/code&gt;, which will then set the element&amp;rsquo;s skin appropriately.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;FG_EXTERN void fgElement_Destroy(fgElement* self);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is the destructor for the base &lt;code&gt;fgElement&lt;/code&gt; class, and should eventually be called by &lt;strong&gt;all&lt;/strong&gt; controls. It destroys all information associated with the control, deletes the userhash, deletes the listeners, removes any focus, capture or hover states and moves those states to other controls, and performs several other debug checks.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;FG_EXTERN size_t fgElement_Message(fgElement* self, const FG_Msg* msg);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is the root message processing function that all controls should eventually call to handle a message.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;FG_EXTERN fgElement* fgElement_GetChildUnderMouse(fgElement* self, float x, float y, AbsRect* cache);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If there is a &lt;strong&gt;foreground&lt;/strong&gt; child that intersects the given mouse coordinates, returns a pointer to that child, otherwise returns &lt;code&gt;NULL&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;FG_EXTERN void fgElement_ClearListeners(fgElement* self);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Deletes all listeners associated with this element in the listener hash. Called by &lt;code&gt;fgElement_Destroy&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;FG_EXTERN size_t fgElement_CheckLastFocus(fgElement* self);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is a helper function for parents that checks the state of &lt;code&gt;lastfocus&lt;/code&gt;. If a child previously held focus before the parent lost focus, this function will restore that child&amp;rsquo;s focus and return 1, otherwise it returns 0.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;FG_EXTERN void fgElement_ApplyMessageArray(fgElement* search, fgElement* target, fgVector* src);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This applies a message array (the &lt;code&gt;fgVector&lt;/code&gt; argument is cast to &lt;code&gt;MESSAGEARRAY&lt;/code&gt;) to &lt;code&gt;target&lt;/code&gt; using the &lt;code&gt;search&lt;/code&gt; term - only members of the message array intended for &lt;code&gt;search&lt;/code&gt; will be applied to &lt;code&gt;target&lt;/code&gt;. Usually, &lt;code&gt;search&lt;/code&gt; is either NULL or equal to &lt;code&gt;target&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;FG_EXTERN void fgElement_IterateUserHash(fgElement* self, void(*f)(void*, const char*, size_t), void* data);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This performs an iteration over the userhash values by calling &lt;code&gt;f&lt;/code&gt; on all of them. The &lt;code&gt;void* p&lt;/code&gt; term can be used to send a delegate or lambda, if desired.&lt;/p&gt;
+
+&lt;h2 id=&#34;helper-functions&#34;&gt;Helper Functions&lt;/h2&gt;
+
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;FG_EXTERN void fgElement_StyleToMessageArray(
+  const struct _FG_STYLE* src,
+  fgElement* target,
+  fgVector** vdest);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Given a style and a target element that style is applied to, appends the style messages to the message array (&lt;code&gt;vdest&lt;/code&gt; is cast to a &lt;code&gt;MESSAGEARRAY&lt;/code&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feather</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Feather/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Feather/</guid>
+      <description>
+
+&lt;h3 id=&#34;initial-feather-declarations&#34;&gt;Initial Feather Declarations&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FeatherGUI Documentation</title>
+      <link>https://black-sphere-studios.github.io/feathergui/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/</guid>
+      <description>
+
+&lt;p&gt;This serves as documentation for the C/C++ API of FeatherGUI - bindings to other languages have their own documentation and may introduce their own use constraints depending on the needs of the language. While FeatherGUI is built around a core C API, the C++ API will also be mentioned to provide a quick way to visualize the accepted types and default arguments that the C API cannot expose.&lt;/p&gt;
+
+&lt;p&gt;All FeatherGUI controls are built on top of the &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Element/&#34;&gt;Element&lt;/a&gt;, which defines the default behavior for all messages and the basic layout structure. Basic data structures and helper functions can be found in the &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Feather/&#34;&gt;Feather&lt;/a&gt; section. An explanation of the backend functions, the provided default backend functions, and the requirements when building a proper backend can be found in the &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Backend/&#34;&gt;Backend&lt;/a&gt; section. All other controls can be found in their respective section.&lt;/p&gt;
+
+&lt;h5 id=&#34;rendering-model&#34;&gt;Rendering Model&lt;/h5&gt;
+
+&lt;p&gt;&lt;img class=&#34;resizable&#34; src=&#34;https://black-sphere-studios.github.io/img/layout_diagram1.svg&#34; style=&#34;float:right;max-width:337px;&#34;    /&gt;
+At it&amp;rsquo;s core, FeatherGUI uses a unified coordinate system, with padding, margins, centering, minimum and maximum dimensions. The unified coordinate system means that the area of any given control is specified via both &lt;em&gt;relative&lt;/em&gt; and &lt;em&gt;absolute&lt;/em&gt; coordinates. This &lt;strong&gt;outer area&lt;/strong&gt; then applies the &lt;em&gt;margins&lt;/em&gt; to get the &lt;strong&gt;standard area&lt;/strong&gt;, which then applies the &lt;em&gt;padding&lt;/em&gt; to acquire the &lt;strong&gt;inner area&lt;/strong&gt;. The &lt;strong&gt;outer area&lt;/strong&gt; cannot ever exceed the maximum dimensions, if they are specified, nor can it shrink farther than the minimum dimensions.&lt;/p&gt;
+
+&lt;p&gt;For a detailed overview of the layout system, see &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Layout-System/&#34;&gt;Layout System&lt;/a&gt;. FeatherGUI elements can have any number of children, which are divided into &lt;strong&gt;foreground&lt;/strong&gt; and &lt;strong&gt;background&lt;/strong&gt; elements. &lt;strong&gt;Foreground&lt;/strong&gt; elements are specified relative to the &lt;strong&gt;inner area&lt;/strong&gt;, while the &lt;strong&gt;background&lt;/strong&gt; elements are specified relative to the &lt;strong&gt;standard area&lt;/strong&gt;. The core &lt;code&gt;Element&lt;/code&gt; structure supports an &lt;strong&gt;arbitrary layout function&lt;/strong&gt;, which allows it to re-arrange it&amp;rsquo;s &lt;strong&gt;foreground&lt;/strong&gt; children however it pleases. The &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Box/&#34;&gt;Box&lt;/a&gt; control provides a powerful built-in tiling layout function, but anyone can provide their own &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Layout-System/#Custom&#34;&gt;custom layout function&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h5 id=&#34;messaging-system&#34;&gt;Messaging System&lt;/h5&gt;
+
+&lt;p&gt;While internally FeatherGUI uses C++, it is built around the raw C interface that it exposes. All of FeatherGUI is predicated on &lt;i&gt;single-inheritance&lt;/i&gt;, which means the inherited class is simply embedded as the first element of the subclass. This means that all featherGUI controls can safely be cast in c-style via &lt;code&gt;(fgElement*)&lt;/code&gt;, and this will always be valid. Only four virtual function pointers are used: the &lt;code&gt;message()&lt;/code&gt; function, the &lt;code&gt;destroy()&lt;/code&gt; function, and the &lt;code&gt;free()&lt;/code&gt; function. All other functions, including the constructor, go through the &lt;code&gt;message()&lt;/code&gt; function, which allows a subclass to &amp;ldquo;override&amp;rdquo; a function by providing it&amp;rsquo;s own &lt;code&gt;message()&lt;/code&gt; function that performs some action in response to a message before it reaches the base class.&lt;/p&gt;
+
+&lt;p&gt;The message processing function has a simple signature: &lt;code&gt;size_t fgMessage(fgElement* self, const FG_Msg* msg);&lt;/code&gt;. The &lt;code&gt;self&lt;/code&gt; parameter is whatever object is recieving the message (and is generally of whatever type that object is). The &lt;code&gt;FG_Msg&lt;/code&gt; struct contains the message type and arguments, and the &lt;code&gt;size_t&lt;/code&gt; is a pointer-sized return argument. A return value of &lt;strong&gt;zero&lt;/strong&gt; means the message has been &lt;strong&gt;&lt;em&gt;rejected&lt;/em&gt;&lt;/strong&gt; (or that there was no valid action that could be done). A &lt;strong&gt;non-zero&lt;/strong&gt; return value means the message has been accepted, and may optionally have returned some value, which could be an integer, a float, or a pointer. The C++ API automatically casts the return value to the appropriate type, but if you are using the Raw C API, make sure you check the documentation so you know what return value to expect.&lt;/p&gt;
+
+&lt;p&gt;This is the FG_Msg struct:
+&lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;typedef struct _FG_MSG {
+  fgMsgType type;
+  fgMsgType subtype;
+  union {
+    struct { float x; float y; // Mouse and touch events
+      union { 
+        struct { unsigned char button; unsigned char allbtn; }; 
+        struct { short scrolldelta; short scrollhdelta; }; // MOUSESCROLL
+        short touchindex; // Touch events
+      };
+    }; 
+    struct {  // Keys
+        int keychar; //Only used by KEYCHAR, represents a utf32 character
+        unsigned short keyraw; // In some cases (e.g. games) an application may want to pass around the raw hardware scancode of a key.
+        unsigned char keycode; //only used by KEYDOWN/KEYUP, represents an actual keycode in FG_KEYS, not a character
+        char sigkeys; // 1: shift, 2: ctrl, 4: alt, 8: held
+    };
+    struct { float joyvalue; short joyaxis; }; // JOYAXIS
+    struct { char joydown; short joybutton; }; // JOYBUTTON
+    struct {
+      union { void* p; ptrdiff_t i; size_t u; FABS f; struct _FG_ELEMENT* e; };
+      union { void* p2; ptrdiff_t i2; size_t u2; FABS f2; struct _FG_ELEMENT* e2; };
+    };
+  };
+} FG_Msg;
+&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;Mouse input, touch input, joystick input, and keystroke input have special, dedicated arguments in &lt;code&gt;FG_Msg&lt;/code&gt;. All other messages use the two &amp;ldquo;generic&amp;rdquo; arguments specified at the bottom of the message. Both generic arguments can be a pointer, a pointer-sized signed integer, a pointer-sized unsigned integer, a floating point value of the width specified by &lt;code&gt;FABS&lt;/code&gt;, or a pointer of type &lt;code&gt;fgElement*&lt;/code&gt; (included for convenience). In addition, a message has both a &lt;code&gt;type&lt;/code&gt; and a &lt;code&gt;subtype&lt;/code&gt;. &lt;code&gt;enum FG_MSGTYPE&lt;/code&gt; contains all built-in message types, but programs can define their own message types starting after &lt;code&gt;FG_CUSTOMEVENT&lt;/code&gt;. The &lt;code&gt;subtype&lt;/code&gt; is a value that gives additional type or behavior information to a message. For example, the &lt;code&gt;FG_VALUE&lt;/code&gt; message accepts multiple types, and can provide a &lt;code&gt;FGVALUE_INT64&lt;/code&gt; to signal that its argument should be interpreted as an integer, or &lt;code&gt;FGVALUE_FLOAT&lt;/code&gt; if it should be interpreted as a float.&lt;/p&gt;
+
+&lt;p&gt;Certain events, like input events, are &lt;em&gt;injected&lt;/em&gt; into the GUI tree. For mouse or touch events, the &lt;code&gt;x,y&lt;/code&gt; location is used to determine which element recieves the message first. Children are always considered &amp;ldquo;above&amp;rdquo; their parents, and if they are capable of accepting injected events, will recieve them first. If a child &lt;em&gt;rejects&lt;/em&gt; a message for whatever reason, the element immediately below it is given the message (this is usually the child&amp;rsquo;s parent, but if the child is non-clipping, it could be a completely different element). This cycle repeats until the message reaches the &lt;strong&gt;root element&lt;/strong&gt;, which can then eat the message or also reject it, depending on the backend implementation. Key presses and joystick input are simply sent to whichever control has focus, and works it&amp;rsquo;s way up the parent elements until the message is accepted or it reaches the root element.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grid</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Grid/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Grid/</guid>
+      <description>
+
+&lt;h3 id=&#34;grid&#34;&gt;Grid&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

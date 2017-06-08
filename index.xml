@@ -7,8 +7,131 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Black Sphere Studios LLC</copyright>
-    <lastBuildDate>Mon, 27 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jun 2017 01:06:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>FeatherGUI v0.1 Released</title>
+      <link>https://black-sphere-studios.github.io/feathergui/feathergui-0.1/</link>
+      <pubDate>Sun, 04 Jun 2017 01:06:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/feathergui-0.1/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/releases/tag/v0.1.0&#34;&gt;&lt;strong&gt;FeatherGUI v0.1.0 developer preview&lt;/strong&gt;&lt;/a&gt; has been released, and is now available for testing! As the first public release of FeatherGUI, this is an &lt;strong&gt;alpha&lt;/strong&gt; release, which is not considered stable and should not be used in production. Known bugs are &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/issues&#34;&gt;tracked on Github&lt;/a&gt;, but please report any new bugs by &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/issues/new&#34;&gt;filling a Github Issue&lt;/a&gt;. Join the &lt;a href=&#34;https://discord.gg/nFczp8J&#34;&gt;official discord server&lt;/a&gt; to discuss issues with the developer and talk to other users of FeatherGUI!&lt;/p&gt;
+
+&lt;p&gt;The SDK contains precompiled binaries, debug symbols, media files, and the &lt;a href=&#34;https://github.com/Black-Sphere-Studios/bss-util/releases/tag/v0.5.0&#34;&gt;bss-util v0.5.0&lt;/a&gt; include files that aren&amp;rsquo;t included in the source tree to make compilation easier. Note, however, that compiling fgDirect2D and fgDotNet requires a compatible version of the Windows SDK installed and configured on your machine. If Visual Studio complains it can&amp;rsquo;t find the SDK, you can try to change the target SDK version to the one you have - any version will do, so long as it supports Direct2D v1.1.&lt;/p&gt;
+
+&lt;p&gt;A layout editor is included in this SDK. While it is functional, there are a number of &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/issues/33&#34;&gt;bugs and missing features&lt;/a&gt; due to this being an early alpha release.&lt;/p&gt;
+
+&lt;p&gt;A POSIX pre-compiled SDK is also provided, but there are currently no POSIX-compatible backends, so while both FeatherGUI and fgExample-c compile in POSIX environments, they are useless without a backend to support them (the example will segfault without a backend).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/get/&#34;&gt;&lt;strong&gt;FeatherGUI Download Page&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Utility Library v0.5.0 Released</title>
+      <link>https://black-sphere-studios.github.io/bss-util/bss-util-v0.5.0/</link>
+      <pubDate>Sun, 04 Jun 2017 01:05:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/bss-util/bss-util-v0.5.0/</guid>
+      <description>&lt;p&gt;v0.5.0 of the Black Sphere Studios library has been released, overhauling the namespace and the class naming scheme, with significant code cleanup. More information is available on the Github release page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FeatherGUI Abstraction Layer</title>
+      <link>https://black-sphere-studios.github.io/feathergui/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/</guid>
+      <description>&lt;p&gt;FeatherGUI is the next step in the evolution of modern UI design. It combines the lightweight flexibility of Nuklear with the native tooling support of Qt and the ease of use of HTML. FeatherGUI is not just another widget toolkit, it serves as an abstraction layer for the entire user interface, a layer &lt;em&gt;above&lt;/em&gt; other UI libraries. By seperating the underlying UI logic from the layout and behavior, FeatherGUI delivers the first &lt;strong&gt;truly language agnostic UI standard&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Like Nuklear, you can write your own backend for FeatherGUI, making it easy to integrate into your game engine. However, like Qt, a backend for FeatherGUI can be implemented using &lt;strong&gt;native operating system controls&lt;/strong&gt;, and can piggy-back on the operating system&amp;rsquo;s own message pump. This is all controlled by a &lt;strong&gt;standard binary layout format&lt;/strong&gt;, which can be serialized and parsed to the file format of your choice - an XML schema is already included.&lt;/p&gt;
+
+&lt;p&gt;All this, combined with FeatherGUI&amp;rsquo;s native C interface means that you no longer have to wait for your favorite language or operating system to be supported. FeatherGUI is completely platform-independent and language-agnostic, allowing you to implement a binding for your favorite language, or a backend for whatever platform you desire.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://black-sphere-studios.github.io/feathergui/designer/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/designer/</guid>
+      <description>&lt;p&gt;The Web Designer currently isn&amp;rsquo;t available, sorry!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://black-sphere-studios.github.io/feathergui/news/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Download FeatherGUI</title>
+      <link>https://black-sphere-studios.github.io/feathergui/get/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/get/</guid>
+      <description>
+
+&lt;aside&gt;
+&lt;h6&gt;Featured Downloads&lt;/h6&gt;
+
+&lt;div&gt;&lt;b&gt;Windows &lt;i&gt;(7 or later)&lt;/i&gt;&lt;/b&gt;
+&lt;br/&gt;&lt;code&gt;SDK v0.1.0&lt;/code&gt;
+&lt;br/&gt;&lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/releases/download/v0.1.0/feathergui-windows-0.1.0.zip&#34;&gt;feathergui-windows-0.1.0.zip&lt;/a&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;POSIX compatible systems&lt;/b&gt;
+&lt;br/&gt;&lt;code&gt;SDK v0.1.0&lt;/code&gt;
+&lt;br/&gt;&lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/releases/download/v0.1.0/feathergui-posix-0.1.0.zip&#34;&gt;feathergui-posix-0.1.0.zip&lt;/a&gt;
+&lt;/div&gt;
+&lt;/aside&gt;
+
+&lt;h3 id=&#34;download-feathergui-vhahahugoshortcode-2hbhb&#34;&gt;Download FeatherGUI v0.1.0&lt;/h3&gt;
+
+&lt;p&gt;SDKs for Windows and POSIX-compatible systems are available. An archive of old releases is available &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/releases&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;More details about the current release (v0.1.0), along with a source code snapshot, can be found &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/releases/tag/v0.1.0&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui&#34;&gt;clone the source code directly&lt;/a&gt;, but this will not include prerequisites or any precompiled assets, so you will need to follow the &lt;a href=&#34;#compiling&#34;&gt;compilation instructions below&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;compiling-feathergui&#34;&gt;Compiling FeatherGUI&lt;/h3&gt;
+
+&lt;p&gt;If you are trying to build FeatherGUI directly from the source tree, you will need the [bss-util]() headers in the &lt;code&gt;include&lt;/code&gt; directory (they should be inside &lt;code&gt;include/bss-util&lt;/code&gt;). In addition, to avoid cluttering the source tree with binary files, the editor&amp;rsquo;s icons are not included. If you are compiling the editor directly from source, you will still need to download the &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/releases/tag/v0.1.0&#34;&gt;most recent SDK&lt;/a&gt; and get the editor icons from there (you&amp;rsquo;ll need &lt;code&gt;media/editor/16/&lt;/code&gt; and &lt;code&gt;media/editor/controls&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;ve downloaded the SDK, it includes all of the prerequisites and binary files. On Windows, open the solution file with Visual Studio and compile the project. On Linux, simply type &lt;code&gt;make&lt;/code&gt; in a terminal open to the root folder to compile.&lt;/p&gt;
+
+&lt;p&gt;The windows-specific &lt;code&gt;fgDotNet&lt;/code&gt; and &lt;code&gt;fgDirect2D&lt;/code&gt; projects are dependent on the Windows SDK, which must be at least version &lt;strong&gt;7.1&lt;/strong&gt; for &lt;code&gt;fgDirect2D&lt;/code&gt;, which relies on &lt;code&gt;Direct2D 1.1&lt;/code&gt;, and version &lt;strong&gt;7.0&lt;/strong&gt; for &lt;code&gt;fgDotNet&lt;/code&gt;, which current targets the &lt;code&gt;.net Framework 4.5&lt;/code&gt;. However, the project files currently target a specific windows SDK version. If this version does not match the SDK you have installed, you can simply change the Target SDK Version number to the one you do have installed.&lt;/p&gt;
+
+&lt;h3 id=&#34;platform-specific-projects&#34;&gt;Platform-Specific Projects&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;fgDirect2D&lt;/strong&gt;: Only works on Windows 7 SP1 and up&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;fgDotNet&lt;/strong&gt;: Only works on Windows 7 and up&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;fgExample-cs&lt;/strong&gt;: Only works on Windows 7 and up&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;fgNative&lt;/strong&gt;: Nonfunctional - &lt;strong&gt;do not use&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Backend</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Backend/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Backend/</guid>
+      <description>
+
+&lt;h3 id=&#34;backend&#34;&gt;Backend&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Black Sphere Studios Utility Library</title>
@@ -81,149 +204,98 @@
     </item>
     
     <item>
-      <title>Utility Library v0.4.7 Released</title>
-      <link>https://black-sphere-studios.github.io/bss-util-v0.4.7/</link>
+      <title>Box</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Box/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/bss-util-v0.4.7/</guid>
-      <description>&lt;p&gt;v0.4.7 of the Black Sphere Studios library has been released, now with a reader-writer lock and other threading improvements. More information is available on the Github release page.&lt;/p&gt;
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Box/</guid>
+      <description>
+
+&lt;h3 id=&#34;box&#34;&gt;Box&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Company</title>
-      <link>https://black-sphere-studios.github.io/company/</link>
-      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
+      <title>Button</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Button/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/company/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Button/</guid>
       <description>
 
-&lt;h5 id=&#34;build-better&#34;&gt;Build Better&lt;/h5&gt;
+&lt;h3 id=&#34;button&#34;&gt;Button&lt;/h3&gt;
 
-&lt;p&gt;Black Sphere Studios is built on the belief that, by building better tools, we can build better companies and a better tomorrow. We believe in working smarter, not harder. We build better, not faster. We are in the business of fixing things and building a better future for everyone.&lt;/p&gt;
-
-&lt;p&gt;True progress can only be made by honest efforts, and to that end, we seek to rightfully earn the trust of our customers through consistent quality, excellent customer service, and no excuses. When we sell you a product, we are selling a promise. A promise that we will never ruin it, run it into the ground, or sell it to the highest bidder. Professional software shouldn&amp;rsquo;t fall over if you look at it funny. Customers are willing to pay for a reliable, ad-free experience.&lt;/p&gt;
-
-&lt;p&gt;We live in a world where a bunch of lightbulbs can bring the internet to its knees. Where secrets are openly sold for profit with no regards to privacy. Where huge corporations get away with gouging customers because no one will stand in their way.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;We will&lt;/strong&gt;. We stand defiant, and no matter what happens, we will never stop fighting for what really matters.&lt;/p&gt;
-
-&lt;h5 id=&#34;a-future-for-all-of-us&#34;&gt;A Future For All Of Us&lt;/h5&gt;
-
-&lt;p&gt;We are dedicated to building a positive, respectful, inclusive community. We support free speech, not hate speech, and strive to maintain an inviting atmosphere everywhere we can. We stand with the poor and forgotten, the broken and beaten, the oppressed and the depressed. Our goal is to bring humanity&amp;rsquo;s future to &lt;strong&gt;everyone&lt;/strong&gt;, not just the lucky few.&lt;/p&gt;
-
-&lt;p&gt;Join us on this incredible journey, and together, we can do more than create a better company. We can build a better world.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>https://black-sphere-studios.github.io/contact/</link>
-      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
+      <title>Checkbox</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Checkbox/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/contact/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Checkbox/</guid>
       <description>
 
-&lt;h5 id=&#34;company&#34;&gt;Company&lt;/h5&gt;
+&lt;h3 id=&#34;checkbox&#34;&gt;Checkbox&lt;/h3&gt;
 
-&lt;p&gt;E-mail: &lt;code&gt;contact [at] blackspherestudios [dot] com&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Discord: &lt;a href=&#34;https://discord.gg/nFczp8J&#34;&gt;Black Sphere Studios&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Twitter: &lt;a href=&#34;https://twitter.com/bspherestudios&#34;&gt;bspherestudios&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Facebook: &lt;a href=&#34;https://www.facebook.com/BlackSphereStudios/&#34;&gt;BlackSphereStudios&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Google Plus: &lt;a href=&#34;https://plus.google.com/b/105195804750291237123/+Blackspherestudios&#34;&gt;+Blackspherestudios&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Youtube: &lt;a href=&#34;https://www.youtube.com/channel/UCxpXJr6GZFghCSN-AVon3bw&#34;&gt;Black Sphere Studios&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/company-beta/2421082/&#34;&gt;Black Sphere Studios&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Github: &lt;a href=&#34;https://github.com/Black-Sphere-Studios&#34;&gt;Black-Sphere-Studios&lt;/a&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;career&#34;&gt;Career&lt;/h5&gt;
-
-&lt;p&gt;Please direct all inquiries to our e-mail.&lt;/p&gt;
-
-&lt;h5 id=&#34;press&#34;&gt;Press&lt;/h5&gt;
-
-&lt;p&gt;Press and media inquiries should be sent to &lt;code&gt;press [at] blackspherestudios [dot] com&lt;/code&gt;, or via twitter.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Privacy Policy</title>
-      <link>https://black-sphere-studios.github.io/privacy/</link>
-      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
+      <title>Combobox</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Combobox/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/privacy/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Combobox/</guid>
       <description>
 
-&lt;h5 id=&#34;our-policy&#34;&gt;Our Policy&lt;/h5&gt;
+&lt;h3 id=&#34;combobox&#34;&gt;Combobox&lt;/h3&gt;
 
-&lt;p&gt;Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information. The following outlines our privacy policy.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.&lt;/li&gt;
-&lt;li&gt;We will collect and use of personal information solely with the objective of fulfilling those purposes specified by us and for other compatible purposes, unless we obtain the consent of the individual concerned or as required by law.&lt;/li&gt;
-&lt;li&gt;We will only retain personal information as long as necessary for the fulfillment of those purposes.&lt;/li&gt;
-&lt;li&gt;We will collect personal information by lawful and fair means and, where appropriate, with the knowledge or consent of the individual concerned.&lt;/li&gt;
-&lt;li&gt;Personal data should be relevant to the purposes for which it is to be used, and, to the extent necessary for those purposes, should be accurate, complete, and up-to-date.&lt;/li&gt;
-&lt;li&gt;We will protect personal information by reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use or modification.&lt;/li&gt;
-&lt;li&gt;We will make readily available to customers information about our policies and practices relating to the management of personal information.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Terms of Service</title>
-      <link>https://black-sphere-studios.github.io/tos/</link>
-      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
+      <title>Control</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Control/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/tos/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Control/</guid>
       <description>
 
-&lt;h5 id=&#34;terms&#34;&gt;Terms&lt;/h5&gt;
+&lt;h3 id=&#34;control&#34;&gt;Control&lt;/h3&gt;
 
-&lt;p&gt;The following terms and conditions (&amp;ldquo;Terms&amp;rdquo;) apply to your use of the websites of Black Sphere Studios LLC, including any content, functionality, products, and services offered on or through such websites (collectively, the &amp;ldquo;Website&amp;rdquo;), whether as a guest or a registered user. Please read these Terms carefully before you start to use the Website. By using the Website, you accept and agree to be bound and abide by these Terms of Service. If you do not want to agree to these Terms of Service, you must not use the Website. In addition to these Terms, software or services that are included in or otherwise made available to you through the Website may be subject to separate agreement between you and Black Sphere Studios, such as end user license agreements. If these Terms are inconsistent with any such agreements, those agreements will control.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Curve</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Curve/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Curve/</guid>
+      <description>
 
-&lt;h5 id=&#34;privacy-notice&#34;&gt;Privacy Notice&lt;/h5&gt;
+&lt;h3 id=&#34;curve&#34;&gt;Curve&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Debug</title>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/Debug/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/Debug/</guid>
+      <description>
 
-&lt;p&gt;Please review our Privacy Notice found at &lt;a href=&#34;https://black-sphere-studios.github.io/privacy/&#34;&gt;https://black-sphere-studios.github.io/privacy/&lt;/a&gt;, which also governs your use of the Website, to understand our practices.&lt;/p&gt;
+&lt;h3 id=&#34;debug&#34;&gt;Debug&lt;/h3&gt;
 
-&lt;h5 id=&#34;use-license&#34;&gt;Use License&lt;/h5&gt;
-
-&lt;p&gt;The Website, including all content, features, and functionality thereof, are owned by Black Sphere Studios, its licensors, or other providers of such material and are protected by United States and international copyright, trademark, patent, and other intellectual property or proprietary rights laws.
-You are permitted to use the Website for your personal, non-commercial use only or legitimate business purposes related to your role as a current or prospective customer of Black Sphere Studios. Except as provided below, you must not copy, modify, create derivative works of, publicly display, publicly perform, republish, or transmit any of the material obtained through the Website, or delete, or alter any copyright, trademark, or other proprietary rights notices from copies of materials from the Website. However, if you are otherwise in compliance with these Terms, you are permitted to use, elsewhere and on other websites, an unaltered copy of portions of the content that is publicly available on the Website for the limited, non-commercial purpose of discussing such content.&lt;/p&gt;
-
-&lt;p&gt;You must not reproduce, sell, or exploit for any commercial purposes any part of the Website, access to the Website or use of the Website or any services or materials available through the Website. For clarity, the foregoing permissions are limited to the Website, and no rights are granted with respect to any servers, computers, or databases associated with the Website.&lt;/p&gt;
-
-&lt;h6 id=&#34;changes-to-the-terms-of-service&#34;&gt;Changes to the Terms of Service&lt;/h6&gt;
-
-&lt;p&gt;Black Sphere Studios may revise these terms of use for its web site at any time without notice. By using this web site you are agreeing to be bound by the then current version of these Terms and Conditions of Use.&lt;/p&gt;
-
-&lt;h5 id=&#34;linking&#34;&gt;Linking&lt;/h5&gt;
-
-&lt;p&gt;Black Sphere Studios has not reviewed all of the sites linked to its Internet web site and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Black Sphere Studios of the site. Use of any such linked web site is at the user&amp;rsquo;s own risk.&lt;/p&gt;
-
-&lt;h5 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h5&gt;
-
-&lt;p&gt;The materials on the Website are provided on an &amp;ldquo;as is&amp;rdquo; and &amp;ldquo;as available&amp;rdquo; basis. Black Sphere Studios makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. You expressly agree that your use of the Website is at your sole risk. Further, Black Sphere Studios does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Internet web site or otherwise relating to such materials or on any sites linked to this site.&lt;/p&gt;
-
-&lt;h5 id=&#34;limitation-of-liability&#34;&gt;Limitation of Liability&lt;/h5&gt;
-
-&lt;p&gt;To the full extent permissible by law, Black Sphere Studios will not be liable for any loss of profits or any indirect, incidental, punitive, special or consequential damages arising out of or in connection with this Agreement, even if Black Sphere Studios or a Black Sphere Studios authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.&lt;/p&gt;
-
-&lt;h5 id=&#34;indemnification&#34;&gt;Indemnification&lt;/h5&gt;
-
-&lt;p&gt;You agree to defend, indemnify, and hold harmless Black Sphere Studios, its affiliates, and licensors, and their respective officers, directors, employees, contractors, agents, licensors, and suppliers from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys’ fees) resulting from your User Contributions or violation of these Terms.&lt;/p&gt;
-
-&lt;h5 id=&#34;governing-law-and-jurisdiction&#34;&gt;Governing Law and Jurisdiction&lt;/h5&gt;
-
-&lt;p&gt;Any claim relating to Black Sphere Studios&amp;rsquo;s web site shall be governed by the laws of the State of Washington without regard to its conflict of law provisions.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;[Not available]&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
