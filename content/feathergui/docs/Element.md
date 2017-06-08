@@ -2,12 +2,12 @@
 categories = ["feathergui", "Docs"]
 date = "2017-02-27T00:00:00Z"
 description = "FeatherGUI Official Documentation"
+layout = "doc"
+nav = ["Feather GUI"]
 tags = ["fgElement.h", "feathergui_docs"]
 title = "Element"
-nav = ["Feather GUI", ]
-layout = "doc"
-+++
 
++++
 ### Element
 The Element serves as the base structure for all FeatherGUI controls. It is also where the C++ API defines all of it's functions, so in C++, other controls overload the `->` operator to automatically convert to the base `fgElement*` pointer for easy access to the API functions. This compensates for the fact that the C++ API cannot use proper inheritance without breaking the C API interop. `fgElement` provides the default implementation for a message, if there is any, otherwise it will reject the message by returning `0`. Some default implementations are empty and do nothing, but will instead return `FG_ACCEPT`, which evaluates to 1, which always accepts the message.
 

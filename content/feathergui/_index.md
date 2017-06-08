@@ -4,11 +4,11 @@ categories = []
 date = "2017-02-27T00:00:00Z"
 description = "FeatherGUI is a lightweight platform-agnostic GUI library."
 image = "/img/bss-util.png"
+nav = ["Feather GUI"]
 tags = []
 title = "FeatherGUI"
-nav = ["Feather GUI", ]
-+++
 
++++
 ##### A Unification of UI Concepts
 
 {{< image src="/img/feathergui_diagram.svg" align="left" width="337">}}

@@ -3,10 +3,9 @@ categories = ""
 date = "2017-04-24T00:00:00Z"
 description = "Download FeatherGUI"
 tags = []
-title="Download FeatherGUI"
+title = "Download FeatherGUI"
 
 +++
-
 {{< aside >}}
 <h6>Featured Downloads</h6>
 

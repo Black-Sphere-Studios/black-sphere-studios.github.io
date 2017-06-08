@@ -2,11 +2,11 @@
 categories = ["feathergui", "Docs"]
 date = "2017-02-27T00:00:00Z"
 description = "FeatherGUI Official Documentation"
+nav = ["Feather GUI"]
 tags = []
 title = "FeatherGUI Documentation"
-nav = ["Feather GUI", ]
-+++
 
++++
 This serves as documentation for the C/C++ API of FeatherGUI - bindings to other languages have their own documentation and may introduce their own use constraints depending on the needs of the language. While FeatherGUI is built around a core C API, the C++ API will also be mentioned to provide a quick way to visualize the accepted types and default arguments that the C API cannot expose.
 
 All FeatherGUI controls are built on top of the [Element]({{< ref "feathergui/docs/Element.md" >}}), which defines the default behavior for all messages and the basic layout structure. Basic data structures and helper functions can be found in the [Feather]({{< ref "feathergui/docs/Feather.md" >}}) section. An explanation of the backend functions, the provided default backend functions, and the requirements when building a proper backend can be found in the [Backend]({{< ref "feathergui/docs/Backend.md" >}}) section. All other controls can be found in their respective section.

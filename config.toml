@@ -4,11 +4,51 @@ copyright = "Black Sphere Studios LLC"
 languageCode = "en-us"
 theme = "bss"
 title = "Black Sphere Studios"
-
-[params]
-  featherversion = "0.1.0"
-  bssutilversion = "0.5.0"
-  
+[[menu.bssutil]]
+identifier = "GET"
+name = "DOWNLOAD"
+url = "/bssutil/get/"
+weight = 3
+[[menu.bssutil]]
+identifier = "UTILITY LIBRARY"
+name = "BSS-UTIL"
+url = "/bssutil/"
+weight = 1
+[[menu.bssutil]]
+identifier = "DOWNLOAD"
+name = "GET"
+url = "/bssutil/get/"
+weight = 2
+[[menu.bssutil]]
+identifier = "GITHUB"
+name = "GITHUB"
+url = "https://github.com/Black-Sphere-Studios/bss-util/"
+weight = 4
+[[menu.feathergui]]
+identifier = "GET"
+name = "DOWNLOAD"
+url = "/feathergui/get/"
+weight = 3
+[[menu.feathergui]]
+identifier = "FEATHER"
+name = "FEATHER GUI"
+url = "/feathergui/"
+weight = 1
+[[menu.feathergui]]
+identifier = "NEWS"
+name = "NEWS"
+url = "/feathergui/news/"
+weight = 2
+[[menu.feathergui]]
+identifier = "DOCS"
+name = "DOCUMENTATION"
+url = "/feathergui/docs/"
+weight = 4
+[[menu.feathergui]]
+identifier = "DESIGNER"
+name = "WEB DESIGNER"
+url = "/feathergui/designer/"
+weight = 5
 [[menu.main]]
 identifier = "CONTACT"
 name = "CONTACT"
@@ -34,54 +74,9 @@ identifier = "TECH"
 name = "TECHNOLOGY"
 url = "/categories/technology/"
 weight = 3
-
-[[menu.feathergui]]
-identifier = "DESIGNER"
-name = "WEB DESIGNER"
-url = "/feathergui/designer/"
-weight = 5
-[[menu.feathergui]]
-identifier = "DOCS"
-name = "DOCUMENTATION"
-url = "/feathergui/docs/"
-weight = 4
-[[menu.feathergui]]
-identifier = "NEWS"
-name = "NEWS"
-url = "/feathergui/news/"
-weight = 2
-[[menu.feathergui]]
-identifier = "FEATHER"
-name = "FEATHER GUI"
-url = "/feathergui/"
-weight = 1
-[[menu.feathergui]]
-identifier = "GET"
-name = "DOWNLOAD"
-url = "/feathergui/get/"
-weight = 3
-
-[[menu.bssutil]]
-identifier = "GITHUB"
-name = "GITHUB"
-url = "https://github.com/Black-Sphere-Studios/bss-util/"
-weight = 4
-[[menu.bssutil]]
-identifier = "DOWNLOAD"
-name = "GET"
-url = "/bssutil/get/"
-weight = 2
-[[menu.bssutil]]
-identifier = "UTILITY LIBRARY"
-name = "BSS-UTIL"
-url = "/bssutil/"
-weight = 1
-[[menu.bssutil]]
-identifier = "GET"
-name = "DOWNLOAD"
-url = "/bssutil/get/"
-weight = 3
-
+[params]
+bssutilversion = "0.5.0"
+featherversion = "0.1.0"
 [taxonomies]
 category = "categories"
 tag = "tags"
