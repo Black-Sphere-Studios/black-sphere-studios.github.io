@@ -1,0 +1,347 @@
+.feathergui, .feathergui nav {
+  background: #302030;
+}
+
+.feathergui footer span, .feathergui footer span a:link, .feathergui footer span a:visited {
+  color:#a090a0;
+}
+.feathergui footer span a:hover, footer span a:active {
+  color:#dfc0df;
+}
+
+.feathergui header nav ul li a:link, .feathergui header nav ul li a:visited {
+  color: #ddc0dd;
+}
+.feathergui header nav ul li a:hover, .feathergui header nav ul li a:active {
+  color: #fff9ff;
+}
+
+.feathergui a:link {
+  color: #828;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+.feathergui a:hover {
+  color: #b5b;
+}
+.feathergui a:visited {
+  color: #525;
+}
+.feathergui a:active {
+  color: #b5b;
+}
+
+.feathergui header nav p a:visited, .feathergui header nav p a:active, .feathergui header nav p a:hover, .feathergui header nav p a:link {
+  color:#fff;
+}
+
+.feathergui .news {
+  color:#000;
+}
+
+.feathergui main p {
+  font: 0.9rem "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+  margin-bottom: 1em;
+}
+
+.feathergui main .news img {
+  padding: 1em;
+}
+.feathergui main section h2 {
+  font: 700 1.6rem "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+  text-align:center;
+  letter-spacing: 5px;
+  color: #666;
+}
+.feathergui main section h5 {
+  font-size: 2rem;
+}
+.feathergui .projects div {
+  display: none;
+}
+
+.feathergui .single p {
+  color: #000;
+}
+.feathergui .single h3 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.feathergui .single aside {
+  width:300px;
+  float:right;
+  box-shadow: 0 0 5px 0 #333;
+  padding: 0 0.5rem 1rem 1rem;
+  margin: 1.5rem 0 0 0.5rem;
+  border-radius: 4px;
+  color: #000;
+}
+.feathergui .single aside div {
+  padding: 0.75em;
+  background: #E0EBF5;
+  border: 1px solid #375EAB;
+  border-radius: 0.5em;
+  margin: 0.5em;
+}
+.feathergui .single aside b {
+  font-size: 120%;
+}
+.feathergui .single aside i {
+  font-size: 80%;
+  color: #666;
+}
+.feathergui .single aside h6 {
+  color: #666;
+}
+.feathergui .single aside a {
+  font-weight: 700;
+}
+.feathergui section .overlay {
+  width:100%;
+  height:520px;
+  position:relative;
+  text-align: center;
+  background:#F0F0F0 url('/img/feathergui_logo_black.svg');
+}
+
+h1 {
+  display: inline;
+  letter-spacing: 0.1em;
+  word-spacing: 0.5em;
+	font: 700 small-caps 7em "Open Sans", Helvetica, Arial, sans-serif;
+  /*min-width: 60.7rem;*/
+  padding-left: 0.5em;
+  vertical-align: middle;
+}
+.feathergui section .overlay .logo {
+  display: inline-block;
+  position:relative;
+  background: rgba(0,0,0,0.7);
+  border-radius:8em;
+  padding: 1.5rem 2em;
+  margin-top: -8em;
+  Top: 50%;
+}
+.feathergui section .overlay .logo img {
+  vertical-align: middle;
+  max-width:9em;
+}
+
+.feathergui .button {
+  position: relative;
+  letter-spacing: 1px;
+	font: 400 1.2rem 'Open Sans', Arial, Helvetica, sans-serif;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  margin-right: 1.5rem;
+  box-shadow: 0 0 0 0 #333;
+  transition: box-shadow 0.1s !important;
+}
+.feathergui .button:link, .feathergui .button:visited {
+  color:#fff;
+}
+.feathergui .button:hover {
+  box-shadow: 0 0 10px 3px #333;
+}
+.feathergui .button-blue {
+  background: #7289da;
+  border: 1px solid #8299ea;
+}
+.feathergui .button-blue:active {
+  background: #5259aa;
+}
+.feathergui .button-blue:hover {
+  background: #6279ca;
+}
+.feathergui .button-green {
+  background: #47A662;
+  border: 1px solid #47D062;
+}
+.feathergui .button-green:active {
+  background: #277642;
+}
+.feathergui .button-green:hover {
+  background: #379652;
+}
+.feathergui .button-gray {
+  background: #777;
+  border: 1px solid #999;
+}
+.feathergui .button-gray:active {
+  background: #555;
+}
+.feathergui .button-gray:hover {
+  background: #666;
+}
+.feathergui section .overlay .links {
+  position: relative;
+  margin-top: 2em;
+}
+.feathergui .content {
+  margin: 1.5em;
+}
+.feathergui .docheader {
+  position:relative;
+  background: #333334;
+  font-size: 11px;
+  text-align: center;
+  padding: 1em 0;
+  z-index: 10;
+}
+.feathergui .docheader img {
+  max-width: 10em;
+  vertical-align: middle;
+}
+.feathergui .docheader p {
+  letter-spacing: 0.4em;
+	font: 700 2.5em 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.feathergui .docs {
+  display: flex;
+  align-items: stretch;
+  padding: 0;
+  border: 0;
+}
+.feathergui .docs pre {
+  background: #efeff1;
+  border: 1px solid #999;
+  border-radius: 3px;
+  max-width: 800px;
+  width: 95%;
+}
+.feathergui .docs .sidebar {
+  background: #333334;
+  padding: 1rem 0;
+  margin: 0;
+  list-style: none;
+}
+.feathergui .docs .sidebar li {
+  border-left: 4px solid #333334;
+}
+.feathergui .docs .sidebar li a {
+	font: 700 1.4rem 'Open Sans', Arial, Helvetica, sans-serif;
+  color: #ddd;
+  padding: 0 1.25rem 0 1rem;
+}
+.feathergui .docs .sidebar .cur {
+  border-left: 4px solid #bbb;
+  color: #fff;
+  background: #555556;
+}
+.feathergui .docs .sidebar li:hover {
+  border-left: 4px solid #adf;
+  color: #fff;
+  background: #555556;
+}
+@media (max-width: 1250px) {
+  .feathergui header nav aside {
+    display:none;
+  }
+}
+@media (max-width: 1100px) {
+  .feathergui header nav ul {
+    margin-top: 0.5em;
+    padding-left: 0.5em;
+  }
+  .feathergui header nav ul li a:link {
+    padding:0.5em;
+  }
+  .feathergui header nav ul li .underline {
+    margin: 0 0.5em;
+  }
+  .feathergui section .overlay .logo {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 950px) {
+  .feathergui header nav {
+    text-align: center;
+  }
+  .feathergui header nav span {
+    display: inline-block;
+  }
+  .feathergui .news {
+    padding-left:0;
+    padding-right:0;
+  }
+  .feathergui .news article {
+    display:block;
+    margin: 0 auto 1.5em auto;
+    padding:0;
+  }
+  .feathergui header nav ul {
+    display:block;
+    margin: 0 auto;
+    padding-top: 0.75em;
+  }
+
+  .feathergui .page section article img {
+    display: block;
+    position:relative;
+    margin: 0 auto;
+  }
+
+  .feathergui section .overlay .logo {
+    font-size: 11px;
+  }
+  .feathergui .page section article {
+    padding-left:0;
+  }
+  .feathergui .news article div {
+    bottom: 0;
+  }
+
+  .feathergui main section img {
+    float: none !important;
+    display: block;
+    position:relative;
+    margin: 0 auto 1em auto;
+    padding: 0;
+  }
+  .feathergui main section .resizable {
+    width:100%;
+  }
+}
+@media (max-width: 680px) {
+  .feathergui section .overlay .logo {
+    top: 0;
+    margin: 4px;
+    padding: 1.5em 2em;
+    font-size: 8px;
+    display:inline-block;
+  }
+  .feathergui section .overlay .links {
+    width:20rem;
+    text-align:center;
+    margin: 1em auto 0 auto;
+  }
+  .feathergui section .overlay .button {
+    display:inline-block;
+    margin: 0 4rem 1rem 4rem;
+  }
+}
+
+@media (max-width: 570px) {
+  .feathergui header nav ul {
+    padding-left: 0;
+  }
+  .feathergui header nav ul li a:link {
+    padding:0.43em;
+  }
+  .feathergui header nav .logo {
+    top: 0.4rem;
+    left: 0;
+    width: 38px;
+  }
+  .feathergui section .overlay .logo {
+    font-size: 5px;
+    padding: 1em;
+  }
+  .feathergui footer {
+    font-size: 0;
+  }
+  .feathergui header nav ul li a:after {
+    content: attr(data-short);
+  }
+}

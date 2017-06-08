@@ -1,0 +1,15 @@
+{{ $.Scratch.Add "navmenu" .Site.Menus.feathergui }}
+{{ $.Scratch.Add "navlogo" "feathergui_logo" }}
+{{ $.Scratch.Add "styleclass" "feathergui" }}
+{{ partial "head.html" . }}
+{{ partial "nav.html" . }}
+<main class="page single">
+  <section class="docs maxwidth">
+  {{ partial "docs_sidebar.html" . }}
+    <div style="margin: 1.5em;">
+    {{ .Content }}
+    </div>
+  </section>
+</main>
+<script src="{{ $.Site.BaseURL }}/prism.js"></script>
+{{ partial "foot.html" . }}

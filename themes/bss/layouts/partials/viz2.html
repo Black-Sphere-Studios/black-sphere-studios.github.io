@@ -1,0 +1,55 @@
+<section>
+<div class="overlay noselect" id="overlay">
+  <div class="logo" >
+    <img src="{{ $.Site.BaseURL }}/img/feathergui_logo.svg" alt=""/>
+    <h1>FeatherGUI</h1>
+  <div class="links">
+    <a class="button button-blue" href="https://discord.gg/nFczp8J">Discord Server</a>
+    <a class="button button-green" href="/feathergui/get/">Download</a>
+    <a class="button button-gray" href="/feathergui/docs/">Documentation</a>
+  </div>
+  </div>
+</div>
+</section>
+<section class="projects">
+  <div class="current"></div><div></div><div></div>
+</section>
+
+<script type="text/javascript">
+"use strict";
+
+var addEvent = function(elem, type, eventHandle) {
+  if (elem == null || elem == undefined) return;
+  if (elem.addEventListener) {
+    elem.addEventListener(type, eventHandle, false);
+  } else if ( elem.attachEvent ) {
+    elem.attachEvent("on" + type, eventHandle);
+  } else {
+    elem["on"+type]=eventHandle;
+  }
+};
+
+var start;
+function step(timestamp) {
+  if (!start) start = timestamp;
+  var progress = timestamp - start;
+  progress = ((progress/30) % 40)
+  document.getElementById("overlay").style.backgroundPosition = progress + 'px ' + progress + 'px';
+  if (progress < 2000) {
+    window.requestAnimationFrame(step);
+  }
+}
+
+function init() {
+  var fnresize = function(event) {
+    var w = document.documentElement.clientWidth || document.body.clientWidth;
+    var cx = ((w < 500) ? 500 : w)
+    var cy = Math.floor(Math.min(520.0, cx*(520.0/1130.0)));
+    document.getElementById("overlay").style.height = ~~cy + "px";
+  }
+  addEvent(window,"resize", fnresize);
+  fnresize(null);
+  document.getElementById("overlay").className += " active"
+  window.requestAnimationFrame(step);
+}
+</script>

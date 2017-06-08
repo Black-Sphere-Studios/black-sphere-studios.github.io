@@ -1,0 +1,6 @@
+<article>
+<h3><a href="{{ if .Params.external }}{{ .Params.external }}{{ else }}{{ .Permalink }}{{ end }}">{{ .Title }}</a></h3>
+<p>{{ .Description }}</p>
+<aside>{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "January 2, 2006" }}{{ end }}</aside>
+<div><a href="{{ if .Params.external }}{{ .Params.external }}{{ else }}{{ .Permalink }}{{ end }}">More ›</a></div>
+</article>

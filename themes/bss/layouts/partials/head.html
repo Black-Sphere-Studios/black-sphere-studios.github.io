@@ -30,9 +30,12 @@
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
   <link rel="apple-touch-icon" href="./favicon.ico" />
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}/main.css">
+	{{ with $.Scratch.Get "styleclass" }}<link rel="stylesheet" href="{{ $.Site.BaseURL }}/{{.}}.css">
+  {{ else }}<link rel="stylesheet" href="{{ $.Site.BaseURL }}/bss.css"> {{ end }}
+  <link href="{{ $.Site.BaseURL }}/prism.css" rel="stylesheet" />
   <link rel="canonical" href="https://blackspherestudios.com"/>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="alternate" type="application/rss+xml" title="Black Sphere Studios RSS feed" href="{{ .Site.BaseURL }}/index.xml">
   <meta name="last-updated" content="2017-02-27 23:09:25 +0000">
 </head>
-<body onload="init()">
+<body onload="init()" class="{{ $.Scratch.Get "styleclass"}}">

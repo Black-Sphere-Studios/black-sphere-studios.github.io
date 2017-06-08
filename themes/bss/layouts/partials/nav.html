@@ -1,19 +1,12 @@
 <header>
   <nav class="noselect">
     <span>
-    <img class="logo" src="{{ $.Site.BaseURL }}/img/logo.svg" alt="" />
+    <img class="logo" src="{{ $.Site.BaseURL }}/img/{{ $.Scratch.Get "navlogo" }}.svg" alt="" />
     <p><a href="{{ $.Site.BaseURL }}">Black Sphere Studios</a></p>
     </span>
     <ul>
-        {{ range .Site.Menus }}
-        {{ range . }}{{ if .HasChildren }}<li><div class="underline"><div></div></div>
-            <a href="#">{{ .Name }}</a>
-            <ul>
-              {{ range .Children }}
-              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-              {{ end }}
-            </ul>
-          </li>{{ else }}<li><div class="underline"><div></div></div><a href="{{ .URL }}" data-full="{{ .Name }}" data-short="{{ .Identifier }}"></a></li>{{ end }}{{ end }}
+        {{ range $.Scratch.Get "navmenu" }}
+        <li><div class="underline"><div></div></div><a href="{{ .URL }}" data-full="{{ .Name }}" data-short="{{ .Identifier }}"></a></li>
         {{ end }}
     </ul>
     <aside>

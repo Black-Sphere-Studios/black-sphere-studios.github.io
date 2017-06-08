@@ -1,3 +1,5 @@
+{{ $.Scratch.Add "navmenu" .Site.Menus.main }}
+{{ $.Scratch.Add "navlogo" "logo" }}
 {{ partial "head.html" . }}
 {{ partial "nav.html" . }}
 <div class="list terms">

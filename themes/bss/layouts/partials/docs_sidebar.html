@@ -1,0 +1,7 @@
+  {{$root := .Title }}
+  <ul class="sidebar">
+    <li {{ if eq .Title "FeatherGUI Documentation" }}class="cur"{{end}}><a href="{{ $.Site.BaseURL }}/feathergui/docs/">Home</a></li>
+    {{ range $index, $element := $.Site.Taxonomies.tags.feathergui_docs.Pages }}
+    <li {{ if eq .Title $root }}class="cur"{{end}}><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>

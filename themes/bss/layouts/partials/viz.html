@@ -90,14 +90,14 @@ void main(void) {
     vec3 color = mix(vec3(0.19,0.06,0.41),vec3(0.46,0.45,1),pos.y*(0.5)+1.0);
     gl_Position = PMat * ModelMat * vec4(pos, 1.0);
     pos = vec3(gl_Position.x,0,gl_Position.z);
-    color*=sqrt(100.0/dot(pos,pos));
+    color*=min(1.5, (150.0/dot(pos,pos)) - 0.2);
     
     vColor=vec4(color,1.0);
   }
 </script>
-<script type="text/javascript" src="sylvester.js"></script>
-<script type="text/javascript" src="glUtils.js"></script>
-<script type="text/javascript" src="TinyWGL.js"></script>
+<script type="text/javascript" src="/sylvester.js"></script>
+<script type="text/javascript" src="/glUtils.js"></script>
+<script type="text/javascript" src="/TinyWGL.js"></script>
 <script type="text/javascript">
 "use strict";
 
@@ -148,22 +148,22 @@ function init() {
   if(!tinywgl.gl) return;
   
   // First visualization
-  var OCEANSIZE = 200;
-  var ocean = new Grid(OCEANSIZE,OCEANSIZE,tinywgl, tinywgl.gl.LINES,
+  var OCEANSIZE = [60,30];
+  var ocean = new Grid(OCEANSIZE[0],OCEANSIZE[1],tinywgl, tinywgl.gl.LINES,
     tinywgl.createShader("digital-ocean-fs","digital-ocean-vs",
       {"PMat" : tinywgl.Mat4x4,
        "ModelMat" : tinywgl.Mat4x4,
        "Time" : tinywgl.Float1 },
       [["Position",3,12,0]]),
-    function(wgl) { this.params["ModelMat"]=Matrix.Translation($V([-OCEANSIZE/2, 0, -2.5])).ensure4x4();
+    function(wgl) { this.params["ModelMat"]=Matrix.Translation($V([-OCEANSIZE[0]/2, 0, -2.5])).ensure4x4();
       this.params["PMat"] = tinywgl.perspectiveCameraMatrix;
       this.params["Time"] = tinywgl.time+100000.0; }
   );
   tinywgl.pass[0].renderables.push(ocean);
   tinywgl.pass[0].onDraw = function() {
-    var pos = [Math.sin(tinywgl.time/7500.0)*0.5,1,Math.atan(tinywgl.time/10000.0)*-15];
+    var pos = [Math.sin(tinywgl.time/7500.0)*0.5,2,-1];
     //pos = 1;
-    this.cameraMatrix = makeLookAt(pos[0],pos[1],pos[2],pos[0]*2,pos[1],pos[2]-2,0,1,0);
+    this.cameraMatrix = makeLookAt(pos[0],pos[1],pos[2],pos[0]*2,pos[1],pos[2]-2,0,0.15,0);
   };
   
   tinywgl.draw();

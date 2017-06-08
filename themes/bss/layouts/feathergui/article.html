@@ -1,5 +1,6 @@
-{{ $.Scratch.Add "navmenu" .Site.Menus.main }}
-{{ $.Scratch.Add "navlogo" "logo" }}
+{{ $.Scratch.Add "navmenu" .Site.Menus.feathergui }}
+{{ $.Scratch.Add "navlogo" "feathergui_logo" }}
+{{ $.Scratch.Add "styleclass" "feathergui" }}
 {{ partial "head.html" . }}
 {{ partial "nav.html" . }}
 
@@ -25,9 +26,13 @@
     <div itemprop="author" itemscope itemtype="https://schema.org/Person">
       <meta itemprop="name" content="{{ .Site.Params.Author }}">
     </div>
-      {{ if .Params.image }}<center><img alt="{{ .Title }}" src="{{ $.Site.BaseURL }}/{{ .Params.image }}"/></center>{{ end }}
       <h3>{{ .Title }}</h3>
       <time itemprop="datePublished" pubdate="pubdate" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time>
+      {{ if .Params.largeimage }}
+      <center><img {{ with .Params.largeimagewidth }} class="resizable" style="max-width:{{.}}px"{{ end }} alt="{{ .Title }}" src="{{ $.Site.BaseURL }}/{{ .Params.largeimage }}"/></center>
+      {{else}}
+      {{ if .Params.image }}<center><img alt="{{ .Title }}" src="{{ $.Site.BaseURL }}/{{ .Params.image }}"/></center>{{ end }}
+      {{end}}
     <div class="body">
       {{ .Content }}
     </div>

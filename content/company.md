@@ -14,9 +14,9 @@ Black Sphere Studios is built on the belief that, by building better tools, we c
 
 True progress can only be made by honest efforts, and to that end, we seek to rightfully earn the trust of our customers through consistent quality, excellent customer service, and no excuses. When we sell you a product, we are selling a promise. A promise that we will never ruin it, run it into the ground, or sell it to the highest bidder. Professional software shouldn't fall over if you look at it funny. Customers are willing to pay for a reliable, ad-free experience.
 
-We live in a world where a bunch of lightbulbs can bring the internet to its knees. Where secrets are openly sold for profit with no regards to privacy. Where huge corporations get away with gouging customers because no one will stand in their way.
+We live in a world where a bunch of lightbulbs can bring the internet to its knees. Where customer privacy is abandoned in favor of selling personal information for profit. Where huge corporations get away with gouging customers because no one will stand in their way.
 
-**We will**. We stand defiant, and no matter what happens, we will never stop fighting for what really matters.
+**We will**, and we will never back down.
 
 ##### A Future For All Of Us
 

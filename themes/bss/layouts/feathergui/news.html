@@ -1,10 +1,11 @@
+{{ $.Scratch.Add "navmenu" .Site.Menus.feathergui }}
+{{ $.Scratch.Add "navlogo" "feathergui_logo" }}
+{{ $.Scratch.Add "styleclass" "feathergui" }}
 {{ partial "head.html" . }}
-{{ $.Scratch.Add "navmenu" $.Site.Menus.main }}
-{{ $.Scratch.Add "navlogo" "logo" }}
 {{ partial "nav.html" . }}
 <main class="page">
   <section class="maxwidth">
-      {{ range $index, $element := (.Paginate .Data.Pages).Pages }}
+      {{ range $index, $element := .Site.Taxonomies.tags.feathergui_news.Pages }}
       <article>
         {{ if .Params.image }}<a href="{{ if .Params.external }}{{ .Params.external }}{{ else }}{{ .Permalink }}{{ end }}"><img alt="{{ .Title }}" height="200" src="{{ $.Site.BaseURL }}/{{ .Params.image }}"/></a>{{ end }}
         <h6><a href="{{ if .Params.external }}{{ .Params.external }}{{ else }}{{ .Permalink }}{{ end }}">{{ .Title }}</a></h6>
@@ -13,7 +14,6 @@
         <div><a href="{{ if .Params.external }}{{ .Params.external }}{{ else }}{{ .Permalink }}{{ end }}">More ›</a></div>
       </article>
       {{ end }}
-      {{ partial "pagination.html" . }}
   </section>
 </main>
 {{ partial "foot.html" . }}

@@ -1,0 +1,34 @@
+{{ $.Scratch.Add "navmenu" .Site.Menus.feathergui }}
+{{ $.Scratch.Add "navlogo" "feathergui_logo" }}
+{{ $.Scratch.Add "styleclass" "feathergui" }}
+{{ partial "head.html" . }}
+{{ partial "nav.html" . }}
+{{ if eq .Title "FeatherGUI" }}
+{{ partial "viz2.html" . }}
+<main>
+<section class="news maxwidth">
+    <h2>RECENT NEWS</h2>
+      {{ range $index, $element := (.Paginate .Site.Taxonomies.tags.feathergui_news.Pages).Pages }}
+      {{ .Render "li-noimage" }}
+      {{ end }}
+      {{ partial "pagination.html" . }}
+      <hr>
+{{ else }}
+<section class="docheader" style="">
+  <div class="logo" >
+    <img src="{{ $.Site.BaseURL }}/img/feathergui_logo.svg" alt=""/>
+    <h1>FeatherGUI</h1>
+    <p>DOCUMENTATION</p>
+  </div>
+</section>
+<main>
+<section class="news docs maxwidth">
+{{ partial "docs_sidebar.html" . }}
+{{ end }}
+  <div class="content">
+  {{ .Content }}
+  </div>
+</section>
+</main>
+<script src="{{ $.Site.BaseURL }}/prism.js"></script>
+{{ partial "foot.html" . }}
