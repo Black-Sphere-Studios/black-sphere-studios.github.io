@@ -227,14 +227,14 @@
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/</loc>
-    <lastmod>2016-09-12T00:00:00+00:00</lastmod>
+    <loc>https://black-sphere-studios.github.io/categories/</loc>
+    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/categories/</loc>
-    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+    <loc>https://black-sphere-studios.github.io/tags/</loc>
+    <lastmod>2016-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -461,13 +461,13 @@
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/news/</loc>
+    <loc>https://black-sphere-studios.github.io/categories/news/</loc>
     <lastmod>2017-06-04T01:06:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/categories/news/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/news/</loc>
     <lastmod>2017-06-04T01:06:00+00:00</lastmod>
     <priority>0</priority>
   </url>
