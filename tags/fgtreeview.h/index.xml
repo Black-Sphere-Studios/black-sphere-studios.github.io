@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fgtreeview.H on Black Sphere Studios</title>
-    <link>https://black-sphere-studios.github.io/tags/fgtreeview.h/index.xml</link>
+    <link>https://black-sphere-studios.github.io/tags/fgtreeview.h/</link>
     <description>Recent content in Fgtreeview.H on Black Sphere Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Black Sphere Studios LLC</copyright>
-    <atom:link href="/tags/fgtreeview.h/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/fgtreeview.h/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Treeview</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Treeview/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/treeview/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Treeview/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/treeview/</guid>
       <description>
 
 &lt;h3 id=&#34;treeview&#34;&gt;Treeview&lt;/h3&gt;

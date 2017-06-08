@@ -1,0 +1,411 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.20.2" />
+  <meta name="description" content="Black Sphere Studios - Build Better.">
+  <meta name="keywords" content="games, software development, code, feathergui, C++">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  
+  <title>Element - Black Sphere Studios</title>
+  <meta property='og:title' content="Element - Black Sphere Studios">
+  <meta property="og:type" content="article">
+  
+  <meta property="og:url" content="https://black-sphere-studios.github.io/feathergui/docs/element/" />
+  
+  <meta name="description" content="FeatherGUI Official Documentation">
+  <meta property="og:site_name" content="Black Sphere Studios" />
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@bspherestudios">
+  <meta name="twitter:title" content="Black Sphere Studios">
+  <meta name="twitter:description" content="Black Sphere Studios - Build Better.">
+  
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="apple-touch-icon" href="./favicon.ico" />
+	<link rel="stylesheet" href="https://black-sphere-studios.github.io/main.css">
+	<link rel="stylesheet" href="https://black-sphere-studios.github.io/feathergui.css">
+  
+  <link href="https://black-sphere-studios.github.io/prism.css" rel="stylesheet" />
+  <link rel="canonical" href="https://blackspherestudios.com"/>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="alternate" type="application/rss+xml" title="Black Sphere Studios RSS feed" href="https://black-sphere-studios.github.io/index.xml">
+  <meta name="last-updated" content="2017-02-27 23:09:25 +0000">
+</head>
+<body onload="init()" class="feathergui">
+<header>
+  <nav class="noselect">
+    <span>
+    <img class="logo" src="https://black-sphere-studios.github.io/img/feathergui_logo.svg" alt="" />
+    <p><a href="https://black-sphere-studios.github.io">Black Sphere Studios</a></p>
+    </span>
+    <ul>
+        
+        <li><div class="underline"><div></div></div><a href="/feathergui/" data-full="FEATHER GUI" data-short="FEATHER"></a></li>
+        
+        <li><div class="underline"><div></div></div><a href="/feathergui/news/" data-full="NEWS" data-short="NEWS"></a></li>
+        
+        <li><div class="underline"><div></div></div><a href="/feathergui/get/" data-full="DOWNLOAD" data-short="GET"></a></li>
+        
+        <li><div class="underline"><div></div></div><a href="/feathergui/docs/" data-full="DOCUMENTATION" data-short="DOCS"></a></li>
+        
+        <li><div class="underline"><div></div></div><a href="/feathergui/designer/" data-full="WEB DESIGNER" data-short="DESIGNER"></a></li>
+        
+    </ul>
+    <aside>
+    <a href="https://twitter.com/bspherestudios"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612" class="icon-img"><style>.st0{fill:#FFFFFF;}</style><path class="st0" d="M612 116.258c-22.525 9.98-46.694 16.75-72.088 19.772 25.93-15.527 45.777-40.155 55.184-69.41-24.322 14.378-51.17 24.82-79.775 30.48-22.906-24.438-55.49-39.66-91.63-39.66-69.333 0-125.55 56.218-125.55 125.514 0 9.828 1.11 19.427 3.25 28.606-104.325-5.24-196.834-55.223-258.75-131.174-10.822 18.51-16.98 40.078-16.98 63.1 0 43.56 22.182 81.994 55.836 104.48-20.575-.688-39.926-6.348-56.867-15.756v1.568c0 60.806 43.29 111.554 100.692 123.104-10.517 2.83-21.607 4.398-33.08 4.398-8.107 0-15.947-.803-23.634-2.333 15.985 49.907 62.336 86.2 117.253 87.194-42.946 33.655-97.098 53.656-155.915 53.656-10.134 0-20.116-.612-29.944-1.72 55.568 35.68 121.537 56.484 192.44 56.484 230.947 0 357.187-191.29 357.187-357.188l-.42-16.253C573.87 163.525 595.21 141.42 612 116.257z" fill="#010002"></path></svg></a>
+    <a href="https://github.com/Black-Sphere-Studios"><svg xmlns="http://www.w3.org/2000/svg" width="438.549" height="438.549" viewBox="0 0 438.549 438.549" class="icon-img"><style>.st0{fill:#FFFFFF;}</style><path class="st0" d="M409.132 114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736 15.166 259.057 5.365 219.27 5.365c-39.78 0-76.47 9.804-110.062 29.408-33.596 19.605-60.192 46.204-79.8 79.8C9.803 148.168 0 184.853 0 224.63c0 47.78 13.94 90.745 41.827 128.906 27.884 38.164 63.906 64.572 108.063 79.227 5.14.954 8.945.283 11.42-1.996 2.474-2.282 3.71-5.14 3.71-8.562 0-.57-.05-5.708-.144-15.417-.098-9.71-.144-18.18-.144-25.406l-6.567 1.136c-4.187.767-9.47 1.092-15.846 1-6.375-.09-12.992-.757-19.843-2-6.854-1.23-13.23-4.085-19.13-8.558-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.9-9.233-8.992-14.56-4.093-5.33-8.232-8.944-12.42-10.847l-1.998-1.43c-1.332-.952-2.568-2.1-3.71-3.43-1.143-1.33-1.998-2.663-2.57-3.997-.57-1.335-.097-2.43 1.428-3.29 1.525-.858 4.28-1.275 8.28-1.275l5.708.853c3.807.763 8.516 3.042 14.133 6.85 5.615 3.807 10.23 8.755 13.847 14.843 4.38 7.807 9.657 13.755 15.846 17.848 6.184 4.093 12.42 6.136 18.7 6.136 6.28 0 11.703-.476 16.273-1.423 4.565-.95 8.848-2.382 12.847-4.284 1.713-12.758 6.377-22.56 13.988-29.41-10.847-1.14-20.6-2.857-29.263-5.14-8.658-2.286-17.605-5.996-26.835-11.14-9.235-5.137-16.896-11.516-22.985-19.126-6.09-7.614-11.088-17.61-14.987-29.98-3.9-12.373-5.852-26.647-5.852-42.825 0-23.035 7.52-42.637 22.557-58.817-7.044-17.318-6.38-36.732 1.997-58.24 5.52-1.715 13.706-.428 24.554 3.853 10.85 4.284 18.794 7.953 23.84 10.995 5.046 3.04 9.09 5.618 12.135 7.708 17.706-4.947 35.977-7.42 54.82-7.42s37.116 2.473 54.822 7.42l10.85-6.85c7.418-4.57 16.18-8.757 26.26-12.564 10.09-3.806 17.803-4.854 23.135-3.14 8.562 21.51 9.325 40.923 2.28 58.24 15.035 16.18 22.558 35.788 22.558 58.818 0 16.178-1.958 30.497-5.853 42.966-3.9 12.47-8.94 22.457-15.125 29.98-6.19 7.52-13.9 13.85-23.13 18.985-9.233 5.14-18.183 8.85-26.84 11.135-8.663 2.286-18.416 4.004-29.264 5.146 9.894 8.563 14.842 22.078 14.842 40.54v60.237c0 3.422 1.19 6.28 3.572 8.562 2.38 2.278 6.136 2.95 11.276 1.994 44.163-14.653 80.185-41.062 108.068-79.226 27.88-38.16 41.826-81.126 41.826-128.906-.01-39.77-9.818-76.454-29.414-110.05z"></path></svg></a>
+    <a href="https://discord.gg/nFczp8J"><svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 195 190" class="icon-img"><style>.st0{fill:#FFFFFF;}</style><path class="st0" d="M104.4 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zM140.9 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"/><path class="st0" d="M189.5 20h-134C44.2 20 35 29.2 35 40.6v135.2c0 11.4 9.2 20.6 20.5 20.6h113.4l-5.3-18.5 12.8 11.9 12.1 11.2 21.5 19V40.6c0-11.4-9.2-20.6-20.5-20.6zm-38.6 130.6s-3.6-4.3-6.6-8.1c13.1-3.7 18.1-11.9 18.1-11.9-4.1 2.7-8 4.6-11.5 5.9-5 2.1-9.8 3.5-14.5 4.3-9.6 1.8-18.4 1.3-25.9-.1-5.7-1.1-10.6-2.7-14.7-4.3-2.3-.9-4.8-2-7.3-3.4-.3-.2-.6-.3-.9-.5-.2-.1-.3-.2-.4-.3-1.8-1-2.8-1.7-2.8-1.7s4.8 8 17.5 11.8c-3 3.8-6.7 8.3-6.7 8.3-22.1-.7-30.5-15.2-30.5-15.2 0-32.2 14.4-58.3 14.4-58.3 14.4-10.8 28.1-10.5 28.1-10.5l1 1.2c-18 5.2-26.3 13.1-26.3 13.1s2.2-1.2 5.9-2.9c10.7-4.7 19.2-6 22.7-6.3.6-.1 1.1-.2 1.7-.2 6.1-.8 13-1 20.2-.2 9.5 1.1 19.7 3.9 30.1 9.6 0 0-7.9-7.5-24.9-12.7l1.4-1.6s13.7-.3 28.1 10.5c0 0 14.4 26.1 14.4 58.3 0 0-8.5 14.5-30.6 15.2z"/></svg></a>
+    <a href="https://plus.google.com/b/105195804750291237123/+Blackspherestudios"><svg xmlns="http://www.w3.org/2000/svg" viewBox="4 4 52.6934 52.6934" class="icon-img"><style>.st0{fill:#FFFFFF;}</style><g><path class="st0" d="M19.6671,25.7867c-0.0075,1.7935,0,3.5869,0.0076,5.3803c3.0067,0.098,6.0208,0.0527,9.0275,0.098   c-1.3262,6.6689-10.3989,8.8315-15.199,4.4761C8.5674,31.9206,8.801,23.5412,13.9327,19.992   c3.5869-2.8635,8.6884-2.1552,12.2752,0.324c1.4092-1.3036,2.7278-2.6977,4.0013-4.1445   c-2.984-2.3812-6.6462-4.0767-10.5421-3.8958c-8.1307-0.2713-15.6059,6.8497-15.7415,14.9805   c-0.52,6.6462,3.8506,13.1644,10.0222,15.5155c6.1489,2.3661,14.031,0.7535,17.957-4.77c2.5922-3.4889,3.1498-7.98,2.8484-12.1999   C29.7194,25.7641,24.6933,25.7716,19.6671,25.7867z"/><path class="st0" d="M49.0704,25.7641c-0.0151-1.4996-0.0226-3.0067-0.0301-4.5062c-1.4996,0-2.9916,0-4.4836,0   c-0.0151,1.4996-0.0301,2.9991-0.0377,4.5062c-1.5071,0.0075-3.0067,0.0151-4.5062,0.0302c0,1.4995,0,2.9915,0,4.4836   c1.4995,0.0151,3.0066,0.0302,4.5062,0.0452c0.0151,1.4996,0.0151,2.9991,0.0302,4.4987c1.4996,0,2.9916,0,4.4911,0   c0.0075-1.4996,0.015-2.9991,0.0301-4.5062c1.5071-0.0151,3.0067-0.0226,4.5062-0.0377c0-1.4921,0-2.9916,0-4.4836   C52.0771,25.7792,50.57,25.7792,49.0704,25.7641z"/></g></svg></a>
+    <div class="youtube"></div>
+    </aside>
+  </nav>
+</header>
+<main class="page single">
+  <section class="docs maxwidth">
+    
+  <ul class="sidebar">
+    <li ><a href="https://black-sphere-studios.github.io/feathergui/docs/">Home</a></li>
+    
+    <li ><a href="/feathergui/docs/backend/">Backend</a></li>
+    
+    <li ><a href="/feathergui/docs/box/">Box</a></li>
+    
+    <li ><a href="/feathergui/docs/button/">Button</a></li>
+    
+    <li ><a href="/feathergui/docs/checkbox/">Checkbox</a></li>
+    
+    <li ><a href="/feathergui/docs/combobox/">Combobox</a></li>
+    
+    <li ><a href="/feathergui/docs/control/">Control</a></li>
+    
+    <li ><a href="/feathergui/docs/curve/">Curve</a></li>
+    
+    <li ><a href="/feathergui/docs/debug/">Debug</a></li>
+    
+    <li ><a href="/feathergui/docs/dropdown/">Dropdown</a></li>
+    
+    <li class="cur"><a href="/feathergui/docs/element/">Element</a></li>
+    
+    <li ><a href="/feathergui/docs/feather/">Feather</a></li>
+    
+    <li ><a href="/feathergui/docs/grid/">Grid</a></li>
+    
+    <li ><a href="/feathergui/docs/layout/">Layout</a></li>
+    
+    <li ><a href="/feathergui/docs/layout-system/">Layout_System</a></li>
+    
+    <li ><a href="/feathergui/docs/list/">List</a></li>
+    
+    <li ><a href="/feathergui/docs/menu/">Menu</a></li>
+    
+    <li ><a href="/feathergui/docs/monitor/">Monitor</a></li>
+    
+    <li ><a href="/feathergui/docs/progressbar/">Progressbar</a></li>
+    
+    <li ><a href="/feathergui/docs/radiobutton/">Radiobutton</a></li>
+    
+    <li ><a href="/feathergui/docs/resource/">Resource</a></li>
+    
+    <li ><a href="/feathergui/docs/root/">Root</a></li>
+    
+    <li ><a href="/feathergui/docs/scrollbar/">Scrollbar</a></li>
+    
+    <li ><a href="/feathergui/docs/skin/">Skin</a></li>
+    
+    <li ><a href="/feathergui/docs/slider/">Slider</a></li>
+    
+    <li ><a href="/feathergui/docs/style/">Style</a></li>
+    
+    <li ><a href="/feathergui/docs/tabcontrol/">Tabcontrol</a></li>
+    
+    <li ><a href="/feathergui/docs/text/">Text</a></li>
+    
+    <li ><a href="/feathergui/docs/textbox/">Textbox</a></li>
+    
+    <li ><a href="/feathergui/docs/toolbar/">Toolbar</a></li>
+    
+    <li ><a href="/feathergui/docs/treeview/">Treeview</a></li>
+    
+    <li ><a href="/feathergui/docs/window/">Window</a></li>
+    
+  </ul>
+    <div style="margin: 1.5em;">
+    
+
+<h3 id="element">Element</h3>
+
+<p>The Element serves as the base structure for all FeatherGUI controls. It is also where the C++ API defines all of it&rsquo;s functions, so in C++, other controls overload the <code>-&gt;</code> operator to automatically convert to the base <code>fgElement*</code> pointer for easy access to the API functions. This compensates for the fact that the C++ API cannot use proper inheritance without breaking the C API interop. <code>fgElement</code> provides the default implementation for a message, if there is any, otherwise it will reject the message by returning <code>0</code>. Some default implementations are empty and do nothing, but will instead return <code>FG_ACCEPT</code>, which evaluates to 1, which always accepts the message.</p>
+
+<h2 id="accepted-messages">Accepted Messages</h2>
+
+<pre class="language-cpp"><code>bool FG_CONSTRUCT()</code></pre>
+
+<p><code>fgElement</code> performs all necessary setup before this message is called, so this does nothing, but always returns <code>FG_ACCEPT</code>.</p>
+
+<pre class="language-cpp"><code>bool FG_MOVE[FGMOVE](fgElement* child, size_t)</code></pre>
+
+<p>This message is sent in response to any potential resize or move event that could change the effective area of this element or its children. A child will propagate this event up to its immediate parent, but no farther (unless that parent chooses to propagate it farther). An element will always, however, propagate a move element <i>down</i>, unless it is determined that it would have no effect on the layout.</p>
+
+<pre class="language-cpp"><code>bool FG_SETAREA[FGUNIT](const CRect* area)</code></pre>
+
+<p>Sets the area of this element to the given area, applying the given <code>FGUNIT</code> flags sent in the subtype. This message triggers <code>FG_MOVE</code> only if the area actually changes. This message calls <code>fgDirtyElement</code> and <code>fgElement_MouseMoveCheck</code> <strong>twice</strong>, once before and one after the area is actually set. If the subtype is -1, an <code>FG_MOVE</code> is not actually sent to this element, but instead directly propagated to it&rsquo;s children.</p>
+
+<pre class="language-cpp"><code>bool FG_SETTRANSFORM[FGUNIT](const fgTransform* transform)</code></pre>
+
+<p>Sets the entire transform of this element to the given transform, applying the given <code>FGUNIT</code> flags sent in the subtype. First, <code>FG_AREA</code> is called with the area, and then the rotation and center are set afterwards. This message triggers <code>FG_MOVE</code> only if the transform actually changes. This message calls <code>fgDirtyElement</code> and <code>fgElement_MouseMoveCheck</code> <strong>twice</strong>, once before and one after the area is actually set. If the subtype is -1, an <code>FG_MOVE</code> is not actually sent to this element, but instead directly propagated to it&rsquo;s children.</p>
+
+<pre class="language-cpp"><code>bool FG_SETFLAG(fgFlag flag, bool state)</code></pre>
+
+<p>This message simply transforms a call to add or remove a flag into an <code>FG_SETFLAGS</code> message, by ORing or ANDing the flag with the current flag value.</p>
+
+<pre class="language-cpp"><code>bool FG_SETFLAGS(fgFlag flags)</code></pre>
+
+<p>Replaces the current flags with the given flags. This can trigger a number of events, depending on the flags changed. <code>BACKGROUND/EXPAND</code> will trigger a <code>LAYOUTCHANGE</code>, whereas <code>IGNORE/NOCLIP</code> will swap which sublist the child is being tracked on. <code>HIDDEN/NOCLIP</code> will call <code>fgDirtyElement()</code> on itself.</p>
+
+<pre class="language-cpp"><code>bool FG_SETMARGIN[FGUNIT](const AbsRect* margin)</code></pre>
+
+<p>Sets the margin of this element to the given margin, applying the given <code>FGUNIT</code> flags sent in the subtype. This message triggers <code>FG_MOVE</code> only if the margin actually changes. This message calls <code>fgDirtyElement</code> and <code>fgElement_MouseMoveCheck</code> <strong>twice</strong>, once before and one after the area is actually set. If the subtype is -1, an <code>FG_MOVE</code> is not actually sent to this element, but instead directly propagated to it&rsquo;s children.</p>
+
+<pre class="language-cpp"><code>bool FG_SETPADDING[FGUNIT](const AbsRect* padding)</code></pre>
+
+<p>Sets the padding of this element to the given padding, applying the given <code>FGUNIT</code> flags sent in the subtype. This message triggers <code>FG_MOVE</code> only if the padding actually changes. This message calls <code>fgDirtyElement</code> and <code>fgElement_MouseMoveCheck</code> <strong>twice</strong>, once before and one after the area is actually set. If the subtype is -1, an <code>FG_MOVE</code> is not actually sent to this element, but instead directly propagated to it&rsquo;s children.</p>
+
+<pre class="language-cpp"><code>bool FG_SETPARENT[FGSETPARENT](fgElement* parent, fgElement* next)</code></pre>
+
+<p>Sets the parent of this element to the given parent, inserting this element before the <code>next</code> element in the parent&rsquo;s list of children. If next is <code>NULL</code>, it is inserted <em>after</em> the last element.</p>
+
+<pre class="language-cpp"><code>bool FG_REORDERCHILD(fgElement* child, fgElement* next)</code></pre>
+
+<p>Reorders the child element without changing its&rsquo; parent, inserting it before the <code>next</code> element in the parent&rsquo;s list of children. If next is <code>NULL</code>, it is inserted <em>after</em> the last element.</p>
+
+<pre class="language-cpp"><code>bool FG_ADDITEM[FGITEM](fgElement*/const char*/void* item)</code></pre>
+
+<p>If the subtype is nonzero, this message is rejected. Otherwise, it is passed through to <code>FG_ADDCHILD</code>.</p>
+
+<pre class="language-cpp"><code>bool FG_ADDCHILD(fgElement* child, fgElement* next)</code></pre>
+
+<p>Sets the child&rsquo;s parent to this element and inserts it before <code>next</code>. If next is <code>NULL</code>, inserts it after the last element.</p>
+
+<pre class="language-cpp"><code>bool FG_REMOVECHILD(fgElement* child)</code></pre>
+
+<p>Removes a child from this element. If the child isn&rsquo;t a member of this element, a debug assertion will fail.</p>
+
+<pre class="language-cpp"><code>bool FG_LAYOUTCHANGE(fgElement* target, fgElement* old)</code></pre>
+
+<p>Simply calls <code>FG_LAYOUTFUNCTION</code> with the appropriate arguments and processes the resulting area if either <code>EXPANDX</code> or <code>EXPANDY</code> flags are present.</p>
+
+<pre class="language-cpp"><code>bool FG_LAYOUTFUNCTION[bool](const FG_Msg* msg, const CRect* area)</code></pre>
+
+<p>Calls the default layout function. This should be overriden if you want to use a <a href="/feathergui/docs/layout-system/#Custom">custom layout function</a>.</p>
+
+<pre class="language-cpp"><code>fgElement* FG_LAYOUTLOAD(fgLayout* target)</code></pre>
+
+<p>Loads the provided layout, applying any styles set on the layout root to this element, and then adding all elements inside the layout root to this element, recursively. The function returns a pointer the <em>last</em> element added from the layout, or <code>NULL</code> if the layout either could not be loaded or had no children.</p>
+
+<pre class="language-cpp"><code>size_t FG_CLONE(fgElement* e)</code></pre>
+
+<p>This function always returns the total size, in bytes, needed to clone this control, but if <code>e</code> is not <code>NULL</code>, then it will be assumed to point to a valid memory location that is at least as large as the return value of this function, and copy the contents of this element over to it, which includes calling <code>FG_CLONE</code> on all of it&rsquo;s children.</p>
+
+<pre class="language-cpp"><code>const char* FG_GETCLASSNAME()</code></pre>
+
+<p>This message always returns a string containing the class name, which in this case is &ldquo;Element&rdquo;. It should be overriden by all controls and set to return a string containing the class name of that control.</p>
+
+<pre class="language-cpp"><code>fgSkin* FG_GETSKIN(fgElement* child)</code></pre>
+
+<p>If child is <code>NULL</code>, this simply returns whatever the Element&rsquo;s currently assigned skin is (or <code>NULL</code> if it doesn&rsquo;t have one). Otherwise, it performs a skin lookup for the child by going through it&rsquo;s skin (if it has one) and trying to find a match first for the child&rsquo;s name, and then for the child&rsquo;s class name. If all of these fail (or it has no skin), the element calls <code>FG_GETSKIN</code> on it&rsquo;s parent, passing the child parameter through. This continues until it reaches the root element or succeeds. If no skin can be found, returns <code>NULL</code>.</p>
+
+<pre class="language-cpp"><code>bool FG_SETSKIN(fgSkin* skin)</code></pre>
+
+<p>Manually sets the skin to the provided skin. If the provided skin is <code>NULL</code>, then the element will ask it&rsquo;s parent to find an appropriate skin. If the resulting skin actually changes, it will reset the skin for all of it&rsquo;s children (which will overwrite any manually assigned skins).</p>
+
+<pre class="language-cpp"><code>bool FG_SETSTYLE[FGSETSTYLE](fgStyle*/FG_UINT/const char* style, size_t mask)</code></pre>
+
+<p>The argument for this message depends on the subtype.</p>
+
+<ul>
+<li>If <code>FGSETSTYLE_POINTER</code> is specified, the style overriden with whatever the argument is.</li>
+<li>If <code>FGSETSTYLE_NAME</code> is specified, the index and mask is looked up via the style hash, and an appropriate style is selected from the skin.</li>
+<li>If <code>FGSETSTYLE_INDEX</code> is specified, the behavior depends on the argument. If the argument is -1, the element&rsquo;s style is <strong>not changed</strong>. Instead, the style is inherited from the element&rsquo;s parent. Otherwise, the element&rsquo;s style is set to the given index and mask given in the second argument, and an appropriate style pointer is looked up in the skin.</li>
+</ul>
+
+<p>If the style is not <code>NULL</code>, it&rsquo;s messages are applied to the element.</p>
+
+<pre class="language-cpp"><code>FG_UINT FG_GETSTYLE()</code></pre>
+
+<p>If the element has no style (it&rsquo;s style is set to -1), retrieves the style from it&rsquo;s parent. Otherwise, returns the element&rsquo;s style integer.</p>
+
+<pre class="language-cpp"><code>bool FG_GOTFOCUS()</code></pre>
+
+<p>Elements cannot get focus, so the default handler simply sends this message to its parent.</p>
+
+<pre class="language-cpp"><code>bool FG_DRAW(const AbsRect* area, const fgDrawAuxData* aux)</code></pre>
+
+<p>Calls the standard draw function, passing through the arguments.</p>
+
+<pre class="language-cpp"><code>bool FG_INJECT(const FG_Msg* msg, const AbsRect* area)</code></pre>
+
+<p>Calls the standard injection function, passing through the arguments.</p>
+
+<pre class="language-cpp"><code>bool FG_SETNAME(const char* name)</code></pre>
+
+<p>Sets the name, or deletes it if name is <code>NULL</code>.</p>
+
+<pre class="language-cpp"><code>const char* FG_GETNAME()</code></pre>
+
+<p>Gets the current element name, or <code>NULL</code> if it doesn&rsquo;t have one.</p>
+
+<pre class="language-cpp"><code>AbsVec* FG_GETDPI()</code></pre>
+
+<p>Calls <code>FG_GETDPI</code> on the parent, since an element doesn&rsquo;t store DPI. Normally, only <a href="https://black-sphere-studios.github.io/feathergui/docs/root/">Root</a> and <a href="https://black-sphere-studios.github.io/feathergui/docs/monitor/">Monitor</a> elements store explicit DPI values.</p>
+
+<pre class="language-cpp"><code>bool FG_SETDPI(FABS x, FABS y)</code></pre>
+
+<p>While this doesn&rsquo;t actually set anything (since an element doesn&rsquo;t store DPI), it propogates the message to its children, which allow controls to respond to a DPI change.</p>
+
+<pre class="language-cpp"><code>float FG_GETLINEHEIGHT()</code></pre>
+
+<p>Call <code>FG_GETLINEHEIGHT</code> on the parent, since an element doesn&rsquo;t store lineheight. Only the <a href="https://black-sphere-studios.github.io/feathergui/docs/root/">Root</a>, <a href="https://black-sphere-studios.github.io/feathergui/docs/text/">Text</a>, and <a href="https://black-sphere-studios.github.io/feathergui/docs/textbox/">Textbox</a></p>
+
+<pre class="language-cpp"><code>bool FG_TOUCHBEGIN(FABS x, FABS y)</code></pre>
+
+<p>Translates a <code>FG_TOUCHBEGIN</code> message into an <code>FG_MOUSEDOWN</code> event (pretending the left mouse button was pressed), and passes this message back into the element for reprocessing.</p>
+
+<pre class="language-cpp"><code>bool FG_TOUCHEND(FABS x, FABS y)</code></pre>
+
+<p>Translates a <code>FG_TOUCHEND</code> message into an <code>FG_MOUSEUP</code> event, and passes this message back into the element for reprocessing.</p>
+
+<pre class="language-cpp"><code>bool FG_TOUCHMOVE(FABS x, FABS y)</code></pre>
+
+<p>Translates a <code>FG_TOUCHMOVE</code> message into an <code>FG_MOUSEMOVE</code> event, and passes this message back into the element for reprocessing.</p>
+
+<pre class="language-cpp"><code>bool FG_SETDIM[FGDIM and/or FGUNIT](FABS x, FABS y)</code></pre>
+
+<p>Depending on the value of the subtype, either sets the minimum or maximum dimensions of the element, applying the FGUNIT flags if they&rsquo;re included in the subtype.</p>
+
+<pre class="language-cpp"><code>AbsVec* FG_GETDIM[FGDIM]()</code></pre>
+
+<p>Depending on the value of the subtype, eitehr gets the minimum or maximum dimensions of the element. If the subtype is invalid, returns <code>NULL</code>.</p>
+
+<pre class="language-cpp"><code>void* FG_GETUSERDATA(const char* key)</code></pre>
+
+<p>if <code>key</code> is <code>NULL</code>, gets the raw userdata from the element. Otherwise, it looks up the key in the userhash, and if it exists, returns the corresponding value. Otherwise, returns <code>NULL</code>.</p>
+
+<pre class="language-cpp"><code>bool FG_SETUSERDATA(void* value, const char* key = nullptr)</code></pre>
+
+<p>If <code>key</code> is <code>NULL</code>, sets the raw userdata. Otherwise, it creates a userhash if necessary, and inserts the key/value pair.</p>
+
+<pre class="language-cpp"><code>bool FG_MOUSEDBLCLICK()</code></pre>
+
+<p>Translates a double-click event into an <code>FG_MOUSEDOWN</code> message and sends it back into the element for reprocessing.</p>
+
+<pre class="language-cpp"><code>bool FG_SETSCALING(FABS x, FABS y)</code></pre>
+
+<p>Sets the element&rsquo;s scaling factor to <code>{x,y}</code>.</p>
+
+<pre class="language-cpp"><code>AbsVec* FG_GETSCALING()</code></pre>
+
+<p>Gets the element&rsquo;s scaling factor (defaults to <code>{1,1}</code>).</p>
+
+<pre class="language-cpp"><code>bool FG_CLEAR()</code></pre>
+
+<p>Removes all <strong>foreground</strong> elements that do not have the <code>INTERNAL</code> flag set.</p>
+
+<pre class="language-cpp"><code>bool FG_NEUTRAL()</code></pre>
+
+<p>Sets the &ldquo;neutral&rdquo; style.</p>
+
+<pre class="language-cpp"><code>bool FG_HOVER()</code></pre>
+
+<p>Sets the &ldquo;hover&rdquo; style.</p>
+
+<pre class="language-cpp"><code>bool FG_ACTIVE()</code></pre>
+
+<p>Sets the &ldquo;active&rdquo; style.</p>
+
+<pre class="language-cpp"><code>fgElement* FG_DEBUGMESSAGE()</code></pre>
+
+<p>Returns a pointer to this element. This is useful for debugging the injection function, or when you want to find out what element would have recieved an injected message.</p>
+
+<h2 id="member-functions">Member Functions</h2>
+
+<pre class="language-cpp"><code>FG_EXTERN void fgElement_InternalSetup(
+  fgElement* BSS_RESTRICT self,
+  fgElement* BSS_RESTRICT parent,
+  fgElement* BSS_RESTRICT next,
+  const char* name,
+  fgFlag flags,
+  const fgTransform* transform,
+  fgMsgType units,
+  void (*destroy)(void*),
+  size_t(*message)(void*, const FG_Msg*));
+</code></pre>
+
+<p>This is an internal function used by controls to perform the initial <code>fgElement</code> setup. This function is what should be called by a control&rsquo;s <code>_Init</code> function, <strong>not</strong> <code>fgElement_Init</code>, because this also sets the <code>destroy</code> and <code>message</code> functions to their appropriate values <em>before</em> calling the constructor, which is crucial for proper behavior.</p>
+
+<pre class="language-cpp"><code>FG_EXTERN void fgElement_Init(
+  fgElement* BSS_RESTRICT self,
+  fgElement* BSS_RESTRICT parent,
+  fgElement* BSS_RESTRICT next,
+  const char* name,
+  fgFlag flags,
+  const fgTransform* transform,
+  fgMsgType units);
+</code></pre>
+
+<p>This performs initial setup for an <code>Element</code> control. It should only be used when initializing an actual <code>Element</code>, it should never be called inside the <code>_Init</code> function of another control or in any sort of constructor - use <code>fgElement_InternalSetup</code> for that. This sets the name, flags, and transform, then sends itself the <code>FG_CONSTRUCT</code> message, and <em>then</em> sends itself the <code>FG_SETPARENT</code> message using the <code>parent</code> and <code>next</code> arguments. This is necessary to ensure that a fully constructed object is sent to <code>FG_SETPARENT</code>, which will then set the element&rsquo;s skin appropriately.</p>
+
+<pre class="language-cpp"><code>FG_EXTERN void fgElement_Destroy(fgElement* self);</code></pre>
+
+<p>This is the destructor for the base <code>fgElement</code> class, and should eventually be called by <strong>all</strong> controls. It destroys all information associated with the control, deletes the userhash, deletes the listeners, removes any focus, capture or hover states and moves those states to other controls, and performs several other debug checks.</p>
+
+<pre class="language-cpp"><code>FG_EXTERN size_t fgElement_Message(fgElement* self, const FG_Msg* msg);</code></pre>
+
+<p>This is the root message processing function that all controls should eventually call to handle a message.</p>
+
+<pre class="language-cpp"><code>FG_EXTERN fgElement* fgElement_GetChildUnderMouse(fgElement* self, float x, float y, AbsRect* cache);</code></pre>
+
+<p>If there is a <strong>foreground</strong> child that intersects the given mouse coordinates, returns a pointer to that child, otherwise returns <code>NULL</code>.</p>
+
+<pre class="language-cpp"><code>FG_EXTERN void fgElement_ClearListeners(fgElement* self);</code></pre>
+
+<p>Deletes all listeners associated with this element in the listener hash. Called by <code>fgElement_Destroy</code>.</p>
+
+<pre class="language-cpp"><code>FG_EXTERN size_t fgElement_CheckLastFocus(fgElement* self);</code></pre>
+
+<p>This is a helper function for parents that checks the state of <code>lastfocus</code>. If a child previously held focus before the parent lost focus, this function will restore that child&rsquo;s focus and return 1, otherwise it returns 0.</p>
+
+<pre class="language-cpp"><code>FG_EXTERN void fgElement_ApplyMessageArray(fgElement* search, fgElement* target, fgVector* src);</code></pre>
+
+<p>This applies a message array (the <code>fgVector</code> argument is cast to <code>MESSAGEARRAY</code>) to <code>target</code> using the <code>search</code> term - only members of the message array intended for <code>search</code> will be applied to <code>target</code>. Usually, <code>search</code> is either NULL or equal to <code>target</code>.</p>
+
+<pre class="language-cpp"><code>FG_EXTERN void fgElement_IterateUserHash(fgElement* self, void(*f)(void*, const char*, size_t), void* data);</code></pre>
+
+<p>This performs an iteration over the userhash values by calling <code>f</code> on all of them. The <code>void* p</code> term can be used to send a delegate or lambda, if desired.</p>
+
+<h2 id="helper-functions">Helper Functions</h2>
+
+<pre class="language-cpp"><code>FG_EXTERN void fgElement_StyleToMessageArray(
+  const struct _FG_STYLE* src,
+  fgElement* target,
+  fgVector** vdest);
+</code></pre>
+
+<p>Given a style and a target element that style is applied to, appends the style messages to the message array (<code>vdest</code> is cast to a <code>MESSAGEARRAY</code>).</p>
+
+    </div>
+  </section>
+</main>
+<script src="https://black-sphere-studios.github.io/prism.js"></script>
+
+<footer>
+<span>&copy;2011-2017, Black Sphere Studios LLC</span>|<span><a href="https://black-sphere-studios.github.io/sitemap.xml">Sitemap</a></span>|<span><a href="https://black-sphere-studios.github.io/index.xml">RSS Feed</a></span>|<span><a href="/tos">Terms of Service</a></span>|<span><a href="/privacy">Privacy Policy</a></span>
+</footer>
+
+</body>
+</html>

@@ -32,7 +32,7 @@
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Backend/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/backend/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -42,57 +42,52 @@
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Box/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/box/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Button/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/button/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Checkbox/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/checkbox/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Combobox/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/combobox/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Control/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/control/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Curve/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/curve/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Debug/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/debug/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Dropdown/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/dropdown/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Element/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/element/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Feather/</loc>
-    <lastmod>2017-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/feather/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -102,97 +97,102 @@
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Grid/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Layout/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/grid/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Layout-System/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/layout/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/List/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/layout-system/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Menu/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/list/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Monitor/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/menu/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Progressbar/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/monitor/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Radiobutton/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/progressbar/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Resource/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/radiobutton/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Root/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/resource/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Scrollbar/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/root/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Skin/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/scrollbar/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Slider/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/skin/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Style/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/slider/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Tabcontrol/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/style/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Text/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/tabcontrol/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Textbox/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/text/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Toolbar/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/textbox/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Treeview/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/toolbar/</loc>
+    <lastmod>2017-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/treeview/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -202,7 +202,7 @@
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/feathergui/docs/Window/</loc>
+    <loc>https://black-sphere-studios.github.io/feathergui/docs/window/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -258,6 +258,7 @@
   
   <url>
     <loc>https://black-sphere-studios.github.io/categories/</loc>
+    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -274,7 +275,7 @@
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/feathergui/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/feathergui.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -292,169 +293,169 @@
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgbackend/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgbackend.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgbox/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgbox.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgbutton/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgbutton.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgcheckbox/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgcheckbox.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgcombobox/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgcombobox.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgcontrol/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgcontrol.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgcurve/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgcurve.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgdebug/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgdebug.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgdropdown/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgdropdown.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgelement/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgelement.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fggrid/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fggrid.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fglayout/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fglayout.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fglist/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fglist.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgmenu/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgmenu.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgprogressbar/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgprogressbar.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgradiobutton/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgradiobutton.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgresource/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgresource.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgroot/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgroot.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgscrollbar/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgscrollbar.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgskin/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgskin.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgslider/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgslider.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgstyle/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgstyle.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgtabcontrol/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgtabcontrol.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgtext/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgtext.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgtextbox/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgtextbox.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgtoolbar/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgtoolbar.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgtreeview/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgtreeview.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://black-sphere-studios.github.io/tags/fgwindow/index.h/</loc>
+    <loc>https://black-sphere-studios.github.io/tags/fgwindow.h/</loc>
     <lastmod>2017-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -473,6 +474,7 @@
   
   <url>
     <loc>https://black-sphere-studios.github.io/tags/</loc>
+    <lastmod>2016-09-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

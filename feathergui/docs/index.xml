@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FeatherGUI Documentation on Black Sphere Studios</title>
-    <link>https://black-sphere-studios.github.io/feathergui/docs/index.xml</link>
+    <link>https://black-sphere-studios.github.io/feathergui/docs/</link>
     <description>Recent content in FeatherGUI Documentation on Black Sphere Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Black Sphere Studios LLC</copyright>
     <lastBuildDate>Mon, 27 Feb 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/feathergui/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/feathergui/docs/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>FeatherGUI v0.1 Released</title>
@@ -97,10 +97,10 @@
     
     <item>
       <title>Backend</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Backend/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/backend/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Backend/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/backend/</guid>
       <description>
 
 &lt;h3 id=&#34;backend&#34;&gt;Backend&lt;/h3&gt;
@@ -111,10 +111,10 @@
     
     <item>
       <title>Box</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Box/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/box/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Box/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/box/</guid>
       <description>
 
 &lt;h3 id=&#34;box&#34;&gt;Box&lt;/h3&gt;
@@ -125,10 +125,10 @@
     
     <item>
       <title>Button</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Button/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/button/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Button/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/button/</guid>
       <description>
 
 &lt;h3 id=&#34;button&#34;&gt;Button&lt;/h3&gt;
@@ -139,10 +139,10 @@
     
     <item>
       <title>Checkbox</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Checkbox/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/checkbox/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Checkbox/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/checkbox/</guid>
       <description>
 
 &lt;h3 id=&#34;checkbox&#34;&gt;Checkbox&lt;/h3&gt;
@@ -153,10 +153,10 @@
     
     <item>
       <title>Combobox</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Combobox/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/combobox/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Combobox/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/combobox/</guid>
       <description>
 
 &lt;h3 id=&#34;combobox&#34;&gt;Combobox&lt;/h3&gt;
@@ -167,10 +167,10 @@
     
     <item>
       <title>Control</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Control/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/control/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Control/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/control/</guid>
       <description>
 
 &lt;h3 id=&#34;control&#34;&gt;Control&lt;/h3&gt;
@@ -181,10 +181,10 @@
     
     <item>
       <title>Curve</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Curve/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/curve/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Curve/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/curve/</guid>
       <description>
 
 &lt;h3 id=&#34;curve&#34;&gt;Curve&lt;/h3&gt;
@@ -193,10 +193,10 @@
     
     <item>
       <title>Debug</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Debug/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/debug/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Debug/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/debug/</guid>
       <description>
 
 &lt;h3 id=&#34;debug&#34;&gt;Debug&lt;/h3&gt;
@@ -207,10 +207,10 @@
     
     <item>
       <title>Dropdown</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Dropdown/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/dropdown/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Dropdown/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/dropdown/</guid>
       <description>
 
 &lt;h3 id=&#34;dropdown&#34;&gt;Dropdown&lt;/h3&gt;
@@ -221,10 +221,10 @@
     
     <item>
       <title>Element</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Element/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/element/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Element/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/element/</guid>
       <description>
 
 &lt;h3 id=&#34;element&#34;&gt;Element&lt;/h3&gt;
@@ -291,7 +291,7 @@
 
 &lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_LAYOUTFUNCTION[bool](const FG_Msg* msg, const CRect* area)&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Calls the default layout function. This should be overriden if you want to use a &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Layout-System/#Custom&#34;&gt;custom layout function&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Calls the default layout function. This should be overriden if you want to use a &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/layout-system/#Custom&#34;&gt;custom layout function&lt;/a&gt;.&lt;/p&gt;
 
 &lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;fgElement* FG_LAYOUTLOAD(fgLayout* target)&lt;/code&gt;&lt;/pre&gt;
 
@@ -351,7 +351,7 @@
 
 &lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;AbsVec* FG_GETDPI()&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Calls &lt;code&gt;FG_GETDPI&lt;/code&gt; on the parent, since an element doesn&amp;rsquo;t store DPI. Normally, only &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Root/&#34;&gt;Root&lt;/a&gt; and &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Monitor/&#34;&gt;Monitor&lt;/a&gt; elements store explicit DPI values.&lt;/p&gt;
+&lt;p&gt;Calls &lt;code&gt;FG_GETDPI&lt;/code&gt; on the parent, since an element doesn&amp;rsquo;t store DPI. Normally, only &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/root/&#34;&gt;Root&lt;/a&gt; and &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/monitor/&#34;&gt;Monitor&lt;/a&gt; elements store explicit DPI values.&lt;/p&gt;
 
 &lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETDPI(FABS x, FABS y)&lt;/code&gt;&lt;/pre&gt;
 
@@ -359,7 +359,7 @@
 
 &lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;float FG_GETLINEHEIGHT()&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Call &lt;code&gt;FG_GETLINEHEIGHT&lt;/code&gt; on the parent, since an element doesn&amp;rsquo;t store lineheight. Only the &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Root/&#34;&gt;Root&lt;/a&gt;, &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Text/&#34;&gt;Text&lt;/a&gt;, and &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Textbox/&#34;&gt;Textbox&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Call &lt;code&gt;FG_GETLINEHEIGHT&lt;/code&gt; on the parent, since an element doesn&amp;rsquo;t store lineheight. Only the &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/root/&#34;&gt;Root&lt;/a&gt;, &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/text/&#34;&gt;Text&lt;/a&gt;, and &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/textbox/&#34;&gt;Textbox&lt;/a&gt;&lt;/p&gt;
 
 &lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_TOUCHBEGIN(FABS x, FABS y)&lt;/code&gt;&lt;/pre&gt;
 
@@ -491,10 +491,10 @@
     
     <item>
       <title>Feather</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Feather/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/feather/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Feather/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/feather/</guid>
       <description>
 
 &lt;h3 id=&#34;initial-feather-declarations&#34;&gt;Initial Feather Declarations&lt;/h3&gt;

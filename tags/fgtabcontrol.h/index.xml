@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fgtabcontrol.H on Black Sphere Studios</title>
-    <link>https://black-sphere-studios.github.io/tags/fgtabcontrol.h/index.xml</link>
+    <link>https://black-sphere-studios.github.io/tags/fgtabcontrol.h/</link>
     <description>Recent content in Fgtabcontrol.H on Black Sphere Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Black Sphere Studios LLC</copyright>
-    <atom:link href="/tags/fgtabcontrol.h/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/fgtabcontrol.h/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Tabcontrol</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Tabcontrol/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/tabcontrol/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Tabcontrol/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/tabcontrol/</guid>
       <description>
 
 &lt;h3 id=&#34;tabcontrol&#34;&gt;Tabcontrol&lt;/h3&gt;

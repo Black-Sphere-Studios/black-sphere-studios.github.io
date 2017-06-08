@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fgbutton.H on Black Sphere Studios</title>
-    <link>https://black-sphere-studios.github.io/tags/fgbutton.h/index.xml</link>
+    <link>https://black-sphere-studios.github.io/tags/fgbutton.h/</link>
     <description>Recent content in Fgbutton.H on Black Sphere Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Black Sphere Studios LLC</copyright>
-    <atom:link href="/tags/fgbutton.h/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/fgbutton.h/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Button</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Button/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/button/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Button/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/button/</guid>
       <description>
 
 &lt;h3 id=&#34;button&#34;&gt;Button&lt;/h3&gt;

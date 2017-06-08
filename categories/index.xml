@@ -1,86 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Black Sphere Studios</title>
-    <link>https://black-sphere-studios.github.io/categories/index.xml</link>
-    <description>Recent content on Black Sphere Studios</description>
+    <title>Categories on Black Sphere Studios</title>
+    <link>https://black-sphere-studios.github.io/categories/</link>
+    <description>Recent content in Categories on Black Sphere Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Black Sphere Studios LLC</copyright>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Download FeatherGUI</title>
-      <link>https://black-sphere-studios.github.io/feathergui/get/</link>
+      <title></title>
+      <link>https://black-sphere-studios.github.io/categories/</link>
       <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/get/</guid>
-      <description>
-
-&lt;aside&gt;
-&lt;h6&gt;Featured Downloads&lt;/h6&gt;
-
-&lt;div&gt;&lt;b&gt;Windows &lt;i&gt;(7 or later)&lt;/i&gt;&lt;/b&gt;
-&lt;br/&gt;&lt;code&gt;SDK v0.1.0&lt;/code&gt;
-&lt;br/&gt;&lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/releases/download/v0.1.0/feathergui-windows-0.1.0.zip&#34;&gt;feathergui-windows-0.1.0.zip&lt;/a&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;POSIX compatible systems&lt;/b&gt;
-&lt;br/&gt;&lt;code&gt;SDK v0.1.0&lt;/code&gt;
-&lt;br/&gt;&lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/releases/download/v0.1.0/feathergui-posix-0.1.0.zip&#34;&gt;feathergui-posix-0.1.0.zip&lt;/a&gt;
-&lt;/div&gt;
-&lt;/aside&gt;
-
-&lt;h3 id=&#34;download-feathergui-vhahahugoshortcode-2hbhb&#34;&gt;Download FeatherGUI v0.1.0&lt;/h3&gt;
-
-&lt;p&gt;SDKs for Windows and POSIX-compatible systems are available. An archive of old releases is available &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/releases&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;More details about the current release (v0.1.0), along with a source code snapshot, can be found &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/releases/tag/v0.1.0&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;You can also &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui&#34;&gt;clone the source code directly&lt;/a&gt;, but this will not include prerequisites or any precompiled assets, so you will need to follow the &lt;a href=&#34;#compiling&#34;&gt;compilation instructions below&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;compiling-feathergui&#34;&gt;Compiling FeatherGUI&lt;/h3&gt;
-
-&lt;p&gt;If you are trying to build FeatherGUI directly from the source tree, you will need the [bss-util]() headers in the &lt;code&gt;include&lt;/code&gt; directory (they should be inside &lt;code&gt;include/bss-util&lt;/code&gt;). In addition, to avoid cluttering the source tree with binary files, the editor&amp;rsquo;s icons are not included. If you are compiling the editor directly from source, you will still need to download the &lt;a href=&#34;https://github.com/Black-Sphere-Studios/feathergui/releases/tag/v0.1.0&#34;&gt;most recent SDK&lt;/a&gt; and get the editor icons from there (you&amp;rsquo;ll need &lt;code&gt;media/editor/16/&lt;/code&gt; and &lt;code&gt;media/editor/controls&lt;/code&gt;).&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;ve downloaded the SDK, it includes all of the prerequisites and binary files. On Windows, open the solution file with Visual Studio and compile the project. On Linux, simply type &lt;code&gt;make&lt;/code&gt; in a terminal open to the root folder to compile.&lt;/p&gt;
-
-&lt;p&gt;The windows-specific &lt;code&gt;fgDotNet&lt;/code&gt; and &lt;code&gt;fgDirect2D&lt;/code&gt; projects are dependent on the Windows SDK, which must be at least version &lt;strong&gt;7.1&lt;/strong&gt; for &lt;code&gt;fgDirect2D&lt;/code&gt;, which relies on &lt;code&gt;Direct2D 1.1&lt;/code&gt;, and version &lt;strong&gt;7.0&lt;/strong&gt; for &lt;code&gt;fgDotNet&lt;/code&gt;, which current targets the &lt;code&gt;.net Framework 4.5&lt;/code&gt;. However, the project files currently target a specific windows SDK version. If this version does not match the SDK you have installed, you can simply change the Target SDK Version number to the one you do have installed.&lt;/p&gt;
-
-&lt;h3 id=&#34;platform-specific-projects&#34;&gt;Platform-Specific Projects&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;fgDirect2D&lt;/strong&gt;: Only works on Windows 7 SP1 and up&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;fgDotNet&lt;/strong&gt;: Only works on Windows 7 and up&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;fgExample-cs&lt;/strong&gt;: Only works on Windows 7 and up&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;fgNative&lt;/strong&gt;: Nonfunctional - &lt;strong&gt;do not use&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://black-sphere-studios.github.io/categories/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Company</title>
-      <link>https://black-sphere-studios.github.io/company/</link>
-      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
+      <title>Bss Util</title>
+      <link>https://black-sphere-studios.github.io/categories/bss-util/</link>
+      <pubDate>Sun, 04 Jun 2017 01:05:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/company/</guid>
-      <description>
-
-&lt;h5 id=&#34;build-better&#34;&gt;Build Better&lt;/h5&gt;
-
-&lt;p&gt;Black Sphere Studios is built on the belief that, by building better tools, we can build better companies and a better tomorrow. We believe in working smarter, not harder. We build better, not faster. We are in the business of fixing things and building a better future for everyone.&lt;/p&gt;
-
-&lt;p&gt;True progress can only be made by honest efforts, and to that end, we seek to rightfully earn the trust of our customers through consistent quality, excellent customer service, and no excuses. When we sell you a product, we are selling a promise. A promise that we will never ruin it, run it into the ground, or sell it to the highest bidder. Professional software shouldn&amp;rsquo;t fall over if you look at it funny. Customers are willing to pay for a reliable, ad-free experience.&lt;/p&gt;
-
-&lt;p&gt;We live in a world where a bunch of lightbulbs can bring the internet to its knees. Where customer privacy is abandoned in favor of selling personal information for profit. Where huge corporations get away with gouging customers because no one will stand in their way.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;We will&lt;/strong&gt;, and we will never back down.&lt;/p&gt;
-
-&lt;h5 id=&#34;a-future-for-all-of-us&#34;&gt;A Future For All Of Us&lt;/h5&gt;
-
-&lt;p&gt;We are dedicated to building a positive, respectful, inclusive community. We support free speech, not hate speech, and strive to maintain an inviting atmosphere everywhere we can. We stand with the poor and forgotten, the broken and beaten, the oppressed and the depressed. Our goal is to bring humanity&amp;rsquo;s future to &lt;strong&gt;everyone&lt;/strong&gt;, not just the lucky few.&lt;/p&gt;
-
-&lt;p&gt;Join us on this incredible journey, and together, we can do more than create a better company. We can build a better world.&lt;/p&gt;
-</description>
+      <guid>https://black-sphere-studios.github.io/categories/bss-util/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docs</title>
+      <link>https://black-sphere-studios.github.io/categories/docs/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/categories/docs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feathergui</title>
+      <link>https://black-sphere-studios.github.io/categories/feathergui/</link>
+      <pubDate>Sun, 04 Jun 2017 01:06:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/categories/feathergui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://black-sphere-studios.github.io/categories/news/</link>
+      <pubDate>Sun, 04 Jun 2017 01:06:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/categories/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>https://black-sphere-studios.github.io/categories/technology/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://black-sphere-studios.github.io/categories/technology/</guid>
+      <description></description>
     </item>
     
   </channel>

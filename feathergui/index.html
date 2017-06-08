@@ -1,21 +1,24 @@
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.19" />
+    <meta name="generator" content="Hugo 0.20.2" />
   <meta name="description" content="Black Sphere Studios - Build Better.">
   <meta name="keywords" content="games, software development, code, feathergui, C++">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
   
-  <title>FeatherGUI Documentation - Black Sphere Studios</title>
-  <meta property='og:title' content="FeatherGUI Documentation - Black Sphere Studios">
+  <title>FeatherGUI - Black Sphere Studios</title>
+  <meta property='og:title' content="FeatherGUI - Black Sphere Studios">
   <meta property="og:type" content="article">
   
   <meta property="og:url" content="https://black-sphere-studios.github.io/feathergui/" />
-  
-  <meta name="description" content="FeatherGUI Official Documentation">
+  <meta property="og:image" content="https://black-sphere-studios.github.io/img//img/bss-util.png">
+  <meta name="description" content="FeatherGUI is a lightweight platform-agnostic GUI library.">
   <meta property="og:site_name" content="Black Sphere Studios" />
   
   <meta name="twitter:card" content="summary">
@@ -26,22 +29,32 @@
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
   <link rel="apple-touch-icon" href="./favicon.ico" />
 	<link rel="stylesheet" href="https://black-sphere-studios.github.io/main.css">
-	<link rel="stylesheet" href="https://black-sphere-studios.github.io/bss.css"> 
+	<link rel="stylesheet" href="https://black-sphere-studios.github.io/feathergui.css">
+  
   <link href="https://black-sphere-studios.github.io/prism.css" rel="stylesheet" />
   <link rel="canonical" href="https://blackspherestudios.com"/>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="alternate" type="application/rss+xml" title="Black Sphere Studios RSS feed" href="https://black-sphere-studios.github.io/index.xml">
   <meta name="last-updated" content="2017-02-27 23:09:25 +0000">
 </head>
-<body onload="init()" class="">
-
+<body onload="init()" class="feathergui">
 <header>
   <nav class="noselect">
     <span>
-    <img class="logo" src="https://black-sphere-studios.github.io/img/logo.svg" alt="" />
+    <img class="logo" src="https://black-sphere-studios.github.io/img/feathergui_logo.svg" alt="" />
     <p><a href="https://black-sphere-studios.github.io">Black Sphere Studios</a></p>
     </span>
     <ul>
+        
+        <li><div class="underline"><div></div></div><a href="/feathergui/" data-full="FEATHER GUI" data-short="FEATHER"></a></li>
+        
+        <li><div class="underline"><div></div></div><a href="/feathergui/news/" data-full="NEWS" data-short="NEWS"></a></li>
+        
+        <li><div class="underline"><div></div></div><a href="/feathergui/get/" data-full="DOWNLOAD" data-short="GET"></a></li>
+        
+        <li><div class="underline"><div></div></div><a href="/feathergui/docs/" data-full="DOCUMENTATION" data-short="DOCS"></a></li>
+        
+        <li><div class="underline"><div></div></div><a href="/feathergui/designer/" data-full="WEB DESIGNER" data-short="DESIGNER"></a></li>
         
     </ul>
     <aside>
@@ -53,110 +66,119 @@
     </aside>
   </nav>
 </header>
-<main class="page">
-  <section class="maxwidth">
-      
-      <article>
-        <a href="https://black-sphere-studios.github.io/feathergui/feathergui-0.1/"><img alt="FeatherGUI v0.1 Released" height="200" src="https://black-sphere-studios.github.io//img/feathergui_box.png"/></a>
-        <h6><a href="https://black-sphere-studios.github.io/feathergui/feathergui-0.1/">FeatherGUI v0.1 Released</a></h6>
-        <p>The FeatherGUI v0.1.0 developer preview has been released, and is now available for testing! As the first public release of FeatherGUI, this is an alpha release, which is not considered stable and should not be used in production. Known bugs are tracked on Github, but please report any new bugs by filling a Github Issue. Join the official discord server to discuss issues with the developer and talk to other users of FeatherGUI!</p>
-        <aside>February 27, 2017</aside>
-        <div><a href="https://black-sphere-studios.github.io/feathergui/feathergui-0.1/">More ›</a></div>
-      </article>
-      
-      <article>
-        
-        <h6><a href="https://black-sphere-studios.github.io/feathergui/designer/"></a></h6>
-        <p>The Web Designer currently isn&rsquo;t available, sorry!</p>
-        <aside>February 27, 2017</aside>
-        <div><a href="https://black-sphere-studios.github.io/feathergui/designer/">More ›</a></div>
-      </article>
-      
-      <article>
-        
-        <h6><a href="https://black-sphere-studios.github.io/feathergui/news/"></a></h6>
-        <p></p>
-        <aside>February 27, 2017</aside>
-        <div><a href="https://black-sphere-studios.github.io/feathergui/news/">More ›</a></div>
-      </article>
-      
-      <article>
-        
-        <h6><a href="https://black-sphere-studios.github.io/feathergui/get/">Download FeatherGUI</a></h6>
-        <p>Featured Downloads Windows (7 or later) SDK v0.1.0 feathergui-windows-0.1.0.zip  POSIX compatible systems SDK v0.1.0 feathergui-posix-0.1.0.zip   Download FeatherGUI v0.1.0 SDKs for Windows and POSIX-compatible systems are available. An archive of old releases is available here.
-More details about the current release (v0.1.0), along with a source code snapshot, can be found here.
-You can also clone the source code directly, but this will not include prerequisites or any precompiled assets, so you will need to follow the compilation instructions below.</p>
-        <aside>February 27, 2017</aside>
-        <div><a href="https://black-sphere-studios.github.io/feathergui/get/">More ›</a></div>
-      </article>
-      
-      <article>
-        
-        <h6><a href="https://black-sphere-studios.github.io/feathergui/docs/Backend/">Backend</a></h6>
-        <p>Backend [Not available]</p>
-        <aside>February 27, 2017</aside>
-        <div><a href="https://black-sphere-studios.github.io/feathergui/docs/Backend/">More ›</a></div>
-      </article>
-      
-      <article>
-        
-        <h6><a href="https://black-sphere-studios.github.io/feathergui/docs/Box/">Box</a></h6>
-        <p>Box [Not available]</p>
-        <aside>February 27, 2017</aside>
-        <div><a href="https://black-sphere-studios.github.io/feathergui/docs/Box/">More ›</a></div>
-      </article>
-      
-      <article>
-        
-        <h6><a href="https://black-sphere-studios.github.io/feathergui/docs/Button/">Button</a></h6>
-        <p>Button [Not available]</p>
-        <aside>February 27, 2017</aside>
-        <div><a href="https://black-sphere-studios.github.io/feathergui/docs/Button/">More ›</a></div>
-      </article>
-      
-      <article>
-        
-        <h6><a href="https://black-sphere-studios.github.io/feathergui/docs/Checkbox/">Checkbox</a></h6>
-        <p>Checkbox [Not available]</p>
-        <aside>February 27, 2017</aside>
-        <div><a href="https://black-sphere-studios.github.io/feathergui/docs/Checkbox/">More ›</a></div>
-      </article>
-      
-      <article>
-        
-        <h6><a href="https://black-sphere-studios.github.io/feathergui/docs/Combobox/">Combobox</a></h6>
-        <p>Combobox [Not available]</p>
-        <aside>February 27, 2017</aside>
-        <div><a href="https://black-sphere-studios.github.io/feathergui/docs/Combobox/">More ›</a></div>
-      </article>
-      
-      <article>
-        
-        <h6><a href="https://black-sphere-studios.github.io/feathergui/docs/Control/">Control</a></h6>
-        <p>Control [Not available]</p>
-        <aside>February 27, 2017</aside>
-        <div><a href="https://black-sphere-studios.github.io/feathergui/docs/Control/">More ›</a></div>
-      </article>
-      
-      
-<nav>
-  <ul class="pager">
 
-    
-    <li class="disabled"><a href="#">Previous</a></li>
-    
+<section>
+<div class="overlay noselect" id="overlay">
+  <div class="logo" >
+    <img src="https://black-sphere-studios.github.io/img/feathergui_logo.svg" alt=""/>
+    <h1>FeatherGUI</h1>
+  <div class="links">
+    <a class="button button-blue" href="https://discord.gg/nFczp8J">Discord Server</a>
+    <a class="button button-green" href="/feathergui/get/">Download</a>
+    <a class="button button-gray" href="/feathergui/docs/">Documentation</a>
+  </div>
+  </div>
+</div>
+</section>
+<section class="projects">
+  <div class="current"></div><div></div><div></div>
+</section>
 
-    
-    <li><a href="/feathergui/page/2">Next</a></li>
-    
+<script type="text/javascript">
+"use strict";
 
-  </ul>
-</nav>
+var addEvent = function(elem, type, eventHandle) {
+  if (elem == null || elem == undefined) return;
+  if (elem.addEventListener) {
+    elem.addEventListener(type, eventHandle, false);
+  } else if ( elem.attachEvent ) {
+    elem.attachEvent("on" + type, eventHandle);
+  } else {
+    elem["on"+type]=eventHandle;
+  }
+};
+
+var start;
+function step(timestamp) {
+  if (!start) start = timestamp;
+  var progress = timestamp - start;
+  progress = ((progress/30) % 40)
+  document.getElementById("overlay").style.backgroundPosition = progress + 'px ' + progress + 'px';
+  if (progress < 2000) {
+    window.requestAnimationFrame(step);
+  }
+}
+
+function init() {
+  var fnresize = function(event) {
+    var w = document.documentElement.clientWidth || document.body.clientWidth;
+    var cx = ((w < 500) ? 500 : w)
+    var cy = Math.floor(Math.min(520.0, cx*(520.0/1130.0)));
+    document.getElementById("overlay").style.height = ~~cy + "px";
+  }
+  addEvent(window,"resize", fnresize);
+  fnresize(null);
+  document.getElementById("overlay").className += " active"
+  window.requestAnimationFrame(step);
+}
+</script>
+<main>
+<section class="news maxwidth">
+    <h2>RECENT NEWS</h2>
+      
+      <article>
+<h3><a href="https://black-sphere-studios.github.io/feathergui/feathergui-0.1/">FeatherGUI v0.1 Released</a></h3>
+<p>The initial v0.1 developer preview of FeatherGUI is now available for testing. Please report any bugs to the Github Repo, and join the official discord server!</p>
+<aside>June 4, 2017</aside>
+<div><a href="https://black-sphere-studios.github.io/feathergui/feathergui-0.1/">More ›</a></div>
+</article>
+      
+      
 
 
+      <hr>
 
-  </section>
+  <div class="content">
+  
+
+<h5 id="a-unification-of-ui-concepts">A Unification of UI Concepts</h5>
+
+<img class="resizable" src="/img/feathergui_diagram.svg" style="float:left;max-width:337px;"    />
+
+<p>FeatherGUI is the next step in the evolution of modern UI design. It combines the lightweight flexibility of Nuklear with the native tooling support of Qt and the ease of use of HTML. FeatherGUI is not just another widget toolkit, it serves as an abstraction layer for the entire user interface, a layer <em>above</em> other UI libraries. By seperating the underlying UI logic from the layout and behavior, FeatherGUI delivers the first <strong>truly language agnostic UI standard</strong>.</p>
+
+<p>Like Nuklear, you can write your own backend for FeatherGUI, making it easy to integrate into your game engine. However, like Qt, a backend for FeatherGUI can be implemented using <strong>native operating system controls</strong>, and can piggy-back on the operating system&rsquo;s own message pump. This is all controlled by a <strong>standard binary layout format</strong>, which can be serialized and parsed to the file format of your choice - an XML schema is already included.</p>
+
+<p>All this, combined with FeatherGUI&rsquo;s native C interface means that you no longer have to wait for your favorite language or operating system to be supported. FeatherGUI is completely platform-independent and language-agnostic, allowing you to implement a binding for your favorite language, or a backend for whatever platform you desire.</p>
+
+<h5 id="integrated-debugger">Integrated Debugger</h5>
+
+<p>FeatherGUI has a debugger built-in to the core library, which is accessible from any backend or program that chooses to expose it. You can use this debugger to inspect or modify your GUI layout on-the-fly, just like HTML, but without the headache. Edit, insert, delete, and re-order any element in your layout tree, or investigate why that one image isn&rsquo;t showing up. Like Chrome&rsquo;s HTML inspector, the debugger will highlight the margin, padding, and inner client area of any element, or you can press the Alt key and hover over an element in your GUI to find where it is in the layout tree.</p>
+
+<h5 id="layout-editor">Layout Editor</h5>
+
+<img class="resizable" src="/img/feathergui_editor.png" style="float:right;max-width:400px;"    />
+
+<p>Never again will you need to fiddle with code or write your own layout specification just to create you application&rsquo;s UI. FeatherGUI comes with a layout editor that can function with any compatible backend to create and edit UI layouts and custom skins for your game or application. Unlike Qt&rsquo;s layout editor, or many other GUI layout editors, FeatherGUI saves your layout seperate from behavior, so you can save your layout in an XML file and then load it back up using any language you want. You can even write your own serializer or parser for whatever file format you&rsquo;d like to serialize the layout and skins to.</p>
+
+<h5 id="open-source-and-free">Open-source and Free</h5>
+
+<p>The FeatherGUI library itself will always be free to use, even for commercial products. It&rsquo;s licensed under the permissive Apache License Version 2.0 to ensure anyone can use it without having to worry about legal trouble. <strong><a href="https://discord.gg/nFczp8J">Join the discussion on #feathergui</a> in our official Discord Server!</strong></p>
+
+<p>The library is in very early alpha stages of development right now, so please consider contributing if there&rsquo;s a feature you would like! FeatherGUI currently compiles on Windows and Linux, but only has a working backend for Windows (via Direct2D). More work is needed for an OpenGL-based backend, and native control backends for common operating systems.</p>
+
+<p>Remember, your GUI toolkit should work for you, not the other way around.</p>
+
+<h5 id="the-future">The Future</h5>
+
+<p>FeatherGUI has the potential to provide a true, universal GUI interface platform, allowing programs on any platform and any system to work together in ways that are impossible today. No longer will GUIs be limited to windows or programs, but instead will be built from encapsulated, data-bound windows, freely embeddable in every conceivable circumstance. Games and other specialty software will finally be able to interop directly with the native system UI and interact with other programs freely.</p>
+
+<p>Join the revolution. Break free from the confines of widget toolkits and unleash your app&rsquo;s true potential.</p>
+
+  </div>
+</section>
 </main>
+<script src="https://black-sphere-studios.github.io/prism.js"></script>
 
 <footer>
 <span>&copy;2011-2017, Black Sphere Studios LLC</span>|<span><a href="https://black-sphere-studios.github.io/sitemap.xml">Sitemap</a></span>|<span><a href="https://black-sphere-studios.github.io/index.xml">RSS Feed</a></span>|<span><a href="/tos">Terms of Service</a></span>|<span><a href="/privacy">Privacy Policy</a></span>

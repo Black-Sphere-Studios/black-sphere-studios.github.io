@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bss-utils on Black Sphere Studios</title>
-    <link>https://black-sphere-studios.github.io/bss-util/index.xml</link>
+    <link>https://black-sphere-studios.github.io/bss-util/</link>
     <description>Recent content in Bss-utils on Black Sphere Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Black Sphere Studios LLC</copyright>
     <lastBuildDate>Sun, 04 Jun 2017 01:05:00 +0000</lastBuildDate>
-    <atom:link href="/bss-util/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/bss-util/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Utility Library v0.5.0 Released</title>

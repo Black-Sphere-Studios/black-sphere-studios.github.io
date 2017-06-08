@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fgdebug.H on Black Sphere Studios</title>
-    <link>https://black-sphere-studios.github.io/tags/fgdebug.h/index.xml</link>
+    <link>https://black-sphere-studios.github.io/tags/fgdebug.h/</link>
     <description>Recent content in Fgdebug.H on Black Sphere Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Black Sphere Studios LLC</copyright>
-    <atom:link href="/tags/fgdebug.h/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/fgdebug.h/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Debug</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Debug/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/debug/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Debug/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/debug/</guid>
       <description>
 
 &lt;h3 id=&#34;debug&#34;&gt;Debug&lt;/h3&gt;

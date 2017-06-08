@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fgcurve.H on Black Sphere Studios</title>
-    <link>https://black-sphere-studios.github.io/tags/fgcurve.h/index.xml</link>
+    <link>https://black-sphere-studios.github.io/tags/fgcurve.h/</link>
     <description>Recent content in Fgcurve.H on Black Sphere Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Black Sphere Studios LLC</copyright>
-    <atom:link href="/tags/fgcurve.h/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/fgcurve.h/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Curve</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Curve/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/curve/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Curve/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/curve/</guid>
       <description>
 
 &lt;h3 id=&#34;curve&#34;&gt;Curve&lt;/h3&gt;

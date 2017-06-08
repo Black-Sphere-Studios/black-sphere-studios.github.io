@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fgelement.H on Black Sphere Studios</title>
-    <link>https://black-sphere-studios.github.io/tags/fgelement.h/index.xml</link>
+    <link>https://black-sphere-studios.github.io/tags/fgelement.h/</link>
     <description>Recent content in Fgelement.H on Black Sphere Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Black Sphere Studios LLC</copyright>
-    <atom:link href="/tags/fgelement.h/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/fgelement.h/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Element</title>
-      <link>https://black-sphere-studios.github.io/feathergui/docs/Element/</link>
+      <link>https://black-sphere-studios.github.io/feathergui/docs/element/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://black-sphere-studios.github.io/feathergui/docs/Element/</guid>
+      <guid>https://black-sphere-studios.github.io/feathergui/docs/element/</guid>
       <description>
 
 &lt;h3 id=&#34;element&#34;&gt;Element&lt;/h3&gt;
@@ -81,7 +82,7 @@
 
 &lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_LAYOUTFUNCTION[bool](const FG_Msg* msg, const CRect* area)&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Calls the default layout function. This should be overriden if you want to use a &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Layout-System/#Custom&#34;&gt;custom layout function&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Calls the default layout function. This should be overriden if you want to use a &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/layout-system/#Custom&#34;&gt;custom layout function&lt;/a&gt;.&lt;/p&gt;
 
 &lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;fgElement* FG_LAYOUTLOAD(fgLayout* target)&lt;/code&gt;&lt;/pre&gt;
 
@@ -141,7 +142,7 @@
 
 &lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;AbsVec* FG_GETDPI()&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Calls &lt;code&gt;FG_GETDPI&lt;/code&gt; on the parent, since an element doesn&amp;rsquo;t store DPI. Normally, only &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Root/&#34;&gt;Root&lt;/a&gt; and &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Monitor/&#34;&gt;Monitor&lt;/a&gt; elements store explicit DPI values.&lt;/p&gt;
+&lt;p&gt;Calls &lt;code&gt;FG_GETDPI&lt;/code&gt; on the parent, since an element doesn&amp;rsquo;t store DPI. Normally, only &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/root/&#34;&gt;Root&lt;/a&gt; and &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/monitor/&#34;&gt;Monitor&lt;/a&gt; elements store explicit DPI values.&lt;/p&gt;
 
 &lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_SETDPI(FABS x, FABS y)&lt;/code&gt;&lt;/pre&gt;
 
@@ -149,7 +150,7 @@
 
 &lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;float FG_GETLINEHEIGHT()&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Call &lt;code&gt;FG_GETLINEHEIGHT&lt;/code&gt; on the parent, since an element doesn&amp;rsquo;t store lineheight. Only the &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Root/&#34;&gt;Root&lt;/a&gt;, &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Text/&#34;&gt;Text&lt;/a&gt;, and &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/Textbox/&#34;&gt;Textbox&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Call &lt;code&gt;FG_GETLINEHEIGHT&lt;/code&gt; on the parent, since an element doesn&amp;rsquo;t store lineheight. Only the &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/root/&#34;&gt;Root&lt;/a&gt;, &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/text/&#34;&gt;Text&lt;/a&gt;, and &lt;a href=&#34;https://black-sphere-studios.github.io/feathergui/docs/textbox/&#34;&gt;Textbox&lt;/a&gt;&lt;/p&gt;
 
 &lt;pre class=&#34;language-cpp&#34;&gt;&lt;code&gt;bool FG_TOUCHBEGIN(FABS x, FABS y)&lt;/code&gt;&lt;/pre&gt;
 
