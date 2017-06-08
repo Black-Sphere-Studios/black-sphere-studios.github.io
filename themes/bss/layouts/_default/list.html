@@ -1,5 +1,5 @@
 {{ partial "head.html" . }}
-<!-- add back in scratch menus here -->
+{{ $.Scratch.Set "navmenu" $.Site.Menus.main }}
 {{ $.Scratch.Add "navlogo" "logo" }}
 {{ partial "nav.html" . }}
 <main class="page">
