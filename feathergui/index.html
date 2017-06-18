@@ -67,8 +67,9 @@
   </nav>
 </header>
 
-<section>
-<div class="overlay noselect" id="overlay">
+<section id="overlaywrap">
+<div class="overlay noselect active" id="overlay">
+<div class="logowrap">
   <div class="logo" >
     <img src="https://black-sphere-studios.github.io/img/feathergui_logo.svg" alt=""/>
     <h1>FeatherGUI</h1>
@@ -78,6 +79,7 @@
     <a class="button button-gray" href="/feathergui/docs/">Documentation</a>
   </div>
   </div>
+</div>
 </div>
 </section>
 <section class="projects">
@@ -114,11 +116,10 @@ function init() {
     var w = document.documentElement.clientWidth || document.body.clientWidth;
     var cx = ((w < 500) ? 500 : w)
     var cy = Math.floor(Math.min(520.0, cx*(520.0/1130.0)));
-    document.getElementById("overlay").style.height = ~~cy + "px";
+    document.getElementById("overlaywrap").style.height = ~~cy + "px";
   }
   addEvent(window,"resize", fnresize);
   fnresize(null);
-  document.getElementById("overlay").className += " active"
   window.requestAnimationFrame(step);
 }
 </script>

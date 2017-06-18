@@ -96,9 +96,17 @@
 .feathergui .single aside a {
   font-weight: 700;
 }
+.feathergui #overlaywrap {
+  height:520px;
+  position:relative;
+}
+.feathergui section .logowrap {
+  top:50%;
+  position:relative;
+}
 .feathergui section .overlay {
   width:100%;
-  height:520px;
+  height:100%;
   position:relative;
   text-align: center;
   background:#F0F0F0 url('/img/feathergui_logo_black.svg');
@@ -120,7 +128,6 @@ h1 {
   border-radius:8em;
   padding: 1.5rem 2em;
   margin-top: -8em;
-  Top: 50%;
 }
 .feathergui section .overlay .logo img {
   vertical-align: middle;
