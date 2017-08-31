@@ -1,0 +1,66 @@
+---
+pages:
+- feathergui.md
+- bss-util.md
+- bss-util/bss-util-v0.5.0.md
+- bss-util/bss-util-v0.4.7.md
+hide_body: false
+fields:
+- name: author
+  default: Erik McClure
+  label: Author
+  type: text
+  hidden: false
+- name: categories
+  default:
+  - bss-util
+  - Technology
+  label: Categories
+  type: list
+  hidden: false
+- name: date
+  default: 2017-02-27 00:00:00 +0000
+  label: Date
+  type: datetime
+  hidden: false
+- name: description
+  default: The Black Sphere Studios Utility Library is a collection of miscellaneous
+    utility code used to simplify common tasks in C/C++ programs.
+  label: Description
+  type: textarea
+  hidden: false
+- name: image
+  default: "/img/bss-util.png"
+  label: Image
+  type: file
+  hidden: false
+- name: tags
+  default: []
+  label: Tags
+  type: list
+  hidden: false
+- name: title
+  default: Black Sphere Studios Utility Library
+  label: Title
+  type: text
+  hidden: false
+- name: type
+  default: default
+  label: Type
+  type: text
+  hidden: false
+- name: external
+  default: https://github.com/Black-Sphere-Studios/bss-util/releases/tag/v0.4.7
+  label: External
+  type: text
+  hidden: false
+- name: draft
+  default: false
+  label: Draft
+  type: boolean
+  hidden: false
+- name: sidemenu
+  default: true
+  label: Sidemenu
+  type: boolean
+  hidden: false
