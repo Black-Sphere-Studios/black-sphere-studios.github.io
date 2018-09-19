@@ -1,10 +1,7 @@
 ---
-pages:
-- feathergui.md
-- bss-util.md
-- bss-util/bss-util-v0.5.0.md
-- bss-util/bss-util-v0.4.7.md
+label: default
 hide_body: false
+is_partial: false
 fields:
 - name: author
   default: Erik McClure
@@ -64,3 +61,8 @@ fields:
   label: Sidemenu
   type: boolean
   hidden: false
+pages:
+- content/bss-util.md
+- content/bss-util/bss-util-v0.5.0.md
+- content/bss-util/bss-util-v0.4.7.md
+- content/feathergui.md

@@ -10,16 +10,12 @@ type = "page"
 +++
 ##### Build Better
 
-Black Sphere Studios is built on the belief that, by building better tools, we can build better companies and a better tomorrow. We believe in working smarter, not harder. We build better, not faster. We are in the business of fixing things and building a better future for everyone.
+Black Sphere Studios about building better tools for a better tomorrow. We work smarter, not harder. We build better, not faster. We are in the business of fixing things and building a better future for everyone.
 
 True progress can only be made by honest efforts, and to that end, we seek to rightfully earn the trust of our customers through consistent quality, excellent customer service, and no excuses. When we sell you a product, we are selling a promise. A promise that we will never ruin it, run it into the ground, or sell it to the highest bidder. Professional software shouldn't fall over if you look at it funny. Customers are willing to pay for a reliable, ad-free experience.
 
-We live in a world where a bunch of lightbulbs can bring the internet to its knees. Where customer privacy is abandoned in favor of selling personal information for profit. Where huge corporations get away with gouging customers because no one will stand in their way.
-
-**We will**, and we will never back down.
-
 ##### A Future For All Of Us
 
-We are dedicated to building a positive, respectful, inclusive community. We support free speech, not hate speech, and strive to maintain an inviting atmosphere everywhere we can. We stand with the poor and forgotten, the broken and beaten, the oppressed and the depressed. Our goal is to bring humanity's future to **everyone**, not just the lucky few.
+We are dedicated to building a positive, respectful, inclusive community. We support free speech, not hate speech, and strive to maintain an inviting atmosphere everywhere we can. Our goal is to bring humanity's future to **everyone**, not just the lucky few.
 
-Join us on this incredible journey, and together, we can do more than create a better company. We can build a better world.
+Join us on this incredible journey, and together, we can do more than build a better company. We can build a better world.
